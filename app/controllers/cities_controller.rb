@@ -5,6 +5,8 @@ class CitiesController < ApplicationController
   expose(:city)
 
   def index
-    respond_with(cities.desc(:population).limit(20))
+    scope = cities.desc(:population).limit(20)
+    scope = scope.where(name: params[:name]) if params[:name]
+    respond_with(scope)
   end
 end
