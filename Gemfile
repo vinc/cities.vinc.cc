@@ -40,6 +40,8 @@ gem 'mongoid', github: 'mongoid/mongoid'
 
 gem 'decent_exposure'
 
+gem 'active_model_serializers'
+
 group :development, :test do
   gem 'pry-rails'
   gem 'better_errors'
