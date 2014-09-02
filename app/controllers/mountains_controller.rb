@@ -2,10 +2,11 @@ class MountainsController < ApplicationController
   respond_to(:json)
 
   expose(:city)
+  expose(:distance) do
+    (params[:distance] || '1000').to_i * 1000
+  end
   expose(:mountains) do
-    #Mountain.geo_near(city.location[:coordinates]).spherical
-    #Mountain.geo_near(city.location[:coordinates]).max_distance(500).spherical
-    Mountain.geo_near(city.location).max_distance(1000000).spherical
+    Mountain.geo_near(city.location).max_distance(distance).spherical
   end
 
   def index
