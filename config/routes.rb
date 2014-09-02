@@ -1,5 +1,8 @@
 Rails.application.routes.draw do
   resources :cities do
+    collection do
+      get 'best'
+    end
     resources :mountains
     resources :seaports
   end
