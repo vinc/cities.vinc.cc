@@ -56,6 +56,7 @@ GEM
     coffee-script-source (1.8.0)
     connection_pool (2.0.0)
     debug_inspector (0.0.2)
+    decent_exposure (2.3.2)
     erubis (2.7.0)
     execjs (2.2.1)
     hike (1.2.3)
@@ -149,6 +150,7 @@ DEPENDENCIES
   better_errors
   binding_of_caller
   coffee-rails (~> 4.0.0)
+  decent_exposure
   jbuilder (~> 2.0)
   jquery-rails
   mongoid!

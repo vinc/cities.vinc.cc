@@ -38,6 +38,8 @@ gem 'spring',        group: :development
 
 gem 'mongoid', github: 'mongoid/mongoid'
 
+gem 'decent_exposure'
+
 group :development, :test do
   gem 'pry-rails'
   gem 'better_errors'
