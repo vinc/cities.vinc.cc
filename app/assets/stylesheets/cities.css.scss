@@ -1,3 +1,16 @@
-#map {
-  height: 500px;
+html, body, #map {
+  height: 100%;
+  margin: 0;
+}
+h1 {
+  background: rgba(turquoise, 0.8);
+  color: white;
+  font-weight: bold;
+  height: 2.4em;
+  line-height: 2.4em;
+  margin: 0;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  z-index: 1;
 }

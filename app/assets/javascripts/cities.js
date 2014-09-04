@@ -2,8 +2,8 @@ var genMap = function(points) {
   var map = L.map('map').setView([20, 0], 2);
   var marker = {
     radius: 4,
-    fillColor: "#00fa9a",
-    color: "#999",
+    fillColor: 'turquoise',
+    color: '#999',
     weight: 1,
     opacity: 1,
     fillOpacity: 0.8
