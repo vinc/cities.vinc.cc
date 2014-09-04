@@ -44,10 +44,10 @@ class CitiesController < ApplicationController
         mountains: mountains,
         seaports: seaports
       }
+    end.keep_if do |city|
+      city[:mountains].count > 2 && city[:seaports].count > 0
     end.sort_by do |city|
-      a = city[:mountains].count
-      b = city[:seaports].count
-      a > 2 && b > 0 ? a + b : 0
+      city[:mountains].count + city[:seaports].count
     end.last(limit).reverse
 
     respond_with(self.cities)
