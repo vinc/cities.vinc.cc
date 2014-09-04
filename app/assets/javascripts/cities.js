@@ -15,12 +15,12 @@ var genMap = function(points) {
 
 
   for (var i = 0, n = points.length; i < n; i++) {
-    L.geoJson(points[i].city.location, {
+    var point = points[i].city.location;
+
+    L.geoJson(point, {
       pointToLayer: function (feature, latlng) {
         return L.circleMarker(latlng, marker);
       }
     }).addTo(map);
   }
-
-  console.log(points);
 };
