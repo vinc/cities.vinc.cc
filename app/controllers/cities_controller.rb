@@ -1,5 +1,5 @@
 class CitiesController < ApplicationController
-  respond_to(:json)
+  respond_to(:json, :html)
 
   expose(:cities)
   expose(:city)

@@ -8,4 +8,8 @@ class City
   field :location, type: Hash
 
   index location: '2dsphere'
+
+  def title
+    [name, country].join(', ')
+  end
 end
