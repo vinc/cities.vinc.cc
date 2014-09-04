@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+source 'https://rails-assets.org'
 
 ruby '2.1.1'
 
@@ -48,3 +49,5 @@ group :development, :test do
   gem 'better_errors'
   gem 'binding_of_caller'
 end
+
+gem 'rails-assets-leaflet'

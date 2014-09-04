@@ -12,26 +12,26 @@ class CitiesController < ApplicationController
 
   def index
     query = Regexp.new(Regexp.escape(params[:name] || ''), Regexp::IGNORECASE)
-    scope = cities.desc(:population).limit(limit)
-    scope = scope.where(name: query) if params[:name]
-    respond_with(scope)
+    self.cities = cities.desc(:population).limit(limit)
+    self.cities = self.cities.where(name: query) if params[:name]
+    respond_with(self.cities)
   end
 
   def best
-    cities = City
+    self.cities = City
       .where(:population.lt => pop_max)
       .where(:population.gt => pop_min)
       .desc(:population)
       .limit(1000)
 
-    cities = cities.delete_if do |city| # Mongoid::Criteria to Array
+    self.cities = self.cities.delete_if do |city| # Mongoid::Criteria to Array
       City
         .where(:population.gt => city.population)
         .geo_near(city.location).max_distance(50 * 1000).spherical
         .count > 0
     end
 
-    scope = cities.map do |city|
+    self.cities = self.cities.map do |city|
       mountains = Mountain
         .where(:elevation.gt => mnt_ele_min)
         .geo_near(city.location).max_distance(mnt_dis_max * 1000).spherical
@@ -50,6 +50,6 @@ class CitiesController < ApplicationController
       a > 2 && b > 0 ? a + b : 0
     end.last(limit).reverse
 
-    respond_with(scope)
+    respond_with(self.cities)
   end
 end
