@@ -11,7 +11,7 @@ class CitiesController < ApplicationController
   expose(:sea_dis_max) { (params[:sea_dis_max] || '10').to_i }
 
   def index
-    query = Regexp.new(Regexp.escape(params[:name]), Regexp::IGNORECASE)
+    query = Regexp.new(Regexp.escape(params[:name] || ''), Regexp::IGNORECASE)
     scope = cities.desc(:population).limit(limit)
     scope = scope.where(name: query) if params[:name]
     respond_with(scope)
