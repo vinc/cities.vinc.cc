@@ -6,7 +6,7 @@ class CitiesController < ApplicationController
   expose(:limit) { (params[:limit] || '20').to_i }
   expose(:pop_max) { (params[:pop_max] || '500000').to_i }
   expose(:pop_min) { (params[:pop_min] || '200000').to_i }
-  expose(:mnt_ele_max) { (params[:mnt_ele_max] || '2500').to_i }
+  expose(:mnt_ele_min) { (params[:mnt_ele_min] || '2500').to_i }
   expose(:mnt_dis_max) { (params[:mnt_dis_max] || '500').to_i }
   expose(:sea_dis_max) { (params[:sea_dis_max] || '10').to_i }
 
@@ -33,7 +33,7 @@ class CitiesController < ApplicationController
 
     scope = cities.map do |city|
       mountains = Mountain
-        .where(:elevation.gt => mnt_ele_max)
+        .where(:elevation.gt => mnt_ele_min)
         .geo_near(city.location).max_distance(mnt_dis_max * 1000).spherical
 
       seaports = Seaport
