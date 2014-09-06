@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  root 'cities#index'
+  root 'cities#welcome'
 
   resources :cities do
     collection do

@@ -1,16 +1,19 @@
 <div class="row map-wrapper">
   <div class="col-sm-4" id="legend">
-    <h1>Best Cities</h1>
+    <h1>Welcome</h1>
+    <p>You can search a city by its name, or use our algorithm to find the best cities in the world.</p>
 
-    <ul>
-      <% cities.each do |city| %>
-        <li><%= link_to(city[:city].title, city[:city]) %></li>
-      <% end%>
-    </ul>
+    <hr>
+    <h2>City</h2>
+    <%= simple_form_for self, as: 'search', url: cities_path, method: :get do |f| %>
+      <%= f.input :name, required: false %>
+
+      <%= f.button :submit, 'Search' %>
+    <% end %>
 
     <hr>
 
-    <h2>Search</h2>
+    <h2>Best Cities</h2>
     <%= simple_form_for self, as: 'search', url: best_cities_path, method: :get do |f| %>
       <h3>City</h3>
       <%= f.input :pop_max, label: 'Population Max:', required: false %>
@@ -31,7 +34,7 @@
 
   <div class="col-sm-8" id="map">
     <script>
-      genMap(<%= cities.to_json.html_safe %>);
+      genMap([]);
     </script>
   </div>
 </div>

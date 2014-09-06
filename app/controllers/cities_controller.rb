@@ -54,4 +54,7 @@ class CitiesController < ApplicationController
 
     respond_with(self.cities)
   end
+
+  def welcome
+  end
 end
