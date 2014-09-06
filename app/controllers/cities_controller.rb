@@ -6,6 +6,7 @@ class CitiesController < ApplicationController
   expose(:limit) { (params[:limit] || '1000').to_i }
 
   expose(:search) { params[:search] || {} }
+  expose(:name) { search[:name] || '' }
   expose(:pop_max) { (search[:pop_max] || '500000').to_i }
   expose(:pop_min) { (search[:pop_min] || '200000').to_i }
   expose(:mnt_ele_min) { (search[:mnt_ele_min] || '2500').to_i }
@@ -13,9 +14,8 @@ class CitiesController < ApplicationController
   expose(:sea_dis_max) { (search[:sea_dis_max] || '10').to_i }
 
   def index
-    query = Regexp.new(Regexp.escape(params[:name] || ''), Regexp::IGNORECASE)
-    self.cities = cities.desc(:population).limit(limit)
-    self.cities = self.cities.where(name: query) if params[:name]
+    query = Regexp.new(Regexp.escape(name), Regexp::IGNORECASE)
+    self.cities = self.cities.where(name: query).desc(:population).limit(limit)
     respond_with(self.cities)
   end
 
