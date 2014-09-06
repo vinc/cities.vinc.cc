@@ -1,13 +1,19 @@
-html, body, .map-wrapper, #map, #legend {
+@import "bootstrap/variables"; // FIXME
+
+h1 {
+  color: turquoise;
+}
+html, body, .map-wrapper, #map {
   height: 100%;
 }
 .map-wrapper {
   margin: 0;
   padding: 0;
 }
-#legend {
-  overflow-y: auto;
-}
-h1 {
-  color: turquoise;
+@media (min-width: $screen-sm-min) {
+  #legend {
+    height: 100%;
+    overflow-y: auto;
+    border-right: solid 1px #ccc;
+  }
 }
