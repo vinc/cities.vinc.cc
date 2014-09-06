@@ -8,10 +8,10 @@
   </head>
   <body>
     <div class="row map-wrapper">
-      <div class="col-sm-4" id="legend">
+      <div class="col-sm-4 col-md-3" id="legend">
         <%= yield %>
       </div>
-      <div class="col-sm-8" id="map">
+      <div class="col-sm-8 col-md-9" id="map">
         <script>
           genMap(<%= results.to_json.html_safe %>);
         </script>
