@@ -2,29 +2,15 @@
 <p>You can search a city by its name, or use our algorithm to find the best cities in the world.</p>
 
 <hr>
-<h2>City</h2>
-<%= simple_form_for self, as: 'search', url: cities_path, method: :get do |f| %>
-  <%= f.input :name, required: false %>
 
-  <%= f.button :submit, 'Search' %>
-<% end %>
+<h2>City</h2>
+
+<%= render 'form_city' %>
 
 <hr>
 
 <h2>Best Cities</h2>
-<%= simple_form_for self, as: 'search', url: best_cities_path, method: :get do |f| %>
-  <h3>City</h3>
-  <%= f.input :pop_max, label: 'Population Max:', required: false %>
-  <%= f.input :pop_min, label: 'Population Min:', required: false %>
 
-  <h3>Mountains</h3>
-  <%= f.input :mnt_ele_min, label: 'Elevation Min:', required: false %>
-  <%= f.input :mnt_dis_max, label: 'Distance Max:', required: false %>
-
-  <h3>Seaports</h3>
-  <%= f.input :sea_dis_max, label: 'Distance Max:', required: false %>
-
-  <%= f.button :submit, 'Search' %>
-<% end %>
+<%= render 'form_best_cities' %>
 
 <hr>

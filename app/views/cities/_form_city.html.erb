@@ -1,0 +1,5 @@
+<%= simple_form_for self, as: 'search', url: cities_path, method: :get do |f| %>
+  <%= f.input :name, required: false %>
+
+  <%= f.button :submit, 'Search' %>
+<% end %>
