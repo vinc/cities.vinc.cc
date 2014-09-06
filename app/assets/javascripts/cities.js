@@ -1,6 +1,7 @@
 var genMap = function(points) {
-  var map = L.map('map').setView([20, 0], 2);
-  var marker = {
+  var map = L.map('map', { minZoom: 2 });
+
+  var markerOptions = {
     radius: 4,
     fillColor: 'turquoise',
     color: '#999',
@@ -9,18 +10,19 @@ var genMap = function(points) {
     fillOpacity: 0.8
   };
 
+  var markers = points.map(function(point) {
+    var location = point.city.location;
+
+    return L.geoJson(location, {
+      pointToLayer: function (feature, latlng) {
+        return L.circleMarker(latlng, markerOptions);
+      }
+    }).addTo(map);
+  });
+
   L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
     attribution: '<a href="http://osm.org/copyright">OpenStreetMap</a>'
   }).addTo(map);
 
-
-  for (var i = 0, n = points.length; i < n; i++) {
-    var point = points[i].city.location;
-
-    L.geoJson(point, {
-      pointToLayer: function (feature, latlng) {
-        return L.circleMarker(latlng, marker);
-      }
-    }).addTo(map);
-  }
+  map.fitBounds(L.featureGroup(markers).getBounds(), { maxZoom: 2 });
 };
