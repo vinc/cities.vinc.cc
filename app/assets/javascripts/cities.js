@@ -24,5 +24,9 @@ var genMap = function(points) {
     attribution: '<a href="http://osm.org/copyright">OpenStreetMap</a>'
   }).addTo(map);
 
-  map.fitBounds(L.featureGroup(markers).getBounds(), { maxZoom: 2 });
+  if (markers.length) {
+    map.fitBounds(L.featureGroup(markers).getBounds(), { maxZoom: 2 });
+  } else {
+    map.setView([20, 0], 2);
+  }
 };
