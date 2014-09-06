@@ -1,5 +1,12 @@
 @import "bootstrap/variables"; // FIXME
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:700|Open+Sans:400,700);
 
+body {
+  font-family: "Open Sans", sans-serif;
+}
+h1, h2, h3 {
+  font-family: "Roboto Slab", serif;
+}
 html, body, .map-wrapper, #map {
   height: 100%;
 }
