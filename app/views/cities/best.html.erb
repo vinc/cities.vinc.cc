@@ -1,11 +1,29 @@
 <div class="row map-wrapper">
   <div class="col-sm-4" id="legend">
     <h1>Best Cities</h1>
+
     <ul>
       <% cities.each do |city| %>
         <li><%= link_to(city[:city].title, city[:city]) %></li>
       <% end%>
     </ul>
+
+    <hr>
+    <h2>Search</h2>
+    <%= simple_form_for self, as: 'search', url: best_cities_path, method: :get do |f| %>
+      <h3>City</h3>
+      <%= f.input :pop_max, label: 'Population Max:', required: false %>
+      <%= f.input :pop_min, label: 'Population Min:', required: false %>
+
+      <h3>Mountains</h3>
+      <%= f.input :mnt_ele_min, label: 'Elevation Min:', required: false %>
+      <%= f.input :mnt_dis_max, label: 'Distance Max:', required: false %>
+
+      <h3>Seaports</h3>
+      <%= f.input :sea_dis_max, label: 'Distance Max:', required: false %>
+
+      <%= f.button :submit, 'Search' %>
+    <% end %>
   </div>
   <div class="col-sm-8" id="map">
     <script>

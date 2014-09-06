@@ -4,11 +4,13 @@ class CitiesController < ApplicationController
   expose(:cities)
   expose(:city)
   expose(:limit) { (params[:limit] || '1000').to_i }
-  expose(:pop_max) { (params[:pop_max] || '500000').to_i }
-  expose(:pop_min) { (params[:pop_min] || '200000').to_i }
-  expose(:mnt_ele_min) { (params[:mnt_ele_min] || '2500').to_i }
-  expose(:mnt_dis_max) { (params[:mnt_dis_max] || '500').to_i }
-  expose(:sea_dis_max) { (params[:sea_dis_max] || '10').to_i }
+
+  expose(:search) { params[:search] || {} }
+  expose(:pop_max) { (search[:pop_max] || '500000').to_i }
+  expose(:pop_min) { (search[:pop_min] || '200000').to_i }
+  expose(:mnt_ele_min) { (search[:mnt_ele_min] || '2500').to_i }
+  expose(:mnt_dis_max) { (search[:mnt_dis_max] || '500').to_i }
+  expose(:sea_dis_max) { (search[:sea_dis_max] || '10').to_i }
 
   def index
     query = Regexp.new(Regexp.escape(params[:name] || ''), Regexp::IGNORECASE)
