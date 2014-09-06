@@ -52,4 +52,5 @@ group :development, :test do
   gem 'binding_of_caller'
 end
 
+gem 'bootstrap-sass'
 gem 'rails-assets-leaflet'
