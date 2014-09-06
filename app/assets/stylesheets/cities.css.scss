@@ -1,16 +1,13 @@
-html, body, #map {
+html, body, .map-wrapper, #map, #legend {
   height: 100%;
+}
+.map-wrapper {
   margin: 0;
+  padding: 0;
+}
+#legend {
+  overflow-y: auto;
 }
 h1 {
-  background: rgba(turquoise, 0.8);
-  color: white;
-  font-weight: bold;
-  height: 2.4em;
-  line-height: 2.4em;
-  margin: 0;
-  position: absolute;
-  text-align: center;
-  width: 100%;
-  z-index: 1;
+  color: turquoise;
 }
