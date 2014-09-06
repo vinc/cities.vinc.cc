@@ -1,6 +1,27 @@
 <h1><%= city.title %></h1>
 
 <dl class="dl-horizontal">
-  <dt>Population</dt><dd><%= city.population %></dd>
-  <dt>Elevation</dt><dd><%= city.elevation %> m</dd>
+  <dt>Population</dt><dd><%= city.population.to_s(:delimited) %></dd>
+  <dt>Elevation</dt><dd><%= city.elevation.to_s(:delimited) %> m</dd>
 </dl>
+
+<h2>Seaports</h2>
+<ul>
+  <% city.seaports.each do |seaport| %>
+    <li><%= seaport.name %></li>
+    <ul>
+      <li>Distance: <%= (seaport.distance / 1000).to_s(:delimited) %> km</li>
+    </ul>
+  <% end %>
+</ul>
+
+<h2>Mountains</h2>
+<ul>
+  <% city.mountains.each do |mountain| %>
+    <li><%= mountain.name %></li>
+    <ul>
+      <li>Distance: <%= (mountain.distance / 1000).to_s(:delimited) %> km</li>
+      <li>Elevation: <%= mountain.elevation.to_s(:delimited) %> m</li>
+    </ul>
+  <% end %>
+</ul>
