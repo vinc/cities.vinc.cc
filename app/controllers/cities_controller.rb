@@ -13,27 +13,30 @@ class CitiesController < ApplicationController
   expose(:mnt_dis_max) { (search[:mnt_dis_max] || '500').to_i }
   expose(:sea_dis_max) { (search[:sea_dis_max] || '10').to_i }
 
+  expose(:results) { [] }
+
   def index
     query = Regexp.new(Regexp.escape(name), Regexp::IGNORECASE)
     self.cities = self.cities.where(name: query).desc(:population).limit(limit)
-    respond_with(self.cities)
+    self.results = self.cities.map { |city| { city: city } }
+    respond_with(self.results)
   end
 
   def best
-    self.cities = City
+    self.results = City
       .where(:population.lt => pop_max)
       .where(:population.gt => pop_min)
       .desc(:population)
       .limit(1000)
 
-    self.cities = self.cities.delete_if do |city| # Mongoid::Criteria to Array
+    self.results = self.results.delete_if do |city| # Mongoid::Criteria to Array
       City
         .where(:population.gt => city.population)
         .geo_near(city.location).max_distance(50 * 1000).spherical
         .count > 0
     end
 
-    self.cities = self.cities.map do |city|
+    self.results = self.results.map do |city|
       mountains = Mountain
         .where(:elevation.gt => mnt_ele_min)
         .geo_near(city.location).max_distance(mnt_dis_max * 1000).spherical
@@ -52,7 +55,15 @@ class CitiesController < ApplicationController
       city[:mountains].count + city[:seaports].count
     end.last(limit).reverse
 
-    respond_with(self.cities)
+    self.cities = self.results.map { |hash| hash[:city] }
+
+    respond_with(self.results)
+  end
+
+  def show
+    self.results = [{ city: city }]
+
+    respond_with(city)
   end
 
   def welcome
