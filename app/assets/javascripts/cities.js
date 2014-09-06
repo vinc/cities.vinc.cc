@@ -1,5 +1,8 @@
 var genMap = function(points) {
-  var map = L.map('map', { minZoom: 2 });
+  var map = L.map('map', {
+    minZoom: 2,
+    maxZoom: 6
+  });
 
   var markerOptions = {
     radius: 8,
@@ -25,7 +28,7 @@ var genMap = function(points) {
   }).addTo(map);
 
   if (markers.length) {
-    map.fitBounds(L.featureGroup(markers).getBounds(), { maxZoom: 2 });
+    map.fitBounds(L.featureGroup(markers).getBounds(), { maxZoom: 4 });
   } else {
     map.setView([20, 0], 2);
   }
