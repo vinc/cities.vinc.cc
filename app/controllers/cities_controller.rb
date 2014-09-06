@@ -23,37 +23,25 @@ class CitiesController < ApplicationController
   end
 
   def best
+    m0, m1, s0 = mnt_dis_max, mnt_ele_min, sea_dis_max
+
     self.results = City
       .where(:population.lt => pop_max)
       .where(:population.gt => pop_min)
       .desc(:population)
       .limit(1000)
-
-    self.results = self.results.delete_if do |city| # Mongoid::Criteria to Array
-      City
-        .where(:population.gt => city.population)
-        .geo_near(city.location).max_distance(50 * 1000).spherical
-        .count > 0
-    end
-
-    self.results = self.results.map do |city|
-      mountains = Mountain
-        .where(:elevation.gt => mnt_ele_min)
-        .geo_near(city.location).max_distance(mnt_dis_max * 1000).spherical
-
-      seaports = Seaport
-        .geo_near(city.location).max_distance(sea_dis_max * 1000).spherical
-
-      {
-        city: city,
-        mountains: mountains,
-        seaports: seaports
-      }
-    end.keep_if do |city|
-      city[:mountains].count > 2 && city[:seaports].count > 0
-    end.sort_by do |city|
-      city[:mountains].count + city[:seaports].count
-    end.last(limit).reverse
+      .keep_if { |city| city.biggest? }
+      .map do |city|
+        {
+          city: city,
+          mountains: city.mountains(max_distance: m0, min_elevation: m1),
+          seaports: city.seaports(max_distance: s0)
+        }
+      end.keep_if do |city|
+        city[:mountains].count > 2 && city[:seaports].count > 0
+      end.sort_by do |city|
+        city[:mountains].count + city[:seaports].count
+      end.last(limit).reverse
 
     self.cities = self.results.map { |hash| hash[:city] }
 
