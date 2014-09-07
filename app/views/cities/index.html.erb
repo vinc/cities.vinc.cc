@@ -1,3 +1,5 @@
+<% content_for(:title, name == '' ? 'Seach cities' : "Search cities named '#{name}'") %>
+
 <h1>Cities</h1>
 <p><%= pluralize(cities.count, 'city') %></p>
 <ul>
