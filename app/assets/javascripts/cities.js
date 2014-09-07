@@ -23,7 +23,7 @@ function Map(id) {
     };
 
     var markers = points.map(function(point) {
-      var location = point.city.location;
+      var location = point.location;
 
       return L.geoJson(location, {
         pointToLayer: function (feature, latlng) {

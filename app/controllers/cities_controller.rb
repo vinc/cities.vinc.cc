@@ -34,13 +34,13 @@ class CitiesController < ApplicationController
       .map do |city|
         {
           city: city,
-          mountains: city.mountains(max_distance: m0, min_elevation: m1),
-          seaports: city.seaports(max_distance: s0)
+          seaports: city.seaports(max_distance: s0),
+          mountains: city.mountains(max_distance: m0, min_elevation: m1)
         }
       end.keep_if do |city|
-        city[:mountains].count > 2 && city[:seaports].count > 0
+        city[:seaports].count > 0 && city[:mountains].count > 2
       end.sort_by do |city|
-        city[:mountains].count + city[:seaports].count
+        city[:seaports].count + city[:mountains].count
       end.last(limit).reverse
 
     self.cities = self.results.map { |hash| hash[:city] }
@@ -49,7 +49,11 @@ class CitiesController < ApplicationController
   end
 
   def show
-    self.results = [{ city: city }]
+    self.results = [{
+      city: city,
+      seaports: city.seaports,
+      mountains: city.mountains
+    }]
 
     respond_with(city)
   end
