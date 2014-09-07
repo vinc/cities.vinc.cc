@@ -26,11 +26,8 @@ class CitiesController < ApplicationController
     m0, m1, s0 = mnt_dis_max, mnt_ele_min, sea_dis_max
 
     self.results = City
-      .where(:population.lt => pop_max)
-      .where(:population.gt => pop_min)
-      .desc(:population)
-      .limit(1000)
-      .keep_if { |city| city.biggest? }
+      .where(population: pop_min..pop_max)
+      .keep_if(&:biggest?)
       .map do |city|
         {
           city: city,
