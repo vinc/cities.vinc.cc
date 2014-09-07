@@ -5,13 +5,13 @@ class CitiesController < ApplicationController
   expose(:city)
   expose(:limit) { (params[:limit] || '1000').to_i }
 
-  expose(:search) { params[:search] || {} }
-  expose(:name) { search[:name] || '' }
-  expose(:pop_max) { (search[:pop_max] || '500000').to_i }
-  expose(:pop_min) { (search[:pop_min] || '200000').to_i }
-  expose(:mnt_ele_min) { (search[:mnt_ele_min] || '2500').to_i }
-  expose(:mnt_dis_max) { (search[:mnt_dis_max] || '500').to_i }
-  expose(:sea_dis_max) { (search[:sea_dis_max] || '10').to_i }
+  expose(:query) { params[:query] || {} }
+  expose(:name) { query[:name] || '' }
+  expose(:pop_max) { (query[:pop_max] || '500000').to_i }
+  expose(:pop_min) { (query[:pop_min] || '200000').to_i }
+  expose(:mnt_ele_min) { (query[:mnt_ele_min] || '2500').to_i }
+  expose(:mnt_dis_max) { (query[:mnt_dis_max] || '500').to_i }
+  expose(:sea_dis_max) { (query[:sea_dis_max] || '10').to_i }
 
   expose(:results) { [] }
 
@@ -22,7 +22,7 @@ class CitiesController < ApplicationController
     respond_with(self.results)
   end
 
-  def best
+  def search
     m0, m1, s0 = mnt_dis_max, mnt_ele_min, sea_dis_max
 
     self.results = City

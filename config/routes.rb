@@ -3,7 +3,7 @@ Rails.application.routes.draw do
 
   resources :cities do
     collection do
-      get 'best'
+      get 'search'
     end
     resources :mountains
     resources :seaports
