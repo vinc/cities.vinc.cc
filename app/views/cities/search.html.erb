@@ -1,5 +1,11 @@
 <% content_for(:title, 'Search best cities') %>
 
+<ol class="breadcrumb">
+  <li><a href="/">Home</a></li>
+  <li><a href="/cities">Cities</a></li>
+  <li class="active">Search</li>
+</ol>
+
 <h1>Results</h1>
 <p><%= pluralize(cities.count, 'city') %></p>
 <ul>

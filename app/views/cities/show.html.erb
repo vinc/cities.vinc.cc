@@ -1,5 +1,11 @@
 <% content_for(:title, city.title) %>
 
+<ol class="breadcrumb">
+  <li><a href="/">Home</a></li>
+  <li><a href="/cities">Cities</a></li>
+  <li class="active"><%= city.title %></li>
+</ol>
+
 <h1><%= city.title %></h1>
 
 <dl class="dl-horizontal">
