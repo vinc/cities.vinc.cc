@@ -41,6 +41,7 @@ gem 'spring',        group: :development
 gem 'rails_12factor'
 
 gem 'mongoid', github: 'mongoid/mongoid'
+gem 'mongoid_slug'
 
 gem 'decent_exposure'
 
