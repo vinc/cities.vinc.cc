@@ -28,7 +28,7 @@ class City
       .spherical
   end
 
-  def seaports(max_distance: 10)
+  def seaports(max_distance: 20)
     Seaport
       .geo_near(self.location)
       .max_distance(max_distance * 1000)

@@ -11,7 +11,7 @@ class CitiesController < ApplicationController
   expose(:pop_min) { (query[:pop_min] || '200000').to_i }
   expose(:mnt_ele_min) { (query[:mnt_ele_min] || '2500').to_i }
   expose(:mnt_dis_max) { (query[:mnt_dis_max] || '500').to_i }
-  expose(:sea_dis_max) { (query[:sea_dis_max] || '10').to_i }
+  expose(:sea_dis_max) { (query[:sea_dis_max] || '20').to_i }
 
   expose(:results) { [] }
 
