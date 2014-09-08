@@ -13,10 +13,10 @@
   <dt>Elevation</dt><dd><%= city.elevation.to_s(:delimited) %> m</dd>
 </dl>
 
-<% if city.seaports.count > 0 %>
+<% if city.find_seaports.count > 0 %>
   <h2>Seaports</h2>
   <ul>
-    <% city.seaports.each do |seaport| %>
+    <% city.find_seaports.each do |seaport| %>
       <li><%= seaport.name %></li>
       <ul>
         <li>Distance: <%= (seaport.distance / 1000).to_s(:delimited) %> km</li>
@@ -25,10 +25,10 @@
   </ul>
 <% end %>
 
-<% if city.mountains.count > 0 %>
+<% if city.find_mountains.count > 0 %>
   <h2>Mountains</h2>
   <ul>
-    <% city.mountains.each do |mountain| %>
+    <% city.find_mountains.each do |mountain| %>
       <li><%= mountain.name %></li>
       <ul>
         <li>Distance: <%= (mountain.distance / 1000).to_s(:delimited) %> km</li>

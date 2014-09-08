@@ -26,13 +26,13 @@ class CitiesController < ApplicationController
     m0, m1, s0 = mnt_dis_max, mnt_ele_min, sea_dis_max
 
     self.results = City
-      .where(population: pop_min..pop_max)
-      .keep_if(&:biggest?)
+      .where(population: pop_min..pop_max, is_largest: true)
+      .where('this.seaport_ids.length > 0 && this.mountain_ids.length > 2')
       .map do |city|
         {
           city: city,
-          seaports: city.seaports(max_distance: s0),
-          mountains: city.mountains(max_distance: m0, min_elevation: m1)
+          seaports: city.find_seaports(max_distance: s0),
+          mountains: city.find_mountains(max_distance: m0, min_elevation: m1)
         }
       end.keep_if do |city|
         city[:seaports].count > 0 && city[:mountains].count > 2

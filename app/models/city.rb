@@ -7,6 +7,10 @@ class City
   field :country, type: String
   field :elevation, type: Integer
   field :population, type: Integer
+  field :is_largest, type: Boolean
+
+  has_and_belongs_to_many :mountains
+  has_and_belongs_to_many :seaports
 
   slug :title
 
@@ -14,27 +18,44 @@ class City
     [name, country].join(', ')
   end
 
-  def biggest?(distance: 50)
+  def find_largest(distance: 50)
     City
       .where(:population.gt => self.population)
       .geo_near(self.location)
       .max_distance(distance * 1000)
       .spherical
-      .count == 0
   end
 
-  def mountains(max_distance: 500, min_elevation: 2500)
-    Mountain
+  def build_largest
+    self.is_largest = find_largest(distance: 50).count == 0
+  end
+
+  def find_mountains(max_distance: 500, min_elevation: 2500)
+    self.mountains
       .where(:elevation.gt => min_elevation)
       .geo_near(self.location)
       .max_distance(max_distance * 1000)
       .spherical
   end
 
-  def seaports(max_distance: 20)
-    Seaport
+  def find_seaports(max_distance: 20)
+    self.seaports
       .geo_near(self.location)
       .max_distance(max_distance * 1000)
       .spherical
+  end
+
+  def build_mountains
+    self.mountains = Mountain
+      .geo_near(self.location)
+      .max_distance(1000 * 1000)
+      .spherical.to_a
+  end
+
+  def build_seaports
+    self.seaports = Seaport
+      .geo_near(self.location)
+      .max_distance(50 * 1000)
+      .spherical.to_a
   end
 end
