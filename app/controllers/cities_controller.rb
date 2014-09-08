@@ -48,8 +48,8 @@ class CitiesController < ApplicationController
   def show
     self.results = [{
       city: city,
-      seaports: city.seaports,
-      mountains: city.mountains
+      seaports: city.find_seaports,
+      mountains: city.find_mountains
     }]
 
     respond_with(city)
