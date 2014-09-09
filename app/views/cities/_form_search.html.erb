@@ -1,14 +1,14 @@
 <%= simple_form_for self, as: 'query', url: search_cities_path, method: :get do |f| %>
   <h3>City</h3>
-  <%= f.input :pop_max, label: 'Population Max:', required: false %>
-  <%= f.input :pop_min, label: 'Population Min:', required: false %>
+  <%= f.input :pop_max, as: :integer, label: 'Population Max:', required: false %>
+  <%= f.input :pop_min, as: :integer, label: 'Population Min:', required: false %>
 
   <h3>Mountains</h3>
-  <%= f.input :mnt_ele_min, label: 'Elevation Min:', required: false %>
-  <%= f.input :mnt_dis_max, label: 'Distance Max:', required: false %>
+  <%= f.input :mnt_ele_min, as: :integer, label: 'Elevation Min:', required: false %>
+  <%= f.input :mnt_dis_max, as: :integer, label: 'Distance Max:', required: false %>
 
   <h3>Seaports</h3>
-  <%= f.input :sea_dis_max, label: 'Distance Max:', required: false %>
+  <%= f.input :sea_dis_max, as: :integer, label: 'Distance Max:', required: false %>
 
   <%= f.button :submit, 'Search' %>
 <% end %>
