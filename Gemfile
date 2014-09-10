@@ -53,7 +53,10 @@ group :development, :test do
   gem 'binding_of_caller'
 end
 
+gem 'chartkick'
+
 gem 'simple_form', github: 'plataformatec/simple_form'
 
 gem 'bootstrap-sass'
 gem 'rails-assets-leaflet'
+gem 'rails-assets-highcharts'
