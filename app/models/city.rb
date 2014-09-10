@@ -8,6 +8,10 @@ class City
   field :elevation, type: Integer
   field :population, type: Integer
   field :is_largest, type: Boolean
+  field :precipitations, type: Array
+  field :min_temperatures, type: Array
+  field :max_temperatures, type: Array
+  field :mean_temperatures, type: Array
 
   has_and_belongs_to_many :mountains
   has_and_belongs_to_many :seaports
