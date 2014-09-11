@@ -26,8 +26,16 @@ class CitiesController < ApplicationController
     m0, m1, s0 = mnt_dis_max, mnt_ele_min, sea_dis_max
 
     self.results = City
-      .where(population: pop_min..pop_max, is_largest: true)
-      .where('this.seaports_cache.length > 0 && this.mountains_cache.length > 2')
+      .where(
+        is_largest: true,
+        population: pop_min..pop_max,
+        seaports_cache: { '$elemMatch' => {
+          :distance.lt => s0 * 1000 }
+        },
+        mountains_cache: { '$elemMatch' => {
+          :distance.lt => m0 * 1000,
+          :elevation.gt => m1 }
+        })
       .map do |city|
         {
           city: city,
