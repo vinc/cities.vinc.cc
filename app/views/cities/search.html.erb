@@ -7,12 +7,21 @@
 </ol>
 
 <h1>Results</h1>
-<p><%= pluralize(cities.count, 'city') %></p>
+
+<p>
+  <% if page > 1 %>
+    Page <%= page %> of
+  <% end %>
+  <%= pluralize(cities.total_count, 'city') %>
+</p>
+
 <ul>
   <% cities.each do |city| %>
     <li><%= link_to(city.title, city) %></li>
   <% end%>
 </ul>
+
+<%= paginate cities %>
 
 <hr>
 

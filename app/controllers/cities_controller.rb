@@ -25,7 +25,7 @@ class CitiesController < ApplicationController
   def search
     m0, m1, s0 = mnt_dis_max, mnt_ele_min, sea_dis_max
 
-    self.results = City
+    res = City
       .where(
         is_largest: true,
         population: pop_min..pop_max,
@@ -46,9 +46,11 @@ class CitiesController < ApplicationController
         city[:seaports].count > 0 && city[:mountains].count > 2
       end.sort_by do |city|
         city[:seaports].count + city[:mountains].count
-      end.last(limit).reverse
+      end.reverse
 
-    self.cities = self.results.map { |hash| hash[:city] }
+    # FIXME
+    self.cities = Kaminari.paginate_array(res.map { |h| h[:city] }).page(page)
+    self.results = Kaminari.paginate_array(res).page(page)
 
     respond_with(self.results)
   end
