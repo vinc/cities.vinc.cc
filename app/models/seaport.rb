@@ -6,8 +6,6 @@ class Seaport
   field :name, type: String
   field :country, type: String
 
-  has_and_belongs_to_many :cities
-
   slug :title
 
   def title

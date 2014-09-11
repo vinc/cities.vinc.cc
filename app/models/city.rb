@@ -7,14 +7,14 @@ class City
   field :country, type: String
   field :elevation, type: Integer
   field :population, type: Integer
-  field :is_largest, type: Boolean
   field :precipitations, type: Array
   field :min_temperatures, type: Array
   field :max_temperatures, type: Array
   field :mean_temperatures, type: Array
 
-  has_and_belongs_to_many :mountains
-  has_and_belongs_to_many :seaports
+  field :is_largest, type: Boolean
+  field :mountains_cache, type: Array
+  field :seaports_cache, type: Array
 
   slug :title
 
@@ -22,46 +22,57 @@ class City
     [name, country].join(', ')
   end
 
+  def find_mountains(max_distance: 500, min_elevation: 2500)
+    d = max_distance * 1000
+    e = min_elevation
+    ids = self.mountains_cache.reduce([]) do |r, h|
+      h[:distance] < d && h[:elevation] >= e ? r << h[:id] : r
+    end
+    docs_with_distances(Mountain.in(id: ids), self.mountains_cache)
+  end
+
+  def find_seaports(max_distance: 20)
+    d = max_distance * 1000
+    ids = self.seaports_cache.reduce([]) do |r, h|
+      h[:distance] < d ? r << h[:id] : r
+    end
+    docs_with_distances(Seaport.in(id: ids), self.seaports_cache)
+  end
+
   def find_largest(distance: 50)
     City
-      .where(:population.gt => self.population)
-      .geo_near(self.location)
-      .max_distance(distance * 1000)
-      .spherical
+      .gt(population: self.population)
+      .within_sphere(center: self.location, radius: distance * 1000)
+  end
+
+  def build_mountains
+    keys = %i(id elevation distance) # Attributes stored in cache
+    self.mountains_cache = Mountain
+      .within_sphere(center: self.location, radius: 1000 * 1000)
+      .map { |doc| Hash[keys.map { |key| [key, doc.send(key)] }] }
+  end
+
+  def build_seaports
+    keys = %i(id distance) # Attributes stored in cache
+    self.seaports_cache = Seaport
+      .within_sphere(center: self.location, radius: 50 * 1000)
+      .map { |doc| Hash[keys.map { |key| [key, doc.send(key)] }] }
   end
 
   def build_largest
     self.is_largest = find_largest(distance: 50).count == 0
   end
 
-  def find_mountains(max_distance: 500, min_elevation: 2500)
-    return [] if self.mountains.count == 0 # FIXME MongoDB 2.4
-    self.mountains
-      .where(:elevation.gt => min_elevation)
-      .geo_near(self.location)
-      .max_distance(max_distance * 1000)
-      .spherical
-  end
+  private
 
-  def find_seaports(max_distance: 20)
-    return [] if self.seaports.count == 0 # FIXME MongoDB 2.4
-    self.seaports
-      .geo_near(self.location)
-      .max_distance(max_distance * 1000)
-      .spherical
-  end
-
-  def build_mountains
-    self.mountains = Mountain
-      .geo_near(self.location)
-      .max_distance(1000 * 1000)
-      .spherical.to_a
-  end
-
-  def build_seaports
-    self.seaports = Seaport
-      .geo_near(self.location)
-      .max_distance(50 * 1000)
-      .spherical.to_a
+  def docs_with_distances(docs, cache)
+    distances = cache.reduce({}) do |r, h|
+      r.merge({ h[:id] => h[:distance] })
+    end
+    # FIXME: the sort istead of a map is only needed because the .in() used
+    # to select docs does not retains order.
+    docs.sort_by do |doc|
+      doc[:geo_near_distance] = distances[doc.id]
+    end
   end
 end

@@ -27,7 +27,7 @@ class CitiesController < ApplicationController
 
     self.results = City
       .where(population: pop_min..pop_max, is_largest: true)
-      .where('this.seaport_ids.length > 0 && this.mountain_ids.length > 2')
+      .where('this.seaports_cache.length > 0 && this.mountains_cache.length > 2')
       .map do |city|
         {
           city: city,

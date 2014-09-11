@@ -9,4 +9,10 @@ module Location
   def distance
     self[:geo_near_distance].to_i
   end
+
+  module ClassMethods
+    def within_sphere(center:, radius:)
+      geo_near(center).max_distance(radius).spherical
+    end
+  end
 end

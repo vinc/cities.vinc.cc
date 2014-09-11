@@ -42,6 +42,7 @@ CSV.foreach('db/seeds/cities.csv', headers: true) do |row|
   )
   city.build_seaports
   city.build_mountains
+  city.save
 end
 
 City.each do |city|
