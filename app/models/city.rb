@@ -35,6 +35,7 @@ class City
   end
 
   def find_mountains(max_distance: 500, min_elevation: 2500)
+    return [] if self.mountains.count == 0 # FIXME MongoDB 2.4
     self.mountains
       .where(:elevation.gt => min_elevation)
       .geo_near(self.location)
@@ -43,6 +44,7 @@ class City
   end
 
   def find_seaports(max_distance: 20)
+    return [] if self.seaports.count == 0 # FIXME MongoDB 2.4
     self.seaports
       .geo_near(self.location)
       .max_distance(max_distance * 1000)
