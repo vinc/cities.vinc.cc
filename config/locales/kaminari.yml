@@ -1,0 +1,6 @@
+en:
+  views:
+    pagination:
+      previous: "&laquo;"
+      next: "&raquo;"
+      truncate: "&hellip;"

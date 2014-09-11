@@ -3,7 +3,7 @@ class CitiesController < ApplicationController
 
   expose(:cities)
   expose(:city)
-  expose(:limit) { (params[:limit] || '1000').to_i }
+  expose(:page) { (params[:page] || '1').to_i }
 
   expose(:query) { params[:query] || {} }
   expose(:name) { query[:name] || '' }
@@ -17,7 +17,7 @@ class CitiesController < ApplicationController
 
   def index
     query = Regexp.new(Regexp.escape(name), Regexp::IGNORECASE)
-    self.cities = self.cities.where(name: query).desc(:population).limit(limit)
+    self.cities = self.cities.where(name: query).desc(:population).page(page)
     self.results = self.cities.map { |city| { city: city } }
     respond_with(self.results)
   end

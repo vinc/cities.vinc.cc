@@ -53,6 +53,8 @@ group :development, :test do
   gem 'binding_of_caller'
 end
 
+gem 'kaminari'
+
 gem 'chartkick'
 
 gem 'simple_form', github: 'plataformatec/simple_form'
