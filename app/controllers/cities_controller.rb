@@ -65,7 +65,7 @@ class CitiesController < ApplicationController
     self.results = [{
       city: city,
       seaports: city.find_seaports,
-      mountains: city.find_mountains
+      mountains: city.find_mountains(min_elevation: 1500)
     }]
 
     respond_with(city)
