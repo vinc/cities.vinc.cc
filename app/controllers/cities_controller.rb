@@ -28,22 +28,20 @@ class CitiesController < ApplicationController
     m0, m1, s0 = mnt_dis_max, mnt_ele_min, sea_dis_max
 
     res = City
-      .where(
-        is_largest: true,
-        population: pop_min..pop_max,
-        min_temperatures: { '$elemMatch' => {
-          '$lt' => tmp_min_min
-        }},
-        max_temperatures: { '$not' => { '$elemMatch' => {
-          '$gt' => tmp_max_max
-        }}},
-        seaports_cache: { '$elemMatch' => {
-          :distance.lt => s0 * 1000
-        }},
-        mountains_cache: { '$elemMatch' => {
-          :distance.lt => m0 * 1000,
-          :elevation.gt => m1
-        }})
+      .where(is_largest: true, population: pop_min..pop_max)
+      .elem_match(min_temperatures: {
+        '$lt' => tmp_min_min
+      })
+      .not.elem_match(max_temperatures: {
+        '$gt' => tmp_max_max
+      })
+      .elem_match(seaports_cache: {
+        :distance.lt => s0 * 1000
+      })
+      .elem_match(mountains_cache: {
+        :distance.lt => m0 * 1000,
+        :elevation.gt => m1
+      })
       .map do |city|
         {
           city: city,
