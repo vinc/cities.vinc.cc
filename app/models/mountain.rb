@@ -7,4 +7,8 @@ class Mountain
   field :elevation, type: Integer
 
   slug :name
+
+  def title
+    self.name
+  end
 end

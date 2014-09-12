@@ -24,12 +24,13 @@ function Map(id) {
 
     var markers = points.map(function(point) {
       var location = point.location;
+      var popup = '<a href="' + point.path + '">' + point.title + '</a>';
 
       return L.geoJson(location, {
         pointToLayer: function (feature, latlng) {
           return L.circleMarker(latlng, markerOptions);
         }
-      }).bindPopup(point.name).addTo(map);
+      }).bindPopup(popup).addTo(map);
     });
 
     if (markers.length) {

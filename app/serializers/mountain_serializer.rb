@@ -1,19 +1,13 @@
 class MountainSerializer < ActiveModel::Serializer
-  attributes :id, :name, :elevation, :latitude, :longitude, :distance
+  include Rails.application.routes.url_helpers
+
+  attributes :id, :path, :title, :name, :elevation, :location, :distance
 
   def id
     object.id.to_s
   end
 
-  def longitude
-    object.location[:coordinates][0]
-  end
-
-  def latitude
-    object.location[:coordinates][1]
-  end
-
-  def distance
-    object.geo_near_distance
+  def path
+    '/' # mountain_path(object)
   end
 end

@@ -1,15 +1,19 @@
 class CitySerializer < ActiveModel::Serializer
-  attributes :id, :name, :country, :population, :elevation, :latitude, :longitude
+  include Rails.application.routes.url_helpers
+
+  attributes :id, :path, :title, :name, :country, :population, :elevation, :location
+
+  has_many :mountains, :seaports
 
   def id
     object.id.to_s
   end
 
-  def longitude
-    object.location[:coordinates][0]
+  def path
+    city_path(object)
   end
 
-  def latitude
-    object.location[:coordinates][1]
+  def country
+    object.name
   end
 end

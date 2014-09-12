@@ -22,13 +22,21 @@ class City
     [name, country.name].join(', ')
   end
 
+  def mountains
+    @mountains ||= find_mountains
+  end
+
+  def seaports
+    @seaports ||= find_seaports
+  end
+
   def find_mountains(max_distance: 500, min_elevation: 2500)
     d = max_distance * 1000
     e = min_elevation
     ids = self.mountains_cache.reduce([]) do |r, h|
       h[:distance] < d && h[:elevation] >= e ? r << h[:id] : r
     end
-    docs_with_distances(Mountain.in(id: ids), self.mountains_cache)
+    @mountains = docs_with_distances(Mountain.in(id: ids), self.mountains_cache)
   end
 
   def find_seaports(max_distance: 20)
