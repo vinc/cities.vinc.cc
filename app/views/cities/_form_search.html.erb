@@ -3,6 +3,10 @@
   <%= f.input :pop_max, as: :integer, label: 'Population Max:', required: false %>
   <%= f.input :pop_min, as: :integer, label: 'Population Min:', required: false %>
 
+  <h3>Weather</h3>
+  <%= f.input :tmp_min_min, as: :integer, label: 'Temperature Min Min:', hint: 'You love real winters', required: false %>
+  <%= f.input :tmp_max_max, as: :integer, label: 'Temperature Max Max:', hint: 'You fear to much heat', required: false %>
+
   <h3>Mountains</h3>
   <%= f.input :mnt_ele_min, as: :integer, label: 'Elevation Min:', required: false %>
   <%= f.input :mnt_dis_max, as: :integer, label: 'Distance Max:', required: false %>

@@ -9,6 +9,8 @@ class CitiesController < ApplicationController
   expose(:name) { query[:name] || '' }
   expose(:pop_max) { (query[:pop_max] || '500000').to_i }
   expose(:pop_min) { (query[:pop_min] || '200000').to_i }
+  expose(:tmp_min_min) { (query[:tmp_min_min] || '10').to_i }
+  expose(:tmp_max_max) { (query[:tmp_max_max] || '30').to_i }
   expose(:mnt_ele_min) { (query[:mnt_ele_min] || '2500').to_i }
   expose(:mnt_dis_max) { (query[:mnt_dis_max] || '500').to_i }
   expose(:sea_dis_max) { (query[:sea_dis_max] || '20').to_i }
@@ -29,13 +31,19 @@ class CitiesController < ApplicationController
       .where(
         is_largest: true,
         population: pop_min..pop_max,
+        min_temperatures: { '$elemMatch' => {
+          '$lt' => tmp_min_min
+        }},
+        max_temperatures: { '$not' => { '$elemMatch' => {
+          '$gt' => tmp_max_max
+        }}},
         seaports_cache: { '$elemMatch' => {
-          :distance.lt => s0 * 1000 }
-        },
+          :distance.lt => s0 * 1000
+        }},
         mountains_cache: { '$elemMatch' => {
           :distance.lt => m0 * 1000,
-          :elevation.gt => m1 }
-        })
+          :elevation.gt => m1
+        }})
       .map do |city|
         {
           city: city,
