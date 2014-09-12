@@ -29,7 +29,7 @@ function Map(id) {
         pointToLayer: function (feature, latlng) {
           return L.circleMarker(latlng, markerOptions);
         }
-      }).addTo(map);
+      }).bindPopup(point.name).addTo(map);
     });
 
     if (markers.length) {
