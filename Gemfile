@@ -53,6 +53,8 @@ group :development, :test do
   gem 'binding_of_caller'
 end
 
+gem 'countries'
+
 gem 'kaminari'
 
 gem 'chartkick'

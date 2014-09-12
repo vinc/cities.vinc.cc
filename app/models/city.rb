@@ -4,7 +4,7 @@ class City
   include Location
 
   field :name, type: String
-  field :country, type: String
+  field :country, type: Country
   field :elevation, type: Integer
   field :population, type: Integer
   field :precipitations, type: Array
@@ -19,7 +19,7 @@ class City
   slug :title
 
   def title
-    [name, country].join(', ')
+    [name, country.name].join(', ')
   end
 
   def find_mountains(max_distance: 500, min_elevation: 2500)

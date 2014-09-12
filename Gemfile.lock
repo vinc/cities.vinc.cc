@@ -69,6 +69,9 @@ GEM
       execjs
     coffee-script-source (1.8.0)
     connection_pool (2.0.0)
+    countries (0.9.3)
+      currencies (~> 0.4.2)
+    currencies (0.4.2)
     debug_inspector (0.0.2)
     decent_exposure (2.3.2)
     erubis (2.7.0)
@@ -181,6 +184,7 @@ DEPENDENCIES
   bootstrap-sass
   chartkick
   coffee-rails (~> 4.0.0)
+  countries
   decent_exposure
   jbuilder (~> 2.0)
   jquery-rails

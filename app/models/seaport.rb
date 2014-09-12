@@ -4,7 +4,7 @@ class Seaport
   include Location
 
   field :name, type: String
-  field :country, type: String
+  field :country, type: Country
 
   slug :title
 
