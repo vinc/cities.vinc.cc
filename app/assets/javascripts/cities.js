@@ -3,10 +3,10 @@
 function Map(id) {
   this.map = L.map(id, {
     minZoom: 2,
-    maxZoom: 6
+    maxZoom: 5
   });
 
-  L.tileLayer('http://maps.vinc.cc/v2/basic/{z}/{x}/{y}.png', {
+  L.tileLayer('http://maps.vinc.cc/v2/relief/{z}/{x}/{y}.png', {
     attribution: '<a href="http://vinc.cc">Vinc</a>'
   }).addTo(this.map);
 
