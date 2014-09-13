@@ -6,8 +6,8 @@ function Map(id) {
     maxZoom: 6
   });
 
-  L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
-    attribution: '<a href="http://osm.org/copyright">OpenStreetMap</a>'
+  L.tileLayer('http://maps.vinc.cc/v2/basic/{z}/{x}/{y}.png', {
+    attribution: '<a href="http://vinc.cc">Vinc</a>'
   }).addTo(this.map);
 
   this.add = function(points, color) {
