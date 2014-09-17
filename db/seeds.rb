@@ -40,6 +40,8 @@ CSV.foreach('db/seeds/cities.csv', headers: true) do |row|
       coordinates: [row['longitude'].to_f, row['latitude'].to_f]
     }
   )
+  city.min_temperature = city.min_temperatures.min
+  city.max_temperature = city.max_temperatures.max
   city.build_seaports
   city.build_mountains
   city.save

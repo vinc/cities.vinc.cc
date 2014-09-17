@@ -48,3 +48,23 @@ $(document).on('page:change', function() {
     return pageTracker._trackPageview();
   }
 });
+
+$(document).on('ready page:load', function() {
+  $('input[type=slider]').each(function() {
+    var input = $(this);
+    var options = {};
+
+    ['value', 'min', 'max', 'step'].forEach(function(attr) {
+      options[attr] = JSON.parse(input.attr(attr));
+    });
+
+    input.slider(options).on('slideStop', function(e) {
+      var value = JSON.stringify(e.value || JSON.parse(input.attr('min'))); // FIXME: 0 become undefined
+
+      input.val(value);
+
+      console.log(value);
+      console.log(input.val());
+    });
+  });
+});

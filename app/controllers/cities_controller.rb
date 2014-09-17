@@ -1,4 +1,31 @@
+module RangeToString
+  refine Range do
+    def to_s
+      [self.first, self.last].to_s
+    end
+
+    def self.from_json(json)
+      min, max = JSON.parse(json)
+      (min..max)
+    end
+  end
+end
+
+# FIXME: (1..3).to_s work without this monkey patch, but not "#{(1..3)}"
+class Range
+  def to_s
+    [self.first, self.last].to_s
+  end
+
+  def self.from_json(json)
+    min, max = JSON.parse(json)
+    (min..max)
+  end
+end
+
 class CitiesController < ApplicationController
+  using RangeToString
+
   respond_to(:json, :html)
 
   expose(:cities)
@@ -7,13 +34,21 @@ class CitiesController < ApplicationController
 
   expose(:query) { params[:query] || {} }
   expose(:name) { query[:name] || '' }
-  expose(:pop_max) { (query[:pop_max] || '500000').to_i }
-  expose(:pop_min) { (query[:pop_min] || '200000').to_i }
-  expose(:tmp_min_min) { (query[:tmp_min_min] || '10').to_i }
-  expose(:tmp_max_max) { (query[:tmp_max_max] || '30').to_i }
   expose(:mnt_ele_min) { (query[:mnt_ele_min] || '2500').to_i }
   expose(:mnt_dis_max) { (query[:mnt_dis_max] || '500').to_i }
   expose(:sea_dis_max) { (query[:sea_dis_max] || '20').to_i }
+
+  expose(:population) do
+    Range.from_json(query[:population] || '[200000, 500000]')
+  end
+
+  expose(:min_temp) do
+    Range.from_json(query[:min_temp] || '[-10, 15]')
+  end
+
+  expose(:max_temp) do
+    Range.from_json(query[:max_temp] || '[20, 30]')
+  end
 
   def index
     query = Regexp.new(Regexp.escape(name), Regexp::IGNORECASE)
@@ -25,13 +60,12 @@ class CitiesController < ApplicationController
     m0, m1, s0 = mnt_dis_max, mnt_ele_min, sea_dis_max
 
     self.cities = City
-      .where(is_largest: true, population: pop_min..pop_max)
-      .elem_match(min_temperatures: {
-        '$lt' => tmp_min_min
-      })
-      .not.elem_match(max_temperatures: {
-        '$gt' => tmp_max_max
-      })
+      .where(
+        is_largest: true,
+        population: population,
+        min_temperature: min_temp,
+        max_temperature: max_temp
+      )
       .elem_match(seaports_cache: {
         :distance.lt => s0 * 1000
       })

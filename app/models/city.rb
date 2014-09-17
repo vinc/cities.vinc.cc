@@ -7,10 +7,12 @@ class City
   field :country, type: Country
   field :elevation, type: Integer
   field :population, type: Integer
-  field :precipitations, type: Array
+  field :min_temperature, type: Integer
+  field :max_temperature, type: Integer
   field :min_temperatures, type: Array
   field :max_temperatures, type: Array
   field :mean_temperatures, type: Array
+  field :precipitations, type: Array
 
   field :is_largest, type: Boolean
   field :mountains_cache, type: Array
