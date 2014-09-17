@@ -17,4 +17,5 @@
 //= require leaflet
 //= require highcharts
 //= require chartkick
+//= require seiyria-bootstrap-slider
 //= require_tree .

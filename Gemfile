@@ -1,5 +1,4 @@
 source 'https://rubygems.org'
-source 'https://rails-assets.org'
 
 ruby '2.1.2'
 
@@ -59,8 +58,8 @@ gem 'kaminari'
 
 gem 'chartkick'
 
+gem 'bower-rails'
+
 gem 'simple_form', github: 'plataformatec/simple_form'
 
 gem 'bootstrap-sass'
-gem 'rails-assets-leaflet'
-gem 'rails-assets-highcharts'
