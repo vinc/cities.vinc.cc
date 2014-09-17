@@ -43,11 +43,11 @@ class CitiesController < ApplicationController
   end
 
   expose(:min_temp) do
-    Range.from_json(query[:min_temp] || '[-10, 15]')
+    Range.from_json(query[:min_temp] || '[-15, 15]')
   end
 
   expose(:max_temp) do
-    Range.from_json(query[:max_temp] || '[20, 30]')
+    Range.from_json(query[:max_temp] || '[15, 30]')
   end
 
   def index
