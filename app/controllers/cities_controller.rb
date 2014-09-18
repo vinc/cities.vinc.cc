@@ -36,8 +36,11 @@ class CitiesController < ApplicationController
   expose(:name) { query[:name] || '' }
   expose(:mnt_ele_min) { (query[:mnt_ele_min] || '2500').to_i }
   expose(:mnt_dis_max) { (query[:mnt_dis_max] || '500').to_i }
+
+  expose(:use_sea_dis_max) { (query[:use_sea_dis_max] || '1') == '1' }
   expose(:sea_dis_max) { (query[:sea_dis_max] || '20').to_i }
 
+  expose(:use_population) { (query[:use_population] || '1') == '1' }
   expose(:population) do
     Range.from_json(query[:population] || '[200000, 500000]')
   end
@@ -62,13 +65,22 @@ class CitiesController < ApplicationController
     self.cities = City
       .where(
         is_largest: true,
-        population: population,
         min_temperature: min_temp,
         max_temperature: max_temp
       )
+
+    self.cities = self.cities
+      .where(population: population) if use_population
+
+    self.cities = self.cities
+      .not.where(population: population) if not use_population
+
+    self.cities = self.cities
       .elem_match(seaports_cache: {
-        :distance.lt => s0 * 1000
-      })
+        :distance.lt => sea_dis_max * 1000
+      }) if use_sea_dis_max
+
+    self.cities = self.cities
       .elem_match(mountains_cache: {
         :distance.lt => m0 * 1000,
         :elevation.gt => m1
@@ -78,9 +90,13 @@ class CitiesController < ApplicationController
           city.find_seaports(max_distance: s0).count
         city[:mountains_count] =
           city.find_mountains(max_distance: m0, min_elevation: m1).count
-        city[:seaports_count] > 0 && city[:mountains_count] > 2
+        keep = true
+        keep ||= city[:seaports_count] > 0 if use_sea_dis_max
+        keep ||= city[:mountains_count] > 2
       end.sort_by do |city|
-        city[:seaports_count] + city[:mountains_count]
+        score = 0
+        score += city[:seaports_count] if use_sea_dis_max
+        score += city[:mountains_count]
       end.reverse
 
     self.cities = Kaminari.paginate_array(self.cities).page(page)

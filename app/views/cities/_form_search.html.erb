@@ -1,5 +1,6 @@
 <%= simple_form_for self, as: 'query', url: search_cities_path, method: :get do |f| %>
   <h3>City</h3>
+  <%= f.input :use_population, as: :boolean, wrapper: :vertical_boolean, label: 'Search small cities', required: false %>
   <%= f.input :population, as: :slider, label: 'Population:', required: false, input_html: { min: 0, max: 10 ** 6, step: 10 ** 5 } %>
 
   <h3>Weather</h3>
@@ -11,6 +12,7 @@
   <%= f.input :mnt_dis_max, as: :slider, label: 'Maximum Distance:', required: false, input_html: { min: 0, max: 1000, step: 50 } %>
 
   <h3>Seaports</h3>
+  <%= f.input :use_sea_dis_max, as: :boolean, wrapper: :vertical_boolean, label: 'Search seaports', required: false %>
   <%= f.input :sea_dis_max, as: :slider, label: 'Maximum Distance:', required: false, input_html: { min: 0, max: 50, step: 10 } %>
 
   <%= f.button :submit, 'Search' %>

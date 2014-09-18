@@ -50,6 +50,23 @@ $(document).on('page:change', function() {
 });
 
 $(document).on('ready page:load', function() {
+  var toggleInput = function(checkbox) {
+    var target = $('.query_' + checkbox.attr('id').substr(10));
+
+    if (checkbox.is(':checked')) {
+      target.show();
+    } else {
+      target.hide();
+    }
+  };
+
+  $('input[type=checkbox]').each(function() {
+    toggleInput($(this));
+  });
+  $('input[type=checkbox]').change(function() {
+    toggleInput($(this));
+  });
+
   $('input[type=slider]').each(function() {
     var input = $(this);
     var options = {};
