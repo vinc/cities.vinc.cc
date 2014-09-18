@@ -50,6 +50,15 @@
   </ul>
 <% end %>
 
+<% if city.neighbors.count > 0 %>
+  <h2>Nearby Cities</h2>
+  <ul>
+    <% city.neighbors.to_a.first(10).each do |neighboor| %>
+      <li><%= link_to neighboor.title, neighboor %> (<%= (neighboor.distance / 1000).to_s(:delimited) %> km)</li>
+    <% end %>
+  </ul>
+<% end %>
+
 <hr>
 
 <p>
