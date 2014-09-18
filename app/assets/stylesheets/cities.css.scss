@@ -28,4 +28,20 @@ html, body, .map-wrapper, #map {
   .slider {
     width: 100%;
   }
+  .slider-handle {
+    background: $progress-bg;
+    border-radius: $border-radius-base;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1) inset;
+    opacity: 1;
+  }
+  .slider-selection {
+    background: $progress-bar-bg;
+  }
+  .slider-track {
+    background-color: $progress-bg;
+    border-radius: $border-radius-base;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1) inset;
+    height: 12px;
+    margin-top: -6px;
+  }
 }
