@@ -63,3 +63,6 @@ gem 'bower-rails'
 gem 'simple_form', github: 'plataformatec/simple_form'
 
 gem 'bootstrap-sass'
+
+gem 'elasticsearch-rails'
+gem 'elasticsearch-model'
