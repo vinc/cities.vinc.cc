@@ -1,6 +1,7 @@
 class City
   include Mongoid::Document
   include Mongoid::Slug
+  include Elasticsearch::Model
   include Location
 
   field :name, type: String
@@ -19,6 +20,16 @@ class City
   field :seaports_cache, type: Array
 
   slug :title
+
+  mapping do
+    indexes :id, index: :not_analyzed
+    indexes :title, analyzer: 'snowball'
+    indexes :location, type: :geo_point
+  end
+
+  def as_indexed_json(options={})
+    self.as_json(only: %i(name location))
+  end
 
   def title
     [name, country.name].join(', ')
