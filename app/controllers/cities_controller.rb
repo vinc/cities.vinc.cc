@@ -54,8 +54,18 @@ class CitiesController < ApplicationController
   end
 
   def index
-    query = Regexp.new(Regexp.escape(name), Regexp::IGNORECASE)
-    self.cities = cities.where(name: query).desc(:population).page(page)
+    if name.empty?
+      self.cities = City.desc(:population).page(page)
+    else
+      self.cities = City.search(query: {
+        match: {
+          _all: {
+            query: name,
+            fuzziness: 1
+          }
+        }
+      }).page(page).records
+    end
     respond_with(self.cities)
   end
 
