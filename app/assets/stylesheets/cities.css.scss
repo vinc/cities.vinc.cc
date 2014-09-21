@@ -25,6 +25,8 @@ html, body, .map-wrapper, #map {
   margin-top: 20px;
 }
 #legend {
+  overflow-x: hidden;
+
   .slider {
     width: 100%;
   }
