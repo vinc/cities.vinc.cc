@@ -61,6 +61,7 @@ class CitiesController < ApplicationController
         match: {
           _all: {
             query: name,
+            operator: 'and',
             fuzziness: 1
           }
         }
