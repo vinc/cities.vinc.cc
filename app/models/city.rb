@@ -32,7 +32,7 @@ class City
   end
 
   def title
-    [name, country.name].join(', ')
+    "#{name}, #{country}"
   end
 
   def mountains
