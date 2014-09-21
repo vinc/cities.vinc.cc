@@ -23,8 +23,8 @@ class City
 
   mapping do
     indexes :id, index: :not_analyzed
-    indexes :title, analyzer: 'snowball'
-    indexes :location, type: :geo_point
+    indexes :name, analyzer: 'snowball'
+    indexes :location, type: :geo_shape
   end
 
   def as_indexed_json(options={})
