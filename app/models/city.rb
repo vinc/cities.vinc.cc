@@ -8,14 +8,17 @@ class City
   field :country, type: Country
   field :elevation, type: Integer
   field :population, type: Integer
+
   field :min_temperature, type: Integer
-  field :max_temperature, type: Integer
   field :min_temperatures, type: Array
+
+  field :max_temperature, type: Integer
   field :max_temperatures, type: Array
+
   field :mean_temperatures, type: Array
+
   field :precipitations, type: Array
 
-  field :is_largest, type: Boolean
   field :mountains_cache, type: Array
   field :seaports_cache, type: Array
 
@@ -60,12 +63,6 @@ class City
     docs_with_distances(Seaport.in(id: ids), self.seaports_cache)
   end
 
-  def find_largest(distance: 50)
-    City
-      .gt(population: self.population)
-      .within_sphere(center: self.location, radius: distance * 1000)
-  end
-
   def build_mountains
     keys = %i(id elevation distance) # Attributes stored in cache
     self.mountains_cache = Mountain
@@ -78,10 +75,6 @@ class City
     self.seaports_cache = Seaport
       .within_sphere(center: self.location, radius: 50 * 1000)
       .map { |doc| Hash[keys.map { |key| [key, doc.send(key)] }] }
-  end
-
-  def build_largest
-    self.is_largest = find_largest(distance: 50).count == 0
   end
 
   private

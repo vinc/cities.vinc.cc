@@ -1,1525 +1,1525 @@
-type, name, country, latitude, longitude, elevation, population
-mountain, Mt. Everest, , 27.98833333, 86.92416667, 8848, 
-mountain, Cerro Aconcagua, , -32.65333333, -70.01083333, 6962, 
-mountain, Denali, , 63.06944444, -151.00777778, 6194, 
-mountain, Kilimanjaro, , -3.07583333, 37.35166667, 5895, 
-mountain, Pico Cristobal Colon, , 10.83916667, -73.68638889, 5700, 
-mountain, Mt. Logan, , 60.56666667, -140.40388889, 5959, 
-mountain, Volcan Pico de Orizaba, , 19.03000000, -97.27083333, 5636, 
-mountain, Vinson Massif, , -78.58333333, -85.41666667, 4892, 
-mountain, Puncak Jaya, , -4.06333333, 137.18583333, 4884, 
-mountain, Gora El/brus, , 43.35333333, 42.43916667, 5642, 
-mountain, Mont Blanc, , 45.83250000, 6.86444444, 4808, 
-mountain, Kuh-e Damavand, , 35.95583333, 52.10861111, 5610, 
-mountain, Kluchevskoy V., , 56.05416667, 160.64083333, 4750, 
-mountain, Nanga Parbat, , 35.23916667, 74.59083333, 8125, 
-mountain, Mauna Kea, , 19.82055556, -155.46805556, 4205, 
-mountain, Jengish Chokusu, , 42.03750000, 80.12500000, 7439, 
-mountain, Chimborazo, , -1.46916667, -78.81750000, 6267, 
-mountain, Bogda Shan, , 43.80166667, 88.33250000, 5445, 
-mountain, Namcha Barwa I, , 29.62916667, 95.05583333, 7782, 
-mountain, Gunung Kinabalu, , 6.07500000, 116.55833333, 4095, 
-mountain, Mt. Rainier, , 46.85305556, -121.76027778, 4392, 
-mountain, K2, , 35.88250000, 76.51333333, 8611, 
-mountain, Volcan Tajumulco, , 15.04333333, -91.90333333, 4220, 
-mountain, Ras Dejen, , 13.23583333, 38.37083333, 4533, 
-mountain, Pico Bolívar, , 8.54166667, -71.04583333, 4981, 
-mountain, Mt. Fairweather, , 58.90638889, -137.52638889, 4671, 
-mountain, Yu Shan, , 23.47000000, 120.95750000, 3952, 
-mountain, Ngaliema, , 0.38416667, 29.87333333, 5109, 
-mountain, Kangchenjunga, , 27.70250000, 88.14666667, 8586, 
-mountain, Tirich Mir, , 36.25416667, 71.84333333, 7708, 
-mountain, Mt. Cameroon, , 4.21750000, 9.17166667, 4040, 
-mountain, Mt. Kenya, , -0.15083333, 37.30750000, 5199, 
-mountain, Gunung Kerinci, , -1.69666667, 101.26416667, 3805, 
-mountain, Mt. Erebus, , -77.53333333, 167.16666667, 3794, 
-mountain, Fujiyama, , 35.36000000, 138.72583333, 3776, 
-mountain, Jebel Toubkal, , 31.05916667, -7.91583333, 4167, 
-mountain, Mt. Cook, , -43.60000000, 170.13333333, 3755, 
-mountain, Cerro Chirippo, , 9.47583333, -83.51000000, 3820, 
-mountain, Gunung Rinjani, , -8.41000000, 116.45833333, 3726, 
-mountain, Pico de Teide, , 28.27305556, -16.63944444, 3718, 
-mountain, Cerro San Valentin, , -46.59500000, -73.34583333, 4058, 
-mountain, Gunnbjornsfjeld, , 68.91666667, -29.90000000, 3694, 
-mountain, Nevado Ojos del Salado, , -27.10916667, -68.54083333, 6893, 
-mountain, Gunung Semeru, , -8.10750000, 112.92250000, 3676, 
-mountain, Finisterre Range HP, , -5.95388889, 146.37500000, 4125, 
-mountain, Ritacuba Blanco, , 6.49416667, -72.29750000, 5410, 
-mountain, Minya Konka, , 29.59500000, 101.87666667, 7556, 
-mountain, Ararat, , 39.70250000, 44.30000000, 5137, 
-mountain, Kongur Shan, , 38.59416667, 75.31333333, 7649, 
-mountain, Mt. Blackburn, , 61.73111111, -143.43527778, 4996, 
-mountain, Mt. Hayes, , 63.61972222, -146.71833333, 4216, 
-mountain, Bulu Rantemario, , -3.38500000, 120.02416667, 3478, 
-mountain, Mt. Saint Elias, , 60.29277778, -140.93111111, 5489, 
-mountain, Pik Imeni Ismail Samani, , 38.94250000, 72.01500000, 7495, 
-mountain, Dhaulagiri I, , 28.69666667, 83.49000000, 8167, 
-mountain, Gora Belukha, , 49.80750000, 86.59000000, 4506, 
-mountain, Cerro Mercedario, , -31.97916667, -70.11250000, 6720, 
-mountain, Jebel an Nabi Shu/ayb, , 15.27916667, 43.97583333, 3666, 
-mountain, Monte Etna, , 37.75111111, 14.99583333, 3323, 
-mountain, Monte San Lorenzo, , -47.59166667, -72.30666667, 3706, 
-mountain, Volcan Karisimbi, , -1.50833333, 29.44500000, 4507, 
-mountain, Volcan Lautaro, , -49.01916667, -73.50666667, 3580, 
-mountain, Mt. Waddington, , 51.37222222, -125.26222222, 4019, 
-mountain, Pico del Mulhacén, , 37.05444444, -3.31000000, 3479, 
-mountain, Gunung Slamet, , -7.23916667, 109.22000000, 3428, 
-mountain, Kuh-e-Sabalaan, , 38.26916667, 47.83750000, 4811, 
-mountain, Mt. Marcus Baker, , 61.43722222, -147.75277778, 4016, 
-mountain, Cerro del Bolson, , -27.21416667, -66.09416667, 5552, 
-mountain, Sauyr Zhotasy, , 47.04916667, 85.56666667, 3840, 
-mountain, Tomurty, , 43.07333333, 94.34666667, 4886, 
-mountain, Yulong Xueshan HP, , 27.09833333, 100.17500000, 5596, 
-mountain, Mt. Meru, , -3.24666667, 36.74833333, 4565, 
-mountain, Shiveluch V., , 56.65333333, 161.36166667, 3307, 
-mountain, Nanda Devi, , 30.37666667, 79.97083333, 7816, 
-mountain, Ichinsky V., , 55.67833333, 157.71833333, 3607, 
-mountain, Batura Sar I, , 36.51000000, 74.52250000, 7795, 
-mountain, Gunung Lawu, , -7.62750000, 111.19416667, 3265, 
-mountain, Mt. Siple, , -73.25000000, -126.10000000, 3110, 
-mountain, Pico Duarte, , 19.03166667, -71.00583333, 3098, 
-mountain, Manaslu, , 28.54916667, 84.55750000, 8163, 
-mountain, Mt. Whitney, , 36.57833333, -118.29666667, 4418, 
-mountain, Gunung Raung, , -8.12583333, 114.04583333, 3332, 
-mountain, Piton des Neiges, , -21.09833333, 55.47666667, 3069, 
-mountain, Xuelian Feng, , 42.26166667, 80.89000000, 6627, 
-mountain, Red Hill, Haleakala, , 20.71000000, -156.25305556, 3055, 
-mountain, Mt. Lucania, , 61.02166667, -140.46527778, 5226, 
-mountain, Volcan Popocatepetl, , 19.02333333, -98.62666667, 5410, 
-mountain, Gunung Agung, , -8.34083333, 115.50333333, 3031, 
-mountain, Gunung Binaiya, , -3.17333333, 129.45500000, 3027, 
-mountain, Pico Basilé, , 3.58333333, 8.76666667, 3011, 
-mountain, Mt. Shasta, , 41.40888889, -122.19472222, 4317, 
-mountain, Koryaksky V., , 53.32083333, 158.71250000, 3456, 
-mountain, Kangkar Pünzum, , 28.04833333, 90.45416667, 7570, 
-mountain, Mt. Stephenson, , -69.81666667, -69.71666667, 2987, 
-mountain, Annapurna I, , 28.59583333, 83.82250000, 8091, 
-mountain, Talghar Shyngy, , 43.11833333, 77.34083333, 4978, 
-mountain, Mt. Suckling, , -9.66916667, 149.01083333, 3676, 
-mountain, Mt. Wilhelm, , -5.78000000, 145.02916667, 4509, 
-mountain, Foho Tatamailau, , -8.90666667, 125.49333333, 2963, 
-mountain, Mt. Apo, , 6.98750000, 125.27083333, 2954, 
-mountain, Gyalha Peri, , 29.81416667, 94.96833333, 7294, 
-mountain, Gunung Leuser, , 3.79750000, 97.21916667, 3466, 
-mountain, Mt. Paget, , -54.45000000, -36.53333333, 2934, 
-mountain, Monarch Mtn., , 51.90166667, -125.87500000, 3555, 
-mountain, Mt. Pulog, , 16.59750000, 120.89916667, 2922, 
-mountain, El Mela, , -28.86750000, -67.12750000, 4150, 
-mountain, Emi Koussi, , 19.79166667, 18.55000000, 3415, 
-mountain, Chakragil, , 38.86583333, 75.10833333, 6727, 
-mountain, Kuh-e Taftan, , 28.60000000, 61.13250000, 3941, 
-mountain, Jebel Ash Sham, , 23.21250000, 57.27833333, 3019, 
-mountain, Shisha Pangma, , 28.35333333, 85.78000000, 8027, 
-mountain, Pico de Neblina, , 0.80666667, -66.00500000, 2994, 
-mountain, Saramati, , 25.74000000, 95.03750000, 3826, 
-mountain, Maromokotro, , -14.02333333, 48.96583333, 2876, 
-mountain, Shishaldin Volcano, , 54.75527778, -163.96944444, 2869, 
-mountain, Kuh-e Bandaka, , 36.17916667, 70.98333333, 6843, 
-mountain, Moncong Lompobatang, , -5.34666667, 119.93166667, 2874, 
-mountain, Buni Zom, , 36.15416667, 72.32750000, 6542, 
-mountain, Mt. Robson, , 53.11000000, -119.15666667, 3959, 
-mountain, Pico de Cano, , 14.95083333, -24.34333333, 2829, 
-mountain, Kamet I, , 30.92000000, 79.59166667, 7756, 
-mountain, Rakaposhi, , 36.14250000, 74.48916667, 7788, 
-mountain, Pico de Aneto, , 42.63222222, 0.65777778, 3404, 
-mountain, Gunung Arjuna, , -7.76416667, 112.58916667, 3339, 
-mountain, Jiuding Shan, , 31.54333333, 103.85333333, 4969, 
-mountain, Ruapehu, , -39.29000000, 175.56333333, 2797, 
-mountain, Gunung Careme, , -6.89333333, 108.40666667, 3078, 
-mountain, Qullai Istiqlol, , 39.34250000, 72.87750000, 7134, 
-mountain, Gurla Mandhata, , 30.43583333, 81.29583333, 7694, 
-mountain, Redoubt Volcano, , 60.48472222, -152.74527778, 3108, 
-mountain, Nevado Huascaran Sur, , -9.12166667, -77.60416667, 6746, 
-mountain, Mt. Elbert, , 39.11777778, -106.44527778, 4399, 
-mountain, Nevado de Famatima, , -29.01416667, -67.82666667, 6097, 
-mountain, Cerro Tupungato, , -33.35833333, -69.77000000, 6570, 
-mountain, Pegunungan Arfak, , -1.15666667, 133.98000000, 2940, 
-mountain, Puncak Mandala, , -4.70833333, 140.28916667, 4760, 
-mountain, Mt. Francais, , -64.63333333, -63.45000000, 2760, 
-mountain, Gunung Argopuro, , -7.96416667, 113.56666667, 3088, 
-mountain, Mawson Peak, , -53.10416667, 73.51750000, 2745, 
-mountain, Kuh-e Hazar, , 29.51166667, 57.27166667, 4500, 
-mountain, Mt. Victoria, , -8.89250000, 147.53333333, 4038, 
-mountain, Kronotsky V., , 54.75250000, 160.53250000, 3527, 
-mountain, Mt. Sir Wilfrid Laurier, , 52.80138889, -119.73138889, 3516, 
-mountain, Gunung Tambora, , -8.24666667, 117.95833333, 2722, 
-mountain, Nevado de Colima, , 19.56333333, -103.60833333, 4270, 
-mountain, Mt. Balbi, , -5.90500000, 154.99500000, 2715, 
-mountain, Cerro el Manchao, , -28.25833333, -66.04083333, 4575, 
-mountain, Fuyul Sojol, , 0.57750000, 120.20500000, 3030, 
-mountain, Mt. Vancouver, , 60.35861111, -139.69777778, 4812, 
-mountain, Mt. Sir Sandford, , 51.65666667, -117.86750000, 3519, 
-mountain, Mt. Baker, , 48.77666667, -121.81444444, 3286, 
-mountain, Monte Cinto, , 42.38000000, 8.94722222, 2706, 
-mountain, Gunung Kapalatmada, , -3.30000000, 126.22000000, 2700, 
-mountain, Muztagh Ata, , 38.27833333, 75.11583333, 7509, 
-mountain, Pik Karla Marxsa, , 37.16250000, 72.48166667, 6723, 
-mountain, Pik Dankova, , 41.05916667, 77.68333333, 5982, 
-mountain, Chaine de la Selle, , 18.36000000, -71.97666667, 2680, 
-mountain, Nevado del Huila, , 2.92416667, -76.02916667, 5390, 
-mountain, Mt. Torbert, , 61.40888889, -152.41388889, 3479, 
-mountain, Cerro Tronador, , -41.16083333, -71.88750000, 3470, 
-mountain, Pico de Bandeira, , -20.43416667, -41.79666667, 2890, 
-mountain, Volcan Lanín, , -39.63750000, -71.50250000, 3740, 
-mountain, Heyuan Feng, , 43.43833333, 86.08333333, 5289, 
-mountain, Mt. Minto, , -71.78333333, 168.75000000, 4165, 
-mountain, Barbeau Peak, , 81.92666667, -74.98666667, 2616, 
-mountain, Kuh-e Dinar, , 30.95166667, 51.43750000, 4409, 
-mountain, Mt. Kirkpatrick, , -84.33333333, 166.41666667, 4528, 
-mountain, Paektu-san, , 41.99333333, 128.07750000, 2744, 
-mountain, Mt. Halcon, , 13.26250000, 120.99500000, 2582, 
-mountain, Mt. Tagubud, , 7.44500000, 126.22666667, 2670, 
-mountain, Monte Darwin, , -54.65916667, -69.59833333, 2580, 
-mountain, Gunung Sumbing, , -7.38500000, 110.07250000, 3320, 
-mountain, Cerro Tamana, , 5.16500000, -76.09500000, 4100, 
-mountain, Yaomei Feng, , 31.10666667, 102.90166667, 6250, 
-mountain, Koyo Zom, , 36.73000000, 73.24000000, 6872, 
-mountain, San Jacinto Peak, , 33.81333333, -116.67750000, 3304, 
-mountain, Nevado Salcantay, , -13.33583333, -72.54916667, 6264, 
-mountain, Mt. Oiautukekea, , -9.33416667, 150.20583333, 2536, 
-mountain, Altun Shan, , 39.25083333, 93.69666667, 5830, 
-mountain, San Gorgonio Mtn., , 34.09916667, -116.82583333, 3506, 
-mountain, Sante YeTerara Ch/af, , 6.82583333, 39.81750000, 4400, 
-mountain, Disteghil Sar I, , 36.32583333, 75.18833333, 7885, 
-mountain, Pidurutalagala, , 7.00083333, 80.77333333, 2524, 
-mountain, Mt. Parry, , -64.26666667, -62.41666667, 2520, 
-mountain, Mt. Sidley, , -77.03333333, -126.10000000, 4285, 
-mountain, Charleston Peak, , 36.27166667, -115.69555556, 3633, 
-mountain, Jebel Marra, , 12.93333333, 24.22750000, 3042, 
-mountain, Mt. Giluwe, , -6.04333333, 143.88666667, 4367, 
-mountain, Pavlof Volcano, , 55.41944444, -161.89500000, 2515, 
-mountain, Mt. Veniaminof, , 56.21972222, -159.29833333, 2507, 
-mountain, Mt. Oku, , 6.20166667, 10.51750000, 3011, 
-mountain, Uludoruk, , 37.48583333, 44.00500000, 4136, 
-mountain, Gora Alagordy, , 45.04166667, 80.25750000, 4622, 
-mountain, Anai Mudi, , 10.17000000, 77.06083333, 2694, 
-mountain, Corno Grande, , 42.47000000, 13.56722222, 2912, 
-mountain, Mt. Adams, , 46.20250000, -121.49111111, 3742, 
-mountain, Musala, , 42.17972222, 23.58666667, 2925, 
-mountain, Kuh-e Safed Khers HP, , 38.09333333, 71.09500000, 5326, 
-mountain, Mt. Aspiring, , -44.38333333, 168.73333333, 3033, 
-mountain, Hung-Wang Shan HP, , 26.14916667, 102.91333333, 4330, 
-mountain, Mogote Corralitos, , -31.31583333, -67.92333333, 3160, 
-mountain, Skihist Mtn., , 50.18777778, -121.90333333, 2968, 
-mountain, Mt. Elgon, , 1.11833333, 34.52500000, 4321, 
-mountain, Masherbrum, , 35.64000000, 76.30583333, 7821, 
-mountain, Mt. Hubbard, , 60.31888889, -139.07277778, 4557, 
-mountain, Cerro Tristeza, , 10.08416667, -63.95833333, 2596, 
-mountain, Psiloritis, , 35.22666667, 24.77250000, 2456, 
-mountain, Pico Naiguata, , 10.54333333, -66.78250000, 2765, 
-mountain, Gora Bazardyuzi, , 41.22166667, 47.85833333, 4466, 
-mountain, Nevado Illimani, , -16.63333333, -67.79083333, 6438, 
-mountain, Mayon Volcano, , 13.25583333, 123.68583333, 2462, 
-mountain, Gunung Dempo, , -4.01583333, 103.12833333, 3159, 
-mountain, Bairiga, , 29.16583333, 96.72416667, 6882, 
-mountain, Pik Pobeda, , 65.17555556, 146.00750000, 3003, 
-mountain, Kuh-e Chuk Shakh, , 36.77833333, 71.45166667, 5467, 
-mountain, Mt. Katanglad, , 8.11583333, 124.92333333, 2938, 
-mountain, Annapurna II, , 28.53333333, 84.12166667, 7937, 
-mountain, Gunung Merbabu, , -7.45500000, 110.44000000, 3145, 
-mountain, Mt. Ratz, , 57.39305556, -132.30305556, 3090, 
-mountain, Canlaon Mtn., , 10.41000000, 123.13000000, 2430, 
-mountain, Mt. Chamberlin, , 69.27694444, -144.91166667, 2749, 
-mountain, Nevado Sajama, , -18.10833333, -68.88333333, 6542, 
-mountain, Pangrango, , -6.76916667, 106.96500000, 3019, 
-mountain, Grossglockner, , 47.07416667, 12.69444444, 3798, 
-mountain, Roque de los Muchachos, , 28.75472222, -17.88500000, 2423, 
-mountain, Erciyes Dagi, , 38.53500000, 35.45083333, 3917, 
-mountain, Mt. Odin, , 50.55166667, -118.13000000, 2970, 
-mountain, Nun, , 33.98000000, 76.02166667, 7135, 
-mountain, Mt. Monashee, , 52.38527778, -118.94000000, 3274, 
-mountain, Jebel Katarina, , 28.51166667, 33.95250000, 2629, 
-mountain, Cotopaxi, , -0.68083333, -78.43833333, 5896, 
-mountain, Kuh-e Zendan, , 28.07583333, 60.01083333, 3503, 
-mountain, Iliamna Volcano, , 60.03194444, -153.09027778, 3053, 
-mountain, Pik Abu Ali Ibn Sino, , 38.51000000, 72.35416667, 6940, 
-mountain, Dhaulagiri II, , 28.76250000, 83.38916667, 7751, 
-mountain, Qornet es Saouda, , 34.30083333, 36.11666667, 3087, 
-mountain, Thabana Ntlenyana, , -29.46833333, 29.26916667, 3482, 
-mountain, Mt. Olympus, , 47.80138889, -123.71083333, 2429, 
-mountain, Mt. Columbia, , 52.14722222, -117.44138889, 3741, 
-mountain, Makalu, , 27.89000000, 87.08833333, 8485, 
-mountain, Galdhøpiggen, , 61.63666667, 8.31500000, 2469, 
-mountain, Poco Mandasawu, , -8.65166667, 120.44833333, 2370, 
-mountain, Kertau, , 45.74250000, 82.75750000, 3282, 
-mountain, Le Kartala, , -11.75666667, 43.36166667, 2361, 
-mountain, Mt. Queen Bess, , 51.27166667, -124.56833333, 3298, 
-mountain, Olympos Oros, , 40.08277778, 22.35111111, 2919, 
-mountain, Mt. Miller, , -83.33333333, 165.80000000, 4160, 
-mountain, Jargalant Hayrhan, , 47.68750000, 92.56333333, 3796, 
-mountain, Gora Kazbek, , 42.69916667, 44.51833333, 5034, 
-mountain, Gerlach, , 49.16416667, 20.13583333, 2655, 
-mountain, Yangra Kangri, , 28.39250000, 85.13000000, 7422, 
-mountain, Gora Khurumdy, , 39.45500000, 73.56666667, 6610, 
-mountain, Mt. Cook, , 60.18638889, -139.97694444, 4196, 
-mountain, Ponta do Pico, , 38.46888889, -28.39888889, 2351, 
-mountain, Mt. Hood, , 45.37361111, -121.69583333, 3426, 
-mountain, Volcan Llullaillaco, , -24.72000000, -68.53666667, 6739, 
-mountain, Profitis Ilias, , 36.95388889, 22.35222222, 2404, 
-mountain, Mt. Sanford, , 62.21361111, -144.13111111, 4949, 
-mountain, Nayramadlin Orgil, , 49.14583333, 87.81916667, 4374, 
-mountain, Hans Meyer Range, , -4.40083333, 152.93833333, 2340, 
-mountain, Cho Oyu, , 28.09666667, 86.66000000, 8188, 
-mountain, Alaid V., , 50.86083333, 155.56416667, 2339, 
-mountain, Tekilik Shan, , 36.52166667, 80.31500000, 5470, 
-mountain, Ledyakaya, , 61.88805556, 171.16750000, 2453, 
-mountain, Demirkazik Tepe, , 37.79750000, 35.15916667, 3756, 
-mountain, Mt. Tom White, , 60.65194444, -143.69750000, 3417, 
-mountain, Popomanaseu, , -9.70361111, 160.06194444, 2335, 
-mountain, Mt. Ulawun, , -5.05083333, 151.33083333, 2334, 
-mountain, Tahat, , 23.28750000, 5.52916667, 2908, 
-mountain, Mt. Lister, , -78.06666667, 162.68333333, 4025, 
-mountain, Gunung Ophir, , 0.07916667, 99.98416667, 2912, 
-mountain, Mt. Cooper, , 50.18333333, -117.20000000, 3094, 
-mountain, Sapitwa Peak, , -15.95000000, 35.59083333, 3002, 
-mountain, Mt. Gaudry, , -67.53333333, -68.61666667, 2315, 
-mountain, Farallones de Cali, , 3.34416667, -76.69583333, 4050, 
-mountain, Mt. Taranaki, , -39.29583333, 174.06500000, 2518, 
-mountain, Wheeler Peak, , 38.98583333, -114.31388889, 3982, 
-mountain, Hotaka-dake, , 36.28916667, 137.64805556, 3190, 
-mountain, Saser Kangri I, , 34.86500000, 77.75250000, 7672, 
-mountain, Mt. Irving, , -61.28333333, -54.13333333, 2300, 
-mountain, Sikaram Sar, , 34.03833333, 69.90250000, 4755, 
-mountain, Pik Sat, , 39.23583333, 71.91083333, 5900, 
-mountain, Asahi-dake, , 43.66361111, 142.85416667, 2290, 
-mountain, Mt. Malindang, , 8.21750000, 123.63666667, 2404, 
-mountain, Mt. Ulysses, , 57.34638889, -124.09277778, 3024, 
-mountain, Cerro Marahuaca, , 3.66000000, -65.40666667, 2832, 
-mountain, Haramosh, , 35.84000000, 74.89750000, 7406, 
-mountain, Glacier Peak, , 48.11194444, -121.11305556, 3213, 
-mountain, Mt. Kabangama, , -6.06083333, 144.61583333, 4104, 
-mountain, Cerro Nevado, , -35.58083333, -68.49000000, 3810, 
-mountain, Finsteraarhorn, , 46.53722222, 8.12611111, 4274, 
-mountain, Farallones de Citara, , 5.75916667, -76.06166667, 4050, 
-mountain, Beerenberg, , 71.08333333, -8.15000000, 2277, 
-mountain, Kackar Dagi, , 40.83666667, 41.16333333, 3932, 
-mountain, Monte Melimoyu, , -44.07583333, -72.86000000, 2440, 
-mountain, Shir Kuh, , 31.60583333, 54.06833333, 4050, 
-mountain, Dashennongjia, , 31.44000000, 110.30750000, 3100, 
-mountain, Gora Chimtarga, , 39.19583333, 68.19583333, 5489, 
-mountain, Mt. Kimball, , 63.23861111, -144.64388889, 3155, 
-mountain, Wildspitze, , 46.88527778, 10.86722222, 3768, 
-mountain, Otgon Tenger Uul, , 47.60833333, 97.55250000, 4000, 
-mountain, Bulu Kandela, , -1.29916667, 121.54250000, 2870, 
-mountain, Blue Mountain Peak, , 18.04666667, -76.57916667, 2256, 
-mountain, Doda Betta, , 11.40250000, 76.73750000, 2636, 
-mountain, Monte Roraima, , 5.20222222, -60.73527778, 2723, 
-mountain, Wedge Mtn., , 50.13333333, -122.79333333, 2892, 
-mountain, Cerro Calima, , 4.06916667, -76.52416667, 3840, 
-mountain, Otter Mtn., , 56.00666667, -129.69277778, 2692, 
-mountain, Mt. Orohena, , -17.56666667, -149.46666667, 2241, 
-mountain, Karun Kuh, , 36.61000000, 75.08083333, 6977, 
-mountain, Kita-dake, , 35.67416667, 138.23666667, 3192, 
-mountain, Nyainqêntanglha Feng, , 30.36750000, 90.58500000, 7162, 
-mountain, P. 2390, , -43.29500000, -72.52583333, 2390, 
-mountain, Piz Bernina, , 46.38222222, 9.90805556, 4049, 
-mountain, Kawagebo, , 28.43833333, 98.68333333, 6740, 
-mountain, Taibai Shan, , 33.95500000, 107.76333333, 3750, 
-mountain, Kangze/gyai, , 38.50000000, 97.72500000, 5808, 
-mountain, Pik Semionova Tien-Shanskogo, , 42.50583333, 74.58083333, 4895, 
-mountain, Pik BAM, , 56.86416667, 117.57500000, 3072, 
-mountain, Volcan Domuyo, , -36.63750000, -70.43250000, 4708, 
-mountain, Monte Zeballos, , -47.03500000, -71.69833333, 2700, 
-mountain, Mt. Kosciuszko, , -36.45583333, 148.86472222, 2228, 
-mountain, Vol. Nevado de Toluca, , 19.10166667, -99.76750000, 4690, 
-mountain, Ch/ok/e Terara, , 10.71333333, 37.84833333, 4100, 
-mountain, Mt. Griggs, , 58.35388889, -155.09500000, 2332, 
-mountain, Kwatna Peak, , 52.07000000, -126.95944444, 2290, 
-mountain, Shikar Beh, , 32.41750000, 77.07083333, 6200, 
-mountain, Huatou Jian, , 28.72916667, 102.37916667, 4750, 
-mountain, Gunung Mekongga, , -3.66500000, 121.23583333, 2650, 
-mountain, Pegunungan Kobowre, , -3.87083333, 135.87083333, 3750, 
-mountain, Sepu Kangri, , 30.90416667, 93.78750000, 6956, 
-mountain, Mt. Foraker, , 62.96027778, -151.40027778, 5304, 
-mountain, Zhupanovsky V., , 53.58833333, 159.14833333, 2923, 
-mountain, Outlook Peak, , 79.74000000, -91.40000000, 2210, 
-mountain, Nevado Coropuna, , -15.54583333, -72.66083333, 6405, 
-mountain, Argun, , 6.10583333, 36.74250000, 3418, 
-mountain, Cerro Champaqui, , -31.98750000, -64.93666667, 2770, 
-mountain, Ngoc Linh, , 15.06916667, 107.97500000, 2598, 
-mountain, Cordillera de Ansilta, , -31.62583333, -69.87666667, 5887, 
-mountain, Milne Land HP, , 70.78333333, -26.66666667, 2200, 
-mountain, Kangtö, , 27.86500000, 92.53250000, 7060, 
-mountain, Golden Hinde, , 49.66666667, -125.75000000, 2195, 
-mountain, Malubiting West, , 36.00166667, 74.87583333, 7453, 
-mountain, White Mtn. Peak, , 36.16972222, -117.08916667, 4342, 
-mountain, Mt. Tutoko, , -44.60000000, 168.00000000, 2723, 
-mountain, Mt. Ostry Tolbachik, , 55.83083333, 160.32583333, 3672, 
-mountain, Süphan Dagi, , 38.93166667, 42.83416667, 4058, 
-mountain, Dansketinden, , 72.11666667, -24.90000000, 2839, 
-mountain, Mt. Crillon, , 58.66277778, -137.17472222, 3879, 
-mountain, Mt. Jackson, , -71.38333333, -63.36666667, 3184, 
-mountain, Cerro Pintado, , 10.33833333, -72.90416667, 3660, 
-mountain, Hochkönig, , 47.42027778, 13.06250000, 2941, 
-mountain, Cerro Tiotepec, , 17.46833333, -100.13750000, 3550, 
-mountain, Keele Peak, , 63.43138889, -130.32388889, 2972, 
-mountain, Scud Peak, , 57.24111111, -131.16750000, 2987, 
-mountain, Golem Korab, , 41.79111111, 20.54777778, 2764, 
-mountain, Nevado de Chañi, , -24.06333333, -65.74583333, 5930, 
-mountain, Cerro Aucanquilcha, , -21.22083333, -68.46833333, 6176, 
-mountain, Dufourspitze, , 45.93694444, 7.86694444, 4634, 
-mountain, Mauna Loa, , 19.47555556, -155.60555556, 4169, 
-mountain, Saltoro Kangri I, , 35.40500000, 76.84750000, 7742, 
-mountain, Norin Kang, , 28.94833333, 90.17833333, 7206, 
-mountain, Gannett Peak, , 43.18416667, -109.65361111, 4208, 
-mountain, Cloud Peak, , 44.38194444, -107.17416667, 4013, 
-mountain, Gasherbrum I, , 35.72583333, 76.69500000, 8080, 
-mountain, Razorback Mtn., , 51.59000000, -124.69166667, 3183, 
-mountain, Kangju Kangri, , 33.72333333, 78.52833333, 6725, 
-mountain, Mt. Victoria, , 21.23333333, 93.90333333, 3070, 
-mountain, Mt. Odin, , 66.55000000, -65.43333333, 2147, 
-mountain, Cerro el Libertador, , -24.93166667, -66.39083333, 6380, 
-mountain, Monte Pissis, , -27.75583333, -68.79916667, 6795, 
-mountain, Gora Tebulosmta, , 42.57333333, 45.31750000, 4493, 
-mountain, Mt. Takahe, , -76.28333333, -112.08333333, 3460, 
-mountain, Aragats Lerrnagagat, , 40.52416667, 44.19666667, 4090, 
-mountain, Tanete Gandangdewata, , -2.74833333, 119.36833333, 3074, 
-mountain, Gunung Tahan, , 4.63250000, 102.23416667, 2187, 
-mountain, Cerro el Nacimiento, , 16.21166667, -96.19583333, 3710, 
-mountain, Cerro Picacho del Diablo, , 30.99083333, -115.37500000, 3110, 
-mountain, Hoher Dachstein, , 47.47527778, 13.60638889, 2995, 
-mountain, Ghamubar Zom, , 36.59000000, 73.34166667, 6518, 
-mountain, Ich Obo, , 44.79916667, 95.24000000, 3802, 
-mountain, Marmolada, , 46.43472222, 11.85083333, 3343, 
-mountain, Gunung Liman, , -7.82500000, 111.76083333, 2563, 
-mountain, North Buttress, Mt. Hesperus, , 61.80388889, -154.14472222, 2996, 
-mountain, Shah Fuladi, , 34.64333333, 67.62500000, 5060, 
-mountain, Mt. Farnham, , 50.48833333, -116.48666667, 3493, 
-mountain, Kimhandu, , -7.09250000, 37.61833333, 2653, 
-mountain, Kinyeti, , 3.94583333, 32.91000000, 3187, 
-mountain, Hvannadalshnukur, , 64.01583333, -16.67472222, 2119, 
-mountain, Mt. Madiac, , 11.38916667, 122.16166667, 2117, 
-mountain, Gunung Marapi, , -0.38000000, 100.47416667, 2891, 
-mountain, Cerro de la Majadita, , -30.42000000, -69.78083333, 6280, 
-mountain, Buku Sibela, , -0.73666667, 127.52416667, 2111, 
-mountain, Yuzhno Muiskyy Khrebet HP, , 55.97416667, 114.43916667, 3067, 
-mountain, Cerro Marmolejo, , -33.73500000, -69.87833333, 6108, 
-mountain, Mt. Foster, , -63.00000000, -62.55000000, 2105, 
-mountain, Palup Qaqa, , 71.33333333, -52.81666667, 2105, 
-mountain, Mt. Bona, , 61.38527778, -141.75055556, 5045, 
-mountain, Barkol Shan, , 43.38166667, 93.35583333, 4320, 
-mountain, Mt. Markham, , -82.85000000, 161.35000000, 4350, 
-mountain, Gunung Cikuray, , -7.32250000, 107.86000000, 2820, 
-mountain, Parîngul Mare, , 45.34111111, 23.54055556, 2519, 
-mountain, Mt. Vsevidof, , 53.12333333, -168.69222222, 2103, 
-mountain, Kuh-e Shab, , 27.43166667, 55.13416667, 2681, 
-mountain, Oscar Peak, , 54.92833333, -129.06000000, 2336, 
-mountain, Helan Shan HP, , 38.83333333, 105.95000000, 3540, 
-mountain, Pic Macaya, , 18.38250000, -74.02500000, 2347, 
-mountain, Pik Skalistiy, , 39.61916667, 70.72000000, 5621, 
-mountain, Zard Kuh, , 32.36500000, 50.07750000, 4200, 
-mountain, Montaña de Santa Barbara, , 14.91333333, -88.11416667, 2744, 
-mountain, Parbati Parbat, , 32.08916667, 77.73333333, 6633, 
-mountain, Lamo-She, , 29.94916667, 102.05000000, 6070, 
-mountain, Cordillera Castillo, , -46.06500000, -72.20750000, 2675, 
-mountain, Mt. Assiniboine, , 50.87000000, -115.65000000, 3616, 
-mountain, Nevado Auzangate, , -13.79083333, -71.23250000, 6372, 
-mountain, Mt. Mantaling, , 8.81833333, 117.67500000, 2085, 
-mountain, Kuh-e Fareghan, , 27.88666667, 56.34750000, 3240, 
-mountain, Oldoinyo Lesatima, , -0.31166667, 36.61416667, 4001, 
-mountain, Montaña de Celaque, , 14.53416667, -88.68000000, 2849, 
-mountain, Phu Bia, , 18.98083333, 103.15166667, 2830, 
-mountain, Mt. Jancowski, , 56.33722222, -129.98166667, 2729, 
-mountain, Nevado Cayembe, , 0.02500000, -77.98916667, 5790, 
-mountain, Dunheger, , 45.19250000, 90.90666667, 3315, 
-mountain, Cerro Altar, , -1.66333333, -78.40916667, 5319, 
-mountain, Cerro Pircas, , -31.70750000, -69.15666667, 4380, 
-mountain, Cord. Vilcababna Norte HP, , -12.37583333, -73.61750000, 4150, 
-mountain, Opala V., , 52.54333333, 157.33916667, 2460, 
-mountain, Payers Tinde, , 73.13333333, -26.36666667, 2320, 
-mountain, Pontan, , -22.42833333, -44.84333333, 2798, 
-mountain, Cerro Maca, , -45.10583333, -73.16916667, 2300, 
-mountain, Chomolhari, , 27.82416667, 89.26916667, 7050, 
-mountain, Monte Viso, , 44.66750000, 7.09083333, 3841, 
-mountain, Chamar, , 28.55333333, 84.94500000, 7165, 
-mountain, Amba Farit, , 10.95166667, 39.10333333, 4270, 
-mountain, Mt. Drum, , 62.11583333, -144.64000000, 3661, 
-mountain, Nevado Sara Sara, , -15.33000000, -73.44750000, 5505, 
-mountain, Queen Mary/s Peak, , -37.11111111, -12.28833333, 2060, 
-mountain, Medetsiz Tepe, , 37.39416667, 34.63166667, 3524, 
-mountain, Gora Georgia Pobedonosca, , -69.00000000, 71.00000000, 2896, 
-mountain, Xuebao Ding, , 32.67583333, 103.84666667, 5588, 
-mountain, Gladsheim Peak, , 49.78333333, -117.62666667, 2830, 
-mountain, Nakanai Mtns. HP, , -5.18666667, 151.83500000, 2316, 
-mountain, Mt. Murphy, , -75.33333333, -110.73333333, 2705, 
-mountain, Chu Yang Sin, , 12.40583333, 108.42416667, 2420, 
-mountain, Gunung Tumpu, , -1.06583333, 122.19166667, 2565, 
-mountain, Triglav, , 46.37805556, 13.83694444, 2864, 
-mountain, Mt. Hanang, , -4.43500000, 35.40000000, 3420, 
-mountain, Sibuyan Island HP, , 12.41666667, 122.56916667, 2050, 
-mountain, Varful Moldoveanu, , 45.60000000, 24.73777778, 2544, 
-mountain, Barre des Écrins, , 44.92250000, 6.36000000, 4102, 
-mountain, Mt. Dawson, , 51.15138889, -117.42055556, 3377, 
-mountain, Ellesmere Peak, , 78.80000000, -79.53250000, 2347, 
-mountain, Daxue Shan, , 24.11166667, 99.64000000, 3500, 
-mountain, Api, , 30.00666667, 80.92916667, 7132, 
-mountain, Loolmalassin, , -3.05000000, 35.81916667, 3682, 
-mountain, Monte Sarmiento, , -54.45000000, -70.84000000, 2187, 
-mountain, Pakhnes, , 35.29250000, 24.03333333, 2453, 
-mountain, Maja e Jezercës, , 42.44250000, 19.81416667, 2694, 
-mountain, Pauhunri, , 27.95333333, 88.84250000, 7128, 
-mountain, Nevado del Ruiz, , 4.89166667, -75.32333333, 5300, 
-mountain, Kuh-e Genu, , 27.42583333, 56.17250000, 2350, 
-mountain, Mt. Chiginagak, , 57.13333333, -156.98611111, 2111, 
-mountain, Cerro Yerupaja, , -10.26888889, -76.90527778, 6617, 
-mountain, Sulamutag Feng, , 37.91333333, 87.38916667, 6245, 
-mountain, Gunung Matebeanfeto, , -8.64166667, 126.59583333, 2372, 
-mountain, Serrania Guanay, , 5.76583333, -66.19166667, 2392, 
-mountain, Noshaq, , 36.43166667, 71.82833333, 7492, 
-mountain, Volcan San Pedro, , -21.88750000, -68.39166667, 6145, 
-mountain, Gunung Mulu, , 4.04583333, 114.93000000, 2376, 
-mountain, Pico de São Tomé, , 0.26750000, 6.54333333, 2024, 
-mountain, Tapuae-o-Ueneku, , -41.99583333, 173.66250000, 2884, 
-mountain, Säntis, , 47.24944444, 9.34333333, 2503, 
-mountain, Kawarani, , 31.45250000, 100.22333333, 5992, 
-mountain, Bukit Raya, , -0.65916667, 112.68833333, 2300, 
-mountain, Volcan Socompa, , -24.39583333, -68.24583333, 6051, 
-mountain, High Peak, , 15.48166667, 120.12083333, 2037, 
-mountain, Mt. Valpy, , 54.27500000, -129.05638889, 2219, 
-mountain, Guge, , 6.19750000, 37.38083333, 3568, 
-mountain, Cerro Paine Grande, , -51.00750000, -73.09583333, 2700, 
-mountain, Athos, , 40.15888889, 24.32833333, 2030, 
-mountain, Cordillera del Condor HP, , -3.29500000, -78.32500000, 2950, 
-mountain, Perserajoq, , 71.40000000, -51.96666667, 2259, 
-mountain, Kuh-e Belandtarin, , 37.14583333, 73.21500000, 6286, 
-mountain, Mt. Edith Cavell, , 52.66666667, -118.05000000, 3363, 
-mountain, Pegunungan Gauttier, , -2.57083333, 138.67416667, 2230, 
-mountain, Pico Turquino, , 19.99000000, -76.83666667, 2005, 
-mountain, Cerro Norte, , -49.75833333, -73.02388889, 2950, 
-mountain, Gora DykhTau, , 43.05250000, 43.13500000, 5205, 
-mountain, Alsek Peak, , 60.03222222, -137.59055556, 2716, 
-mountain, Ge/nyen, , 29.80750000, 99.60583333, 6204, 
-mountain, Hawkes Heights, , -73.53333333, 169.70000000, 2000, 
-mountain, Nevado Ampato, , -15.82166667, -71.87916667, 6288, 
-mountain, Grand Teton, , 43.74111111, -110.80250000, 4197, 
-mountain, Yao Shan, , 27.21333333, 103.07750000, 4050, 
-mountain, Surukwat Kangri, , 36.28833333, 76.38833333, 6792, 
-mountain, Gunong Yong Belar, , 4.65000000, 101.36166667, 2180, 
-mountain, Volcan de Agua, , 14.46583333, -90.74333333, 3761, 
-mountain, Mt. Cairnes, , 60.86805556, -138.27638889, 2810, 
-mountain, Cerro Parinacota, , -18.16583333, -69.14166667, 6342, 
-mountain, Gora Tardoki-Yani, , 48.89666667, 138.05333333, 2090, 
-mountain, Oshtoran Kuh, , 33.33916667, 49.30333333, 4139, 
-mountain, Pegunungan Wondiwoi, , -2.73333333, 134.58416667, 2180, 
-mountain, Soviet Officers Peak, , 38.42416667, 73.30250000, 6233, 
-mountain, Tengu-dake, , 33.76666667, 133.11416667, 1982, 
-mountain, Chatsquot Mtn., , 53.14222222, -127.47722222, 2365, 
-mountain, Tergun Bogd, , 44.99500000, 100.23083333, 3957, 
-mountain, Tope de Coroa, , 17.03333333, -25.29583333, 1979, 
-mountain, K12, , 35.29500000, 77.02166667, 7428, 
-mountain, Reo Purgyil, , 31.88472222, 78.73555556, 6816, 
-mountain, Buckwell Peak, , 59.41861111, -136.76527778, 2721, 
-mountain, Kuh-e Palvar, , 30.07000000, 57.46583333, 4229, 
-mountain, Kambalny V., , 51.30583333, 156.87583333, 2161, 
-mountain, Double Cone, , -45.07083333, 168.80861111, 2319, 
-mountain, Saraghrar, , 36.54750000, 72.11666667, 7338, 
-mountain, Kuh-e Nay Band, , 32.44083333, 57.36916667, 2960, 
-mountain, Khvoshkuh, , 27.61333333, 56.66916667, 2650, 
-mountain, Gunung Murud, , 3.90500000, 115.48833333, 2423, 
-mountain, Bey Daglari, , 36.60250000, 30.12166667, 3070, 
-mountain, Huanggang Shan, , 27.86083333, 117.78416667, 2170, 
-mountain, Nevado Chachani, , -16.19416667, -71.53166667, 6057, 
-mountain, K6, , 35.41666667, 76.55083333, 7282, 
-mountain, Pik Patkhor, , 37.88916667, 72.18916667, 6080, 
-mountain, Dradullungshog, , 34.79833333, 99.46250000, 6282, 
-mountain, Cerro las Conchas, , 18.72000000, -102.97333333, 2890, 
-mountain, Lapche Kang, , 28.30416667, 86.35083333, 7367, 
-mountain, Volcan Antofalla, , -25.56250000, -67.88083333, 6440, 
-mountain, Ancohuma, , -15.85333333, -68.54083333, 6427, 
-mountain, Paramo Frontino, , 6.45666667, -76.12250000, 3950, 
-mountain, Ortlés, , 46.50888889, 10.54472222, 3905, 
-mountain, Olympos, , 34.93833333, 32.86111111, 1952, 
-mountain, Cerro Fitzroy, , -49.27166667, -73.04666667, 3405, 
-mountain, Serra Imeri, , 0.49083333, -65.33333333, 2500, 
-mountain, Mt. Isarog, , 13.65916667, 123.37333333, 2000, 
-mountain, Angilaaq Mtn., , 73.22833333, -78.62083333, 1951, 
-mountain, Nenang, , 30.30333333, 93.64916667, 6870, 
-mountain, Mt. Matutum, , 6.36000000, 125.07583333, 2286, 
-mountain, Monte Baldo, , 45.72638889, 10.84388889, 2218, 
-mountain, Renland HP, , 71.33333333, -26.33333333, 2200, 
-mountain, Serra Tulu Tuloi, , 1.19583333, -63.80000000, 2140, 
-mountain, Gunung Benum, , 3.82333333, 102.09416667, 2107, 
-mountain, Halla-san, , 33.36166667, 126.52916667, 1950, 
-mountain, Sacajawea Peak, , 45.24500000, -117.29277778, 2999, 
-mountain, Pico de las Nueves, , 27.96388889, -15.56583333, 1949, 
-mountain, Pulau Sangeang, , -8.19666667, 119.07000000, 1949, 
-mountain, Mt. Kilkerran, , -9.46166667, 150.76833333, 1947, 
-mountain, Cerro Palpana, , -21.54666667, -68.52250000, 6040, 
-mountain, Liushi Shan, , 35.31583333, 80.91583333, 7167, 
-mountain, Richmond Peak, , -75.80000000, -115.81666667, 3595, 
-mountain, Volcan Calbuco, , -41.33000000, -72.61833333, 2015, 
-mountain, Cerro Mellizo Sur, , -48.55500000, -73.14083333, 3300, 
-mountain, Kuh-e Hami, , 30.49250000, 50.89916667, 3190, 
-mountain, Ulugh Muztagh, , 36.41250000, 87.38500000, 6973, 
-mountain, Neacola Mtns. HP, , 60.79861111, -153.39388889, 2873, 
-mountain, Sanset, , 33.68000000, 74.54083333, 4745, 
-mountain, Lunpo Gangri, , 29.83333333, 84.61333333, 7095, 
-mountain, Gora Radzhi-Bek, , 38.42500000, 72.76000000, 5735, 
-mountain, Malinche, , 19.23166667, -98.03250000, 4430, 
-mountain, P. 2486, , -70.58333333, -70.16666667, 2486, 
-mountain, Kings Peak, , 40.77638889, -110.37277778, 4123, 
-mountain, Mt. Priestley, , 55.22944444, -128.87222222, 2359, 
-mountain, Cerro Sosneado, , -34.75416667, -69.97166667, 5189, 
-mountain, Miyanoura-dake, , 30.33583333, 130.50250000, 1936, 
-mountain, P. 5841, , 28.90416667, 98.38416667, 5841, 
-mountain, Mt. Graham, , 32.70166667, -109.87083333, 3267, 
-mountain, Torre de Cerredo, , 43.19805556, -4.85111111, 2648, 
-mountain, Hsueh Shan, , 24.38333333, 121.23000000, 3884, 
-mountain, Phu Luong, , 21.57083333, 104.30666667, 2985, 
-mountain, Gelai Peak, , -2.61333333, 36.10333333, 2948, 
-mountain, Pik Mus-Khaya, , 62.60333333, 140.93916667, 2959, 
-mountain, Mt. Murchison, , -73.41666667, 166.30000000, 3501, 
-mountain, Cerro Payún Matru, , -36.51416667, -69.28583333, 3810, 
-mountain, Buka Daban Feng, , 36.02416667, 90.86583333, 6860, 
-mountain, Hasan Dagi, , 38.12750000, 34.16666667, 3268, 
-mountain, Nanfengmian, , 26.31333333, 114.03666667, 2140, 
-mountain, Nemjung, , 28.73500000, 84.41666667, 7140, 
-mountain, Ak Tag, , 36.72416667, 84.60166667, 6748, 
-mountain, Sahuasiray, , -13.21333333, -71.99000000, 5818, 
-mountain, Gora Khuvkhoitun, , 57.92083333, 160.67583333, 2616, 
-mountain, Ramlo, , 13.39083333, 41.72750000, 2248, 
-mountain, Sierra la Laguna HP, , 23.53916667, -109.95416667, 2090, 
-mountain, Devon Icecap HP, , 75.34777778, -82.17388889, 1920, 
-mountain, Huang Guan Shan, , 36.10833333, 76.21250000, 7295, 
-mountain, Mt. Banahao, , 14.06750000, 121.49250000, 2170, 
-mountain, Cerro Malcante, , -25.07500000, -65.85166667, 5100, 
-mountain, Aka-dake, , 35.97083333, 138.36916667, 2899, 
-mountain, Yam-Alin Range HP, , 53.60666667, 134.57500000, 2370, 
-mountain, Shakangsham, , 31.69666667, 85.06333333, 6822, 
-mountain, Yusupu Aleketag Shan, , 38.19000000, 88.90833333, 6065, 
-mountain, Hkaru Bum, , 27.14500000, 98.15166667, 3677, 
-mountain, Sharks Teeth Peaks, , 53.00722222, -127.24000000, 2304, 
-mountain, Miranjan, , 34.10333333, 73.40750000, 2981, 
-mountain, Gya, , 32.52583333, 78.40000000, 6794, 
-mountain, Cerro del Toro, , -29.13000000, -69.78666667, 6168, 
-mountain, Abune Yosef, , 12.14083333, 39.18166667, 4260, 
-mountain, Kichatna Spire, , 62.42305556, -152.72555556, 2739, 
-mountain, Detour Peak, , 59.84222222, -137.58555556, 2550, 
-mountain, Sierra la Madera HP, , 27.03416667, -102.39166667, 3030, 
-mountain, Nuaf Nefomasi, , -9.56083333, 124.23000000, 2351, 
-mountain, Ighil M/Goun, , 31.50833333, -6.44333333, 4071, 
-mountain, Daliang Shan HP, , 27.89416667, 103.23666667, 4041, 
-mountain, Mt. San Antonio, , 34.28833333, -117.64833333, 3068, 
-mountain, Pyramiden/Hoeyriggen, , 70.11666667, -53.40000000, 1904, 
-mountain, Koudiet Tirbirhine, , 34.83916667, -4.51666667, 2456, 
-mountain, Cerro Arenales, , -47.19583333, -73.46833333, 3437, 
-mountain, Bon Irau, , -0.66166667, 132.88916667, 2500, 
-mountain, Pt. 8084, , 60.83027778, -145.13194444, 2464, 
-mountain, Ymers HP, , 73.15000000, -24.31666667, 1900, 
-mountain, Cerro Pular, , -24.20083333, -68.06666667, 6233, 
-mountain, Volcan Osorno, , -41.10416667, -72.49583333, 2661, 
-mountain, Haku-san, , 36.15416667, 136.77000000, 2702, 
-mountain, Mt. Piora, , -6.72583333, 145.98833333, 3557, 
-mountain, P. 6588, , 42.03666667, 80.50416667, 6588, 
-mountain, Pogromni Volcano, , 54.56805556, -164.69972222, 1991, 
-mountain, Baintha Brakk I, , 35.94750000, 75.75333333, 7285, 
-mountain, Gran Paradiso, , 45.51805556, 7.26722222, 4061, 
-mountain, Chokai-san, , 39.09916667, 140.05083333, 2236, 
-mountain, Mt. Douglas, , 58.85916667, -153.53527778, 2149, 
-mountain, Sierra de los Cuchaniantes HP, , 15.51916667, -91.54500000, 3837, 
-mountain, Mt. Goodsir, South Tower, , 51.20166667, -116.39666667, 3567, 
-mountain, Mt. Bosavi, , -6.61416667, 142.82666667, 2507, 
-mountain, Telescope Peak, , 37.63416667, -118.25555556, 3367, 
-mountain, Cerro Tia Chena, , 26.12000000, -100.55666667, 2630, 
-mountain, Cerro Balmaceda, , -51.41750000, -73.19750000, 2035, 
-mountain, Mt. Peale, , 38.43861111, -109.22916667, 3877, 
-mountain, Traill HP, , 72.71666667, -24.06666667, 1884, 
-mountain, Mt. Karoma, , -5.72250000, 142.49500000, 3623, 
-mountain, Kuh-e Shahvar, , 36.57916667, 54.76416667, 3890, 
-mountain, Pegunungan Pompangeo, , -1.68416667, 120.99833333, 2590, 
-mountain, Cerro la Joya, , 21.43083333, -99.13250000, 2930, 
-mountain, Mt. Tabwemasana, , -15.36250000, 166.75500000, 1879, 
-mountain, Bangong, , 33.48166667, 79.33666667, 6260, 
-mountain, Cerro Pinaculo, , -50.76000000, -72.25583333, 2160, 
-mountain, Xiannairi, , 28.39666667, 100.34916667, 6032, 
-mountain, Pizzo di Coca, , 46.07166667, 10.01138889, 3050, 
-mountain, Yotei-zan, , 42.82666667, 140.81138889, 1898, 
-mountain, Pt. 8010, , 61.16055556, -144.81305556, 2441, 
-mountain, Pegunungan Cycloop, , -2.50666667, 140.52500000, 2000, 
-mountain, Dofana, , 35.54083333, 74.88166667, 5940, 
-mountain, Pic Boby, , -22.19500000, 46.88500000, 2658, 
-mountain, Cima Dodici, , 45.99750000, 11.46805556, 2336, 
-mountain, Mt. Washington, , 44.27027778, -71.30333333, 1917, 
-mountain, Volcan Irazu, , 9.97666667, -83.85416667, 3402, 
-mountain, Borgora, , 43.57916667, 85.11916667, 5248, 
-mountain, P. 5120±, , 36.25583333, 69.79500000, 5120, 
-mountain, Silvertip Mtn., , 49.16000000, -121.21833333, 2596, 
-mountain, Kanjiroba, , 29.37833333, 82.63916667, 6883, 
-mountain, Kuh-e Siah Khvani, , 36.28083333, 59.04916667, 3314, 
-mountain, Killini Oros, , 37.93972222, 22.39694444, 2376, 
-mountain, Montaña Peña Blanca, , 15.50000000, -91.91583333, 3518, 
-mountain, Mt. Igikpak, , 67.41305556, -154.96638889, 2523, 
-mountain, Snow Tower, , 58.17305556, -133.40166667, 2003, 
-mountain, Cerro San Rafael, , 25.36416667, -100.55750000, 3710, 
-mountain, Yuhe Kangri, , 29.11500000, 97.07750000, 6327, 
-mountain, Mt. Simpson, , -10.03500000, 149.56916667, 2883, 
-mountain, Seven Sisters Peaks, , 54.96750000, -128.23194444, 2747, 
-mountain, Pico Ruivo, , 32.76388889, -16.92583333, 1861, 
-mountain, Munkh Hayrhan, , 46.89000000, 91.47333333, 4231, 
-mountain, Mauga Silisili, , -13.61833333, -172.48583333, 1858, 
-mountain, Myinmoletkat Taung, , 13.46666667, 98.80500000, 2072, 
-mountain, Mt. Mitchell, , 35.76472222, -82.26500000, 2037, 
-mountain, Oros Ossa, , 39.79694444, 22.68694444, 1978, 
-mountain, P. 5608, , 34.55500000, 75.83666667, 5608, 
-mountain, Mt. Saugstad, , 52.25333333, -126.51500000, 2908, 
-mountain, Gunung Klabat, , 1.45333333, 125.03083333, 1990, 
-mountain, Mont Ross, , -49.59222222, 69.49583333, 1850, 
-mountain, Victoria Peak, , 50.05472222, -126.10083333, 2163, 
-mountain, Truuli Peak, , 59.91277778, -150.43583333, 2015, 
-mountain, Volcan Acatenango, , 14.50083333, -90.87500000, 3976, 
-mountain, Doi Inthanon, , 18.58833333, 98.48750000, 2576, 
-mountain, Chiantar Sar, , 36.72666667, 73.89083333, 6416, 
-mountain, Humphreys Peak, , 35.34638889, -111.67805556, 3851, 
-mountain, Macizo Nevado, , -43.54416667, -72.20333333, 2100, 
-mountain, Wuzhi Shan, , 18.89833333, 109.70416667, 1840, 
-mountain, Volcan de San Miguel, , 13.43500000, -88.26916667, 2130, 
-mountain, Mt. Hilong-hilong, , 9.09666667, 125.70500000, 1920, 
-mountain, Nevado Cotacachi, , 0.36083333, -78.34916667, 4944, 
-mountain, Cerro Napi, , 2.37833333, -77.43333333, 3860, 
-mountain, P. 4030, , 26.15833333, 103.23583333, 4030, 
-mountain, Saliente del Rio Guape, , 3.71500000, -74.04250000, 4180, 
-mountain, Gora Dyul/tydag, , 41.96000000, 46.92333333, 4127, 
-mountain, La Marmora, , 39.98805556, 9.32416667, 1834, 
-mountain, Mt. Kunugui, , -4.67666667, 145.97750000, 1833, 
-mountain, Kuh-e Parau, , 34.41833333, 47.24333333, 3360, 
-mountain, Brian Boru Peak, , 55.07388889, -127.57416667, 2507, 
-mountain, Mt. Victory, , -9.20000000, 149.07166667, 1891, 
-mountain, Serra dos Orgaos, , -22.35500000, -42.58500000, 2250, 
-mountain, Eshdeger Range HP, , 33.53333333, 57.22750000, 2920, 
-mountain, Serra da Mocidade, , 1.74666667, -61.79250000, 1980, 
-mountain, Borah Peak, , 44.13750000, -113.78111111, 3859, 
-mountain, Howson Peak, , 54.41861111, -127.74388889, 2759, 
-mountain, Makushin Volcano, , 53.88555556, -166.93305556, 1829, 
-mountain, Atna Peak, , 53.93972222, -128.04555556, 2724, 
-mountain, Kuhha-ye Alborz, , 36.37583333, 50.96250000, 4805, 
-mountain, Gunung Api, , 2.78083333, 125.40666667, 1827, 
-mountain, Cerro Mishahuanga, , -6.37416667, -79.23750000, 4118, 
-mountain, Kuh-e Sahand, , 37.73083333, 46.50000000, 3707, 
-mountain, Tsaydaychuz Peak, , 53.02166667, -126.64000000, 2758, 
-mountain, Gora Alney, , 56.69250000, 159.64500000, 2598, 
-mountain, Mt. Natazhat, , 61.52166667, -141.10305556, 4095, 
-mountain, Saipal, , 29.89083333, 81.49500000, 7030, 
-mountain, Loi Leng, , 22.64250000, 98.07416667, 2673, 
-mountain, Shayaz Zom, , 36.64833333, 72.82833333, 6050, 
-mountain, Dola Koyakoya, , -8.22083333, 125.02083333, 1821, 
-mountain, Kaputzhukh Lerr, , 39.15916667, 46.00583333, 3905, 
-mountain, Parnaqussuit Qavaat HP, , 66.43333333, -52.91666667, 1860, 
-mountain, Volcan Llaima, , -38.69583333, -71.73166667, 3125, 
-mountain, Verkhne-Angarskiy Khrebet HP, , 56.35583333, 111.64750000, 2641, 
-mountain, Tjatja V., , 44.35333333, 146.24750000, 1819, 
-mountain, Moroto, , 2.52500000, 34.77250000, 3083, 
-mountain, Chikurachki V., , 50.32333333, 155.46083333, 1816, 
-mountain, Shah Dok, , 36.43666667, 72.86083333, 6320, 
-mountain, Hanagita Peak, , 61.06694444, -143.70833333, 2592, 
-mountain, Obasta Tsukai, , 31.68250000, 69.93750000, 3441, 
-mountain, Monte Amaro, , 42.08694444, 14.08750000, 2795, 
-mountain, Gora Addala Shukgelmezr, , 42.33833333, 46.25166667, 4152, 
-mountain, Mt. Forel, , 66.93333333, -36.81666667, 3391, 
-mountain, North Kodar Group HP, , 57.12166667, 117.98833333, 2966, 
-mountain, Khodutka V., , 52.06250000, 157.71000000, 2089, 
-mountain, Harhiraa Uul, , 49.57000000, 91.38583333, 4040, 
-mountain, Manam Island HP, , -4.07750000, 145.03916667, 1807, 
-mountain, P. 4810±, , 42.54333333, 85.34416667, 4810, 
-mountain, Severo-Chuyskiy Khrebet HP, , 50.06250000, 87.56416667, 4177, 
-mountain, Tanaga Volcano, , 51.88250000, -178.14388889, 1806, 
-mountain, Nyönno Ri, , 28.20333333, 87.60750000, 6724, 
-mountain, Yarla Shampo, , 28.80000000, 91.96500000, 6636, 
-mountain, Mor Dagi, , 37.75500000, 44.32000000, 3800, 
-mountain, Bukit Mugajah, , 4.25166667, 97.42083333, 3079, 
-mountain, Mt. Supernal, , -73.06666667, 165.70000000, 3655, 
-mountain, Mt. Hermon, , 33.41333333, 35.85666667, 2814, 
-mountain, Mamostong Kangri, , 35.14083333, 77.57750000, 7516, 
-mountain, Mt. Mangabon, , 8.59833333, 125.09833333, 2480, 
-mountain, Konigstein, , -21.14916667, 14.57750000, 2606, 
-mountain, Gunung Sibuatan, , 2.91833333, 98.42333333, 2457, 
-mountain, Kootenay Mtn., , 49.24083333, -116.82250000, 2456, 
-mountain, Bukii Dako, , 1.06166667, 120.93500000, 2260, 
-mountain, Thalo Zom, , 35.81583333, 72.28833333, 6050, 
-mountain, Cerro Anexo, , -42.37194444, -71.76666667, 2480, 
-mountain, Abra la Esperanza, , -10.42916667, -75.41916667, 3660, 
-mountain, Manakau, , -42.22500000, 173.61833333, 2608, 
-mountain, Shedin Peak, , 55.93916667, -127.48000000, 2588, 
-mountain, Spathi, , 35.11888889, 25.49888889, 2148, 
-mountain, Ras Koh, , 28.82833333, 65.19500000, 3003, 
-mountain, Mt. Martha Black, , 60.67083333, -137.61916667, 2512, 
-mountain, Haute Cime: Dents du Midi, , 46.16111111, 6.92333333, 3257, 
-mountain, Haba Xueshan, , 27.31833333, 100.10000000, 5396, 
-mountain, Nemerçka, , 40.12472222, 20.43416667, 2482, 
-mountain, Gunung Besar, , -2.71083333, 115.62583333, 1892, 
-mountain, Cerro Aracar, , -24.29000000, -67.78333333, 6095, 
-mountain, Gunung Masurai, , -2.50250000, 101.85833333, 2933, 
-mountain, Kuju-san, , 33.08166667, 131.24000000, 1791, 
-mountain, Mt. Jefferson, , 38.75194444, -116.92666667, 3640, 
-mountain, Sovereign Mtn., , 62.13111111, -148.60444444, 2697, 
-mountain, Sierra Maigualida, , 5.58083333, -65.24916667, 2350, 
-mountain, Loma Gajo en Medio, , 18.63666667, -71.52083333, 2279, 
-mountain, P. 4520±, , 27.57666667, 100.31083333, 4520, 
-mountain, Sutay Uul, , 46.61750000, 93.59416667, 4220, 
-mountain, Mt. Michael, , -6.40500000, 145.31500000, 3647, 
-mountain, Mt. Ellen, , 38.10888889, -110.81361111, 3512, 
-mountain, Qiajivik Mtn., , 72.18250000, -75.90666667, 1963, 
-mountain, Volcan Misti, , -16.29666667, -71.41083333, 5822, 
-mountain, Isanotski Peaks, , 54.76833333, -163.73083333, 2471, 
-mountain, Shengtang Shan, , 23.97500000, 110.09750000, 1935, 
-mountain, Sierra Velluda, , -37.46333333, -71.41583333, 3535, 
-mountain, Beitai Ding, , 39.07916667, 113.56666667, 3061, 
-mountain, Cerro Cantillana, , -33.96666667, -70.96583333, 2281, 
-mountain, Vikhren, , 41.76777778, 23.40083333, 2914, 
-mountain, Mt. Kaplan, , -84.55000000, 175.31666667, 4230, 
-mountain, Birkenhead Peak, , 50.51111111, -122.62083333, 2506, 
-mountain, Isthmus Peak, , 60.57722222, -148.89138889, 1991, 
-mountain, Mt. Frakes, , -76.80000000, -117.70000000, 3675, 
-mountain, Kuh-e Garin, , 33.95916667, 48.48166667, 3630, 
-mountain, Cerro Laguna Blanca, , -26.53000000, -67.05916667, 6012, 
-mountain, Cerro de Campanario, , -6.02416667, -77.59750000, 4010, 
-mountain, Mt. Harrison, , 50.06000000, -115.20500000, 3360, 
-mountain, P. 5120±, , 37.73416667, 71.42166667, 5120, 
-mountain, Sierra de Avallanos HP, , -46.51833333, -72.43833333, 2360, 
-mountain, Gora Shan, , 42.67583333, 44.75750000, 4451, 
-mountain, Deseret Peak, , 40.45944444, -112.62638889, 3362, 
-mountain, Serra Namuli, , -15.35750000, 37.06500000, 2436, 
-mountain, Pangaion, , 40.91472222, 24.09166667, 1956, 
-mountain, Olet Sangenges, , -8.58000000, 117.12166667, 1840, 
-mountain, Mt. Talawe, , -5.53750000, 148.39666667, 1824, 
-mountain, Nganglong Kangri, , 32.80833333, 81.00083333, 6720, 
-mountain, Tsast Ula, , 48.68166667, 90.72500000, 4208, 
-mountain, Gora Narodnaya, , 65.03333333, 60.11666667, 1894, 
-mountain, Kitumbeine Hill, , -2.89333333, 36.22916667, 2858, 
-mountain, Rooseveltsfjeld HP, , 83.33333333, -35.78333333, 1920, 
-mountain, Storo HP, , 70.83333333, -27.48333333, 1770, 
-mountain, Chamechaude, , 45.28805556, 5.79000000, 2082, 
-mountain, Cerro Gigante, , -16.97750000, -67.34916667, 5748, 
-mountain, Mt. Veve, , -7.95000000, 157.07500000, 1768, 
-mountain, Kuhe Haji Ebrahim, , 36.55166667, 45.00500000, 3587, 
-mountain, Mt. Jefferson, , 44.67416667, -121.79944444, 3200, 
-mountain, Kunyang Chhish I, , 36.20500000, 75.20750000, 7852, 
-mountain, Xuebang Shan, , 26.48000000, 99.49750000, 4295, 
-mountain, Chutine Peak, , 57.77527778, -132.33527778, 2910, 
-mountain, Cerro Tacarcuna, , 8.16583333, -77.29583333, 1870, 
-mountain, Snehaetten, , 71.56666667, -53.16666667, 1765, 
-mountain, Babadag, , 36.52833333, 29.18500000, 1969, 
-mountain, Pandim, , 27.57750000, 88.21583333, 6691, 
-mountain, Mt. Sir Alexander, , 53.93583333, -120.38694444, 3275, 
-mountain, Fenghuang Shan, , 27.88166667, 108.68166667, 2570, 
-mountain, Gunung Sendoro, , -7.30250000, 109.99583333, 3150, 
-mountain, Kuhha-ye Hezar Masjed, , 36.97333333, 59.35666667, 3120, 
-mountain, Momskiy Khrebet HP, , 66.59361111, 144.77638889, 2480, 
-mountain, Mt. Hector, , 51.57333333, -116.25833333, 3394, 
-mountain, Damyon, , 29.18083333, 98.46000000, 6324, 
-mountain, Chepunyal Hills, , 1.65916667, 35.38250000, 3334, 
-mountain, Varful Peleaga, , 45.36611111, 22.89444444, 2509, 
-mountain, Kuh-e Shashgal, , 35.93000000, 71.08000000, 6290, 
-mountain, Kuh-e Khabr, , 28.81750000, 56.41333333, 3856, 
-mountain, Kaimaktsalan, , 40.93111111, 21.78916667, 2528, 
-mountain, Tongshanjiabu, , 28.15500000, 90.06250000, 7207, 
-mountain, Baibaidin Shan, , 27.55000000, 102.35500000, 4300, 
-mountain, Buyu Lumut, , -1.20416667, 121.80333333, 2403, 
-mountain, Picos de Barroso, , -34.28666667, -70.03333333, 5180, 
-mountain, Kebnekaise, , 67.90111111, 18.52083333, 2113, 
-mountain, Volcan Atitlan, , 14.58333333, -91.18666667, 3537, 
-mountain, Komaga-take, , 35.78916667, 137.80333333, 2956, 
-mountain, Iliniza Sur, , -0.66333333, -78.71583333, 5263, 
-mountain, P. 3480, , 26.73500000, 100.46166667, 3480, 
-mountain, Phu Si Lung, , 22.62583333, 102.78750000, 3076, 
-mountain, Mt. Edziza, , 57.71611111, -130.63388889, 2780, 
-mountain, Gora Gamchen, , 54.97416667, 160.70333333, 2577, 
-mountain, Shengena, , -4.26750000, 37.93166667, 2464, 
-mountain, Mutnovsky V., , 52.44833333, 158.19750000, 2322, 
-mountain, Frosty Peak, , 55.06777778, -162.83527778, 1769, 
-mountain, Helges Halvo, , 63.45000000, -41.83333333, 1750, 
-mountain, Pulau Tidore, , 0.66416667, 127.40166667, 1750, 
-mountain, Hasagt Hayrhan Uul, , 46.78916667, 95.80083333, 3578, 
-mountain, Cerro Tres Frailes, , -48.66416667, -72.68666667, 2050, 
-mountain, Uly Balkan Gershi, , 39.67333333, 54.54333333, 1880, 
-mountain, P. 5980, , 29.32250000, 94.74916667, 5980, 
-mountain, Whitehorn Mtn., , 53.13694444, -119.26666667, 3399, 
-mountain, Pilot Peak, , 41.02111111, -114.07722222, 3266, 
-mountain, Jebel Shayib al Banat, , 26.97916667, 33.48750000, 2187, 
-mountain, Jebel al Harim, , 25.97666667, 56.23250000, 2087, 
-mountain, Zugspitze, , 47.42111111, 10.98527778, 2962, 
-mountain, Mt. Chown, , 53.39694444, -119.41722222, 3316, 
-mountain, Iwate-san, , 39.85333333, 141.00083333, 2038, 
-mountain, Pk. 08-46, , 80.13666667, -76.77000000, 2181, 
-mountain, Crazy Peak, , 46.01805556, -110.27666667, 3417, 
-mountain, Dhirfis Oros, , 38.62750000, 23.84277778, 1743, 
-mountain, Tulu Welel, , 8.87750000, 34.81166667, 3301, 
-mountain, Jiehkkevarri, , 69.46972222, 19.88111111, 1834, 
-mountain, Phnum Aoral, , 12.03250000, 104.17083333, 1810, 
-mountain, Undundi-Wandandi, , -3.50666667, 136.42250000, 3640, 
-mountain, Gora Chen, , 65.28361111, 141.80111111, 2690, 
-mountain, Great Sitkin Volcano, , 52.08194444, -176.13583333, 1740, 
-mountain, Dabaicao Ling, , 26.14083333, 101.18083333, 3680, 
-mountain, Nevado Queulat, , -44.41833333, -72.38000000, 2300, 
-mountain, Koktutau, , 40.03916667, 74.83000000, 5324, 
-mountain, Mol Len, , 25.49416667, 94.75166667, 3088, 
-mountain, Thudaka Peak, , 57.92694444, -126.84833333, 2748, 
-mountain, Smolikas Oros, , 40.08972222, 20.92611111, 2637, 
-mountain, Cordon Mariano Moreno, , -49.32083333, -73.41666667, 3490, 
-mountain, Jiucai Ling, , 25.51416667, 111.32916667, 2010, 
-mountain, Shah Tus Aqa Ghar, , 33.62166667, 67.04750000, 4803, 
-mountain, Monte Antelao, , 46.45250000, 12.26055556, 3263, 
-mountain, Lian Hua Feng, , 30.13416667, 118.16416667, 1864, 
-mountain, Alto Toroni, , -19.75333333, -68.69666667, 5995, 
-mountain, Kuh-e Kharanaq, , 32.11333333, 54.58500000, 3150, 
-mountain, Pascua, , -48.65583333, -72.92250000, 2250, 
-mountain, Hakken-san, , 34.17416667, 135.90666667, 1915, 
-mountain, Emogadong, , 4.19583333, 33.13000000, 2623, 
-mountain, Sungwi, , -4.73166667, 38.23166667, 2300, 
-mountain, Dutoitspiek, , -33.75500000, 19.18666667, 1995, 
-mountain, Zheltovsky V., , 51.57666667, 157.32833333, 1957, 
-mountain, Puu Kukui, , 20.89000000, -156.20805556, 1764, 
-mountain, Mt. Cleveland, , 52.82250000, -169.94972222, 1730, 
-mountain, Geographical Society Island HP, , 72.95000000, -24.33333333, 1730, 
-mountain, Samdi Dag, , 37.30833333, 44.25250000, 3811, 
-mountain, Ayaligtag Range, , 37.38833333, 87.60666667, 6130, 
-mountain, Dapin Shan, , 30.20833333, 102.33166667, 5412, 
-mountain, Gunung Singgalang, , -0.39000000, 100.33083333, 2877, 
-mountain, Nattaung, , 18.81000000, 97.03750000, 2623, 
-mountain, Myangan Yamaat, , 44.89666667, 101.57666667, 3600, 
-mountain, Unuk Peak, , 56.37611111, -130.19333333, 2595, 
-mountain, Barguzinskiy Khrebet HP, , 54.62166667, 110.45583333, 2841, 
-mountain, Barurumea Ridge, , -4.74583333, 152.05333333, 2063, 
-mountain, McDonald Peak, , 47.38250000, -113.91888889, 2993, 
-mountain, Wugong Shan, , 27.45500000, 114.17333333, 1920, 
-mountain, Volcan Tacora, , -17.72083333, -69.77250000, 5988, 
-mountain, Volcan Tromen, , -37.14000000, -70.05000000, 3980, 
-mountain, Rishiri-fuji, , 45.18000000, 141.23916667, 1721, 
-mountain, Baxoila Ling, , 28.82416667, 98.06083333, 6146, 
-mountain, Cond Peak, , 49.74611111, -117.14194444, 2801, 
-mountain, S. of Pico Bonito, , 15.55916667, -86.87666667, 2450, 
-mountain, Mt. Carse, , -54.71666667, -36.10000000, 2330, 
-mountain, Gle Hulumasen, , 5.04416667, 95.63333333, 2310, 
-mountain, Lalla Khedidja, , 36.44750000, 4.22833333, 2308, 
-mountain, Pointe d/Arcalod, , 45.68166667, 6.22833333, 2217, 
-mountain, Tsanglha Ri, , 28.76333333, 87.63166667, 6495, 
-mountain, Gora Babash-Ata, , 41.41083333, 72.91166667, 4427, 
-mountain, Khrebet Temerliktau HP, , 43.31833333, 80.80166667, 3730, 
-mountain, Hunhua Shan, , 23.95750000, 100.26083333, 3420, 
-mountain, Jebel Kawr, , 23.13833333, 57.01416667, 2730, 
-mountain, Newtontoppen, , 79.15138889, 16.80416667, 1717, 
-mountain, Mintaka Sar, , 36.95055556, 74.83583333, 6407, 
-mountain, Monte Dolcedorme, , 39.89472222, 16.21750000, 2267, 
-mountain, Khao Luang, , 8.49416667, 99.73000000, 1780, 
-mountain, Pulau Ternate, , 0.80916667, 127.33333333, 1715, 
-mountain, Kuh-e Shahu, , 34.99750000, 46.47250000, 3350, 
-mountain, Montaña San Ildefonso, , 15.52333333, -88.23250000, 2242, 
-mountain, Ontake-san, , 35.89333333, 137.47916667, 3067, 
-mountain, Serra do Pacu, , 1.52833333, -62.17416667, 1880, 
-mountain, Mt. Wrangell, , 62.00638889, -144.01777778, 4317, 
-mountain, Muztagh Tower, , 35.82666667, 76.36166667, 7276, 
-mountain, Kuh-e Gar, , 36.50333333, 56.96166667, 2950, 
-mountain, Devils Paw, , 58.72972222, -133.84083333, 2593, 
-mountain, Sittakanay Peak, , 58.47777778, -133.36111111, 2415, 
-mountain, Jebel Jar, , 24.55416667, 38.21500000, 2300, 
-mountain, Montalto, , 38.15888889, 15.92111111, 1955, 
-mountain, Cerro Cerbatana, , 6.66000000, -66.23750000, 2080, 
-mountain, Mela Taung, , 17.20250000, 98.08000000, 2080, 
-mountain, Volcan Wolf, , 0.04250000, -91.33722222, 1707, 
-mountain, Grintovec, , 46.35694444, 14.53611111, 2558, 
-mountain, Khan Tangiri Shyngy, , 42.21000000, 80.17583333, 7010, 
-mountain, Cerro Ladrillero, , -52.95083333, -72.59583333, 1705, 
-mountain, Shahi Kangri, , 35.17000000, 77.83000000, 6934, 
-mountain, Manirang, , 31.95333333, 78.36666667, 6593, 
-mountain, Gora Imeni Fuchika, , 38.12583333, 70.34000000, 4573, 
-mountain, Cordillera los Pichachos, , 2.91333333, -74.85000000, 3630, 
-mountain, Teram Kangri I, , 35.57916667, 77.07750000, 7464, 
-mountain, Chola Shan I, , 31.78666667, 99.07333333, 6168, 
-mountain, South Sister, , 44.10361111, -121.76916667, 3157, 
-mountain, Gunung Trusmadi, , 5.55250000, 116.51583333, 2643, 
-mountain, Großer Priel, , 47.71694444, 14.06333333, 2515, 
-mountain, Gunung Karang, , -6.26916667, 106.05000000, 1778, 
-mountain, Kubi Gangri, , 29.76583333, 82.75166667, 6859, 
-mountain, P. 6332, , 42.28500000, 81.04333333, 6332, 
-mountain, Oros Giona, , 38.64750000, 22.25444444, 2510, 
-mountain, Cerro San Lucas, , 8.11166667, -74.27250000, 2270, 
-mountain, Broad Peak, , 35.81166667, 76.56500000, 8051, 
-mountain, Volcan Copiapo, , -27.30583333, -69.13083333, 6052, 
-mountain, Mt. Sarawaget, , -6.31083333, 147.09000000, 4121, 
-mountain, Mt. Friesland, , -62.66666667, -60.18333333, 1700, 
-mountain, Dahei Shan, , 43.64916667, 93.92000000, 3970, 
-mountain, Klosterbjergen, , 72.25000000, -25.95000000, 2475, 
-mountain, Mt. Melbourne, , -74.35000000, 164.70000000, 2730, 
-mountain, Kuh-e Karkas, , 33.45583333, 51.80000000, 3870, 
-mountain, Tarlha Ri, , 28.36333333, 91.13583333, 6777, 
-mountain, Mt. Steller, , 60.52027778, -143.09388889, 3266, 
-mountain, Mt. Terror, , -77.51666667, 168.53333333, 3230, 
-mountain, Pukeashun Mtn., , 51.20472222, -119.23527778, 2301, 
-mountain, Chiri-san, , 35.33916667, 127.73000000, 1915, 
-mountain, Mt. Seattle, , 60.06972222, -139.18777778, 3155, 
-mountain, Jiankho Shan, , 31.45250000, 103.39916667, 5300, 
-mountain, Thunder Mtn., , 52.55000000, -126.36666667, 2664, 
-mountain, Hahn Land HP, , 80.43333333, -19.83333333, 1744, 
-mountain, Sierra Blanca Peak, , 33.37416667, -105.80861111, 3649, 
-mountain, Kadam, , 1.76250000, 34.70916667, 3063, 
-mountain, Cerros de Pereyra, , -24.20666667, -64.51416667, 2640, 
-mountain, Plaza del Moro Almanzor, , 40.24750000, -5.29611111, 2592, 
-mountain, Mt. Smith, , 6.23250000, 36.29750000, 2560, 
-mountain, Khrebet Orulgan HP, , 67.58138889, 128.14027778, 2409, 
-mountain, Morton Peak, , 50.76527778, -118.84305556, 2245, 
-mountain, Agpalik, , 70.95000000, -52.03333333, 1690, 
-mountain, P. 4911, , 28.59916667, 98.50250000, 4911, 
-mountain, Nyegyi Kansang, , 27.93666667, 92.66666667, 6983, 
-mountain, Cumbres Calchaquies, , -26.61583333, -65.72666667, 4740, 
-mountain, Kuh-e Mafarun, , 32.12416667, 49.99500000, 3480, 
-mountain, Mtorwi, , -9.07833333, 34.02083333, 2980, 
-mountain, Altan Hohiy, , 48.75000000, 91.62000000, 3350, 
-mountain, Grigna Settentrionale, , 45.95333333, 9.38750000, 2410, 
-mountain, Volcan Ollague, , -21.30250000, -68.17916667, 5868, 
-mountain, Pikes Peak, , 38.84055556, -105.04472222, 4301, 
-mountain, Mila Kuh, , 33.75500000, 59.85833333, 2888, 
-mountain, Cero Raya, , 5.41666667, -66.36666667, 2070, 
-mountain, Jiaojin Shan, , 30.58750000, 102.16833333, 5734, 
-mountain, Gora Mungun-Tayga, , 50.27916667, 90.11916667, 3970, 
-mountain, Monte Bondone, , 45.98805556, 11.03138889, 2180, 
-mountain, Dafla Range HP, , 27.55416667, 93.33000000, 3776, 
-mountain, Mt. Perseus, , 52.35416667, -120.53277778, 2553, 
-mountain, Tokinskiy Stanovik HP, , 55.89750000, 130.45333333, 2380, 
-mountain, Mt. Russell, , 62.79833333, -151.88416667, 3557, 
-mountain, P. 5641, , 29.04750000, 94.01416667, 5641, 
-mountain, Mt. Nebo, , 39.82166667, -111.76027778, 3636, 
-mountain, Overseer Mtn., , 50.52888889, -123.38083333, 2749, 
-mountain, King Island HP, , 52.32111111, -127.30666667, 1679, 
-mountain, Khrebet Tarbagatay HP, , 47.18833333, 82.46583333, 2993, 
-mountain, Volcan Antisana, , -0.48500000, -78.14166667, 5704, 
-mountain, Mt. Archibald, , 60.78388889, -137.87388889, 2588, 
-mountain, Gunung Salak, , -6.71583333, 106.73333333, 2211, 
-mountain, Pik Tandykul, , 39.44833333, 71.08333333, 5544, 
-mountain, Lyavirdyr, , 37.56250000, 75.16166667, 6361, 
-mountain, Jinping Shan, , 28.34250000, 101.75416667, 4488, 
-mountain, Cima Presanella, , 46.22000000, 10.66388889, 3558, 
-mountain, Talchako Mtn., , 52.09166667, -126.01666667, 3037, 
-mountain, Volcan San Cristobal, , 12.70250000, -87.00583333, 1745, 
-mountain, Deora, , 29.35333333, 81.55333333, 4389, 
-mountain, Cerro Tancitaro, , 19.41666667, -102.31916667, 3850, 
-mountain, Kuh-e Takht, , 35.23750000, 46.22000000, 2975, 
-mountain, Gunung Butak, , -7.95500000, 112.46500000, 2868, 
-mountain, Snøhetta, , 62.32055556, 9.27166667, 2286, 
-mountain, Mazar Shan, , 36.45083333, 76.86500000, 6542, 
-mountain, Sob Gangri, , 35.65250000, 94.25083333, 6224, 
-mountain, Hathi Parbat, , 30.68500000, 79.70583333, 6727, 
-mountain, Pulong, , 30.32083333, 94.32000000, 6310, 
-mountain, Khrebet Kuylyutau, , 42.03583333, 78.90750000, 5281, 
-mountain, Gyoinmaixoi/og Kangri, , 33.29583333, 79.76666667, 6223, 
-mountain, Cerro Elefantes, , -44.75583333, -72.42500000, 2000, 
-mountain, Phu Tra, , 22.16833333, 103.58916667, 2540, 
-mountain, Whiting Peak, , 58.13888889, -132.93472222, 2524, 
-mountain, Faisal Peak, , 56.88555556, -130.58000000, 2239, 
-mountain, Iterdlaup Qaqai, , 70.70000000, -52.98333333, 2144, 
-mountain, Rangrik Rang, , 31.35250000, 78.61000000, 6684, 
-mountain, Volcan Cerro Azul, , -0.92833333, -91.40944444, 1689, 
-mountain, Lunkho e Dosare, , 36.77583333, 72.44000000, 6902, 
-mountain, The Pinnacles, , 50.19527778, -118.22888889, 2573, 
-mountain, Maja e Kendrevicës, , 40.28694444, 19.85166667, 2121, 
-mountain, Bu/gyai Kangri, , 31.81500000, 94.70000000, 6328, 
-mountain, Solunska Glava, , 41.70416667, 21.40527778, 2540, 
-mountain, Birnhorn, , 47.47472222, 12.73388889, 2634, 
-mountain, Bintimani, , 9.22500000, -11.11666667, 1945, 
-mountain, Bumbag Hayrhan Uul, , 47.28750000, 93.03083333, 3470, 
-mountain, Uyluk Tepe, , 36.54333333, 29.57083333, 3016, 
-mountain, Phu Soai Dao, , 17.73083333, 101.00750000, 2120, 
-mountain, Bewani Mtns. HP, , -3.29416667, 141.72333333, 1980, 
-mountain, Mt. Nirvana, , 61.87472222, -127.68027778, 2773, 
-mountain, Tsiafajavona, , -19.34916667, 47.24333333, 2643, 
-mountain, P. 2868, , -5.07916667, -78.70083333, 2868, 
-mountain, Bhalu Lek, , 28.99083333, 82.39916667, 5425, 
-mountain, Mt. Thomlinson, , 55.54388889, -127.48638889, 2451, 
-mountain, Mt. Busa, , 6.10916667, 124.68583333, 2030, 
-mountain, Gunung Niut, , 1.00250000, 109.93333333, 1701, 
-mountain, Ili Boleng, , -8.34583333, 123.25666667, 1661, 
-mountain, Kanjut Sar I, , 36.20500000, 75.41833333, 7760, 
-mountain, Selik Gulam Muztag, , 36.21666667, 82.03583333, 6691, 
-mountain, Cerro el Condor, , -26.63166667, -68.36166667, 6414, 
-mountain, P. 6300, , 33.23083333, 79.18333333, 6300, 
-mountain, Cumbre Salto del Fraile, , -16.74166667, -66.88833333, 4480, 
-mountain, Picacho San Onofre, , 23.80083333, -99.84666667, 3550, 
-mountain, Cerro Sacamecate, , 16.58166667, -95.80333333, 2830, 
-mountain, Laikot, , 25.35666667, 93.89916667, 2832, 
-mountain, Cerro Torra, , 4.78250000, -76.49500000, 2820, 
-mountain, Mt. Bel, , -5.61500000, 147.96583333, 1658, 
-mountain, Cordillera de los Cobardes, , 6.46250000, -73.44416667, 3420, 
-mountain, Chimata Tepuy, , 5.37000000, -62.07916667, 2675, 
-mountain, Mt. Lester Jones, , 58.71666667, -133.23000000, 2408, 
-mountain, Hardersbjerg (Gauss Halvo), , 73.43333333, -22.83333333, 1679, 
-mountain, Changla, , 30.13750000, 82.19583333, 6721, 
-mountain, Mt. Elizabeth, , -83.90000000, 168.38333333, 4480, 
-mountain, Jeanette Peak, , 52.63555556, -118.61666667, 3089, 
-mountain, Kuh-e Mirza ØArab, , 33.22000000, 60.24750000, 2887, 
-mountain, Snowshoe Peak, , 48.22305556, -115.68916667, 2663, 
-mountain, P. 3030, , 32.35666667, 104.84583333, 3030, 
-mountain, P. 6079, , 29.29583333, 101.90833333, 6079, 
-mountain, Cerro el Centinela, , 25.13666667, -103.23000000, 3130, 
-mountain, Sangpang Bum, , 26.49083333, 95.84583333, 2692, 
-mountain, Kula Kangri, , 28.22750000, 90.61666667, 7538, 
-mountain, Kuh-e Alvand, , 34.66416667, 48.48666667, 3570, 
-mountain, Cerro Paniri, , -22.05916667, -68.22833333, 5960, 
-mountain, Sharktooth Mtn., , 58.58750000, -127.96222222, 2668, 
-mountain, Cerro Guagua Pichincha, , -0.17750000, -78.59916667, 4794, 
-mountain, Pt. 1951m, , -5.81250000, 149.83833333, 1951, 
-mountain, Dedegol Tepesi, , 37.66833333, 31.30500000, 2980, 
-mountain, Bulu Torompupu, , -1.42583333, 119.85666667, 2463, 
-mountain, North Schell Peak, , 39.41305556, -114.59972222, 3622, 
-mountain, Mt. Porsild, , 60.08388889, -136.00972222, 2540, 
-mountain, Ukpik Peak, , 70.69416667, -71.34166667, 1809, 
-mountain, Hayford Peak, , 36.65777778, -115.20083333, 3021, 
-mountain, P. 5716, , 42.35166667, 80.62750000, 5716, 
-mountain, Miao/er Shan, , 25.86666667, 110.41250000, 2140, 
-mountain, Mt. Foresta, , 60.19138889, -139.43500000, 3368, 
-mountain, Phou Khe, , 19.32416667, 101.24166667, 2079, 
-mountain, Nevados Hunadoy, , -9.02861111, -77.66555556, 6360, 
-mountain, Star Peak, , 40.52250000, -118.17083333, 2998, 
-mountain, Col Nudo, , 46.22750000, 12.40277778, 2472, 
-mountain, Upper Saddle Mtn., , 50.17250000, -117.90000000, 2330, 
-mountain, Cerro Barros Arana, , -43.88833333, -72.18500000, 2286, 
-mountain, Gunung Bandahara, , 3.74916667, 97.78166667, 3012, 
-mountain, Ili Labalekang, , -8.54500000, 123.38416667, 1644, 
-mountain, Pointe Percée, , 45.95555556, 6.55611111, 2753, 
-mountain, Gunung Inerie, , -8.87833333, 120.95416667, 2245, 
-mountain, Baranof Is. HP, , 57.01472222, -134.98861111, 1643, 
-mountain, Diamond Peak, , 44.14138889, -113.08277778, 3718, 
-mountain, Adrar Bou Nasser, , 33.56833333, -3.88583333, 3340, 
-mountain, Tianzhu Shan, , 31.06166667, 116.18750000, 1760, 
-mountain, Flat Top Mtn., , 40.37250000, -112.18888889, 3237, 
-mountain, Airibaba, , 37.78750000, 66.55666667, 3138, 
-mountain, Hubris Peak, , 56.55166667, -130.97333333, 2445, 
-mountain, Lars Christiansen Peak, , -68.78333333, -90.58333333, 1640, 
-mountain, Dome Argus, , -80.36666667, 77.35000000, 4091, 
-mountain, Kioto Mountains, , 6.10666667, 125.57000000, 1816, 
-mountain, Mt. Discovery, , -78.36666667, 165.01666667, 2680, 
-mountain, Hiuchi-yama, , 36.92250000, 138.06666667, 2462, 
-mountain, Bumhpa Bum, , 26.67833333, 97.23833333, 3411, 
-mountain, Pegunungan Kumawa, , -3.91583333, 133.01083333, 1680, 
-mountain, Nevado Queva, , -24.30750000, -66.73333333, 6140, 
-mountain, Kuh-e Bagh-e Bala, , 30.56250000, 57.16166667, 3775, 
-mountain, Jibal Raymah, , 14.68000000, 43.65666667, 2920, 
-mountain, Gunung Patah, , -4.25750000, 103.30583333, 2850, 
-mountain, P. 2300, , 30.23666667, 110.57666667, 2300, 
-mountain, Mt. Taylor, , -43.50750000, 171.32000000, 2333, 
-mountain, P. 6135, , 29.94083333, 95.74583333, 6135, 
-mountain, Cerro Huemules, , -45.73583333, -72.44916667, 1910, 
-mountain, Daisen, , 35.37083333, 133.53916667, 1729, 
-mountain, G. Stokap, , 44.83750000, 147.34333333, 1634, 
-mountain, Himalchuli I, , 28.43416667, 84.63750000, 7893, 
-mountain, Huantsan, , -9.51583333, -77.31000000, 6369, 
-mountain, Qingagssat Qaqit, , 60.56666667, -44.70000000, 1782, 
-mountain, Mt. Verne, , -67.66666667, -67.50000000, 1632, 
-mountain, Mush Muztagh, , 36.04750000, 80.11916667, 6638, 
-mountain, Aggio, , 7.14916667, 36.54416667, 3358, 
-mountain, Mt. Bolshaya Udina, , 55.75833333, 160.52666667, 2920, 
-mountain, Volcan las Tres Virgenes, , 27.47000000, -112.59166667, 1950, 
-mountain, Fussa V., , 50.26750000, 155.24750000, 1772, 
-mountain, Mt. Haddington, , -64.21666667, -57.63333333, 1630, 
-mountain, Camiguin Island HP, , 9.17833333, 124.72666667, 1630, 
-mountain, Mt. Forbes, , 51.86000000, -116.93166667, 3617, 
-mountain, Ainos Oros, , 38.13722222, 20.67277778, 1628, 
-mountain, Mt. Panie, , -20.58833333, 164.77083333, 1628, 
-mountain, Mt. Judge Howay, , 49.50694444, -122.32166667, 2262, 
-mountain, Mt. Stuart, , 47.47500000, -120.90222222, 2870, 
-mountain, Cordillera Sarmiento, , -51.80166667, -73.38416667, 1925, 
-mountain, Pik Yevgenii Korzhinievskoi, , 39.05750000, 72.00833333, 7105, 
-mountain, Kuh-e Aq Dagh, , 37.38583333, 48.55000000, 3321, 
-mountain, Mong Ling Shan, , 23.33000000, 98.87750000, 2641, 
-mountain, Benjiwo, , 25.24750000, 112.00333333, 1953, 
-mountain, Sierra de Santa Martha, , 18.34916667, -94.85750000, 1690, 
-mountain, Chogolisa I, , 35.61416667, 76.57916667, 7668, 
-mountain, Udren Zom, , 36.51722222, 71.92083333, 7108, 
-mountain, Cerro del Tambillo, , -32.30416667, -69.68083333, 5680, 
-mountain, P. 4260, , 28.95833333, 102.93666667, 4260, 
-mountain, Cerro Roma, , -49.96083333, -73.45083333, 3200, 
-mountain, Jiuling Shan, , 28.88333333, 114.95083333, 1790, 
-mountain, Blanca Peak, , 37.57750000, -105.48555556, 4372, 
-mountain, Phu Xai Lai Leng, , 19.19750000, 104.18166667, 2720, 
-mountain, Pangpoche I, , 28.62833333, 84.68166667, 6620, 
-mountain, Pik Agasis, , 39.01416667, 71.50416667, 5900, 
-mountain, P. 4735, , 27.25000000, 89.70416667, 4735, 
-mountain, Jebel al Lawz, , 28.65416667, 35.30583333, 2580, 
-mountain, Khrebet Saltaga-Tas HP, , 68.35750000, 140.07694444, 2021, 
-mountain, Paishidin, , 24.92750000, 112.99083333, 1895, 
-mountain, Cordon los Nadis, , -47.54250000, -72.94166667, 1780, 
-mountain, Volcan de Santa Ana, , 13.85583333, -89.62833333, 2362, 
-mountain, Mt. McClintock, , -80.21666667, 157.43333333, 3490, 
-mountain, Pt. 8517, , 60.92833333, -142.52388889, 2596, 
-mountain, Kuh-e Hezar Darreh, , 31.67500000, 51.02833333, 3880, 
-mountain, Monte Mentolat, , -44.69666667, -73.07583333, 1620, 
-mountain, Victoria Peaks, , 9.36500000, 118.33416667, 1709, 
-mountain, P. 6086, , 34.02833333, 76.79416667, 6086, 
-mountain, Mizri Ghar, , 31.34083333, 70.02916667, 3111, 
-mountain, Tupeq Mtn., , 66.57250000, -65.07500000, 2000, 
-mountain, Mt. Pattullo, , 56.23388889, -129.65750000, 2727, 
-mountain, Pk. 09-29, , 66.15166667, -63.49250000, 1840, 
-mountain, Mt. Ossa, , -41.87083333, 146.03333333, 1617, 
-mountain, Trisul, , 30.31416667, 79.77583333, 7120, 
-mountain, Mt. Miller, , 60.46083333, -142.30333333, 3277, 
-mountain, Qingaq (Storo), , 64.40000000, -51.11666667, 1616, 
-mountain, Cerro Mojano, , -49.75027778, -73.11416667, 2720, 
-mountain, Agssaussat, , 65.88333333, -52.11666667, 2140, 
-mountain, Panch Chuli, , 30.21416667, 80.42750000, 6904, 
-mountain, Samdain Kangsang, , 30.83500000, 91.48833333, 6590, 
-mountain, Fan Si Pan, , 22.30333333, 103.77500000, 3143, 
-mountain, Mt. Tatlow, , 51.38416667, -123.86416667, 3063, 
-mountain, Kloftbjerge, , 71.33333333, -25.75000000, 2163, 
-mountain, Shirane-san, , 36.79833333, 139.37416667, 2578, 
-mountain, Ibapah Peak, , 39.82805556, -113.91972222, 3691, 
-mountain, Cerro Penitentes, , -47.67500000, -72.25166667, 2943, 
-mountain, Djebel Chélia, , 35.31833333, 6.63750000, 2328, 
-mountain, Fengari, , 40.46166667, 25.58750000, 1611, 
-mountain, Pulau Obi HP, , -1.53833333, 127.66916667, 1611, 
-mountain, Bilchhar Dobani, , 35.95583333, 74.63333333, 6143, 
-mountain, Dapha Bum, , 27.66083333, 96.70000000, 4578, 
-mountain, /Argun North/, , 6.55000000, 36.72583333, 3405, 
-mountain, Mt. Tama, , -13.78583333, 13.17583333, 2489, 
-mountain, Rao Co, , 18.15750000, 105.41250000, 2286, 
-mountain, Gora Bakening, , 53.90416667, 158.07000000, 2276, 
-mountain, Cerro Situacion, , -42.95583333, -71.66166667, 2250, 
-mountain, Vilyuchinsky V., , 52.70500000, 158.28166667, 2173, 
-mountain, Seulawah Agam, , 5.44750000, 95.65583333, 1810, 
-mountain, Carlisle Is. HP, , 52.89416667, -170.05472222, 1610, 
-mountain, Kogantag, , 38.63166667, 90.64000000, 4800, 
-mountain, Kuh-e Rag, , 31.33666667, 50.97166667, 3661, 
-mountain, Jebel Igdet, , 30.96333333, -8.44333333, 3615, 
-mountain, Mt. Timpanogos, , 40.39083333, -111.64611111, 3581, 
-mountain, Hudson Bay Mtn., , 54.81166667, -127.33972222, 2589, 
-mountain, Corsan Peak, , 51.01722222, -126.40611111, 1934, 
-mountain, Datian Ding, , 22.29083333, 111.21500000, 1704, 
-mountain, Gora Lopatina, , 50.85166667, 143.14166667, 1609, 
-mountain, Mt. Fryatt, , 52.55000000, -117.90000000, 3361, 
-mountain, Cerro Pili, , -23.29250000, -67.61750000, 6046, 
-mountain, Ejnar Mikkelsen Fjeld, , 68.88333333, -28.60000000, 3308, 
-mountain, Bashful Peak, , 61.30750000, -148.87027778, 2440, 
-mountain, Moussa Ali, , 12.47083333, 42.40500000, 2021, 
-mountain, Bharanzar, , 33.60250000, 76.13166667, 6574, 
-mountain, K/ech/a Terara, , 7.90833333, 39.39166667, 4195, 
-mountain, Kisimngiuqtuq Peak, , 70.79916667, -71.65166667, 1905, 
-mountain, P. 1680, , 66.11666667, -37.45000000, 1680, 
-mountain, Gran Campo Nevado, , -52.79833333, -73.09250000, 1640, 
-mountain, /Kabobo/, , -5.13750000, 29.05166667, 2725, 
-mountain, Clavering Island HP, , 74.36666667, -21.18333333, 1604, 
-mountain, Cerro Risco Plateado, , -34.91833333, -69.99416667, 4999, 
-mountain, Monmouth Mtn., , 50.99166667, -123.79000000, 3182, 
-mountain, Kaimuk Kangri, , 35.91333333, 76.88750000, 6953, 
-mountain, Cerro Tunupa, , -19.83250000, -67.64583333, 5321, 
-mountain, Kuh-e Namak, , 28.70083333, 53.24916667, 2846, 
-mountain, Belaya, , 11.47416667, 36.19416667, 2731, 
-mountain, Mingan Mountains, , 15.48083333, 121.40500000, 1901, 
-mountain, Mt. Ovington, , 54.14305556, -120.57416667, 2949, 
-mountain, Cerro las Capillas, , 19.55500000, -104.14750000, 2890, 
-mountain, Cerro Pietrobelli, , -50.53500000, -73.35750000, 2850, 
-mountain, Picachos el Fraile, , 25.86250000, -100.61166667, 2390, 
-mountain, Jebel Khadar, , 22.60833333, 59.18666667, 2200, 
-mountain, Mt. Cleveland, , 48.92472222, -113.84777778, 3190, 
-mountain, Karkoor, , 11.32500000, 49.74750000, 2120, 
-mountain, Mt. Brewster, , -72.95000000, 169.38333333, 2025, 
-mountain, Skippers Range HP, , -44.43416667, 168.17000000, 1648, 
-mountain, Kawaikini, , 22.05888889, -159.49750000, 1598, 
-mountain, Kuh-e Jupar, , 29.91083333, 57.20166667, 4150, 
-mountain, Loe Nekan, , 30.26166667, 67.30250000, 3582, 
-mountain, He Devil, , 45.32388889, -116.54833333, 2871, 
-mountain, Tevodian, , 32.86500000, 108.37250000, 2120, 
-mountain, Mt. Maybole, , -9.43583333, 150.55750000, 1665, 
-mountain, Jof di Montasio, , 46.60250000, 13.43361111, 2752, 
-mountain, Gora Cherskogo, , 55.06000000, 108.68500000, 2588, 
-mountain, Loi Pangnao, , 21.30333333, 100.31333333, 2563, 
-mountain, Shaman, , 56.06916667, 115.86166667, 2363, 
-mountain, Yujing Feng, , 28.90833333, 118.06000000, 1810, 
-mountain, Callejón Cañapa, , -21.44833333, -68.07083333, 5900, 
-mountain, Arc Dome, , 38.83277778, -117.35277778, 3588, 
-mountain, Kerkini, , 41.32166667, 23.12194444, 2031, 
-mountain, Gunung Muria, , -6.61666667, 110.89083333, 1602, 
-mountain, Anjouan, , -12.21500000, 44.42500000, 1595, 
-mountain, Chaukhamba, , 30.74750000, 79.28750000, 7138, 
-mountain, Turgen Uul, , 49.79916667, 89.75416667, 4029, 
-mountain, Qilian Shan HP, , 39.20333333, 98.54416667, 5547, 
-mountain, Pic Toussidé, , 21.04000000, 16.47000000, 3315, 
-mountain, Lassen Peak, , 40.48750000, -121.50416667, 3187, 
-mountain, Dainiti Dake, , 37.83250000, 139.65916667, 2128, 
-mountain, Nanda Kot, , 30.28166667, 80.06833333, 6861, 
-mountain, Mont Mohi, , -2.95416667, 28.78000000, 3480, 
-mountain, Mt. Addenbroke, , 50.23166667, -124.68611111, 1591, 
-mountain, Cerro Tomasamil, , -21.29250000, -67.96750000, 5830, 
-mountain, Finchuiyanou Range, , 25.48916667, 99.07500000, 3580, 
-mountain, P. 3400+, , 17.13250000, -96.01250000, 3420, 
-mountain, Jabal Sabir, , 13.51583333, 44.05083333, 3006, 
-mountain, Mt. Piapayungan, , 7.69083333, 124.50750000, 2815, 
-mountain, Liakoura, , 38.53583333, 22.62416667, 2457, 
-mountain, Cerro Puno, , -47.29750000, -73.11166667, 2200, 
-mountain, Sillem Island HP, , 71.00166667, -71.85500000, 1590, 
-mountain, Gauri Shankar, , 27.95333333, 86.33583333, 7135, 
-mountain, Cerro Carabaya, , -19.14583333, -68.69833333, 5869, 
-mountain, Mai Gudo, , 7.49083333, 37.20416667, 3359, 
-mountain, Pakhain Range HP, , 26.81583333, 95.52333333, 2780, 
-mountain, P. 2519, , 20.68583333, 97.34166667, 2519, 
-mountain, Estero Peak, , 50.46194444, -125.18583333, 1664, 
-mountain, Volcan Sangay, , -2.00500000, -78.34083333, 5300, 
-mountain, Buyu Balease, , -2.40583333, 120.54250000, 3016, 
-mountain, Volcan Choshuenco, , -39.93166667, -72.03000000, 2422, 
-mountain, Mulkila, , 32.54583333, 77.41166667, 6517, 
-mountain, Kolahoi, , 34.16500000, 75.32583333, 5425, 
-mountain, Kuh-e Mohammadabad, , 30.58083333, 54.86500000, 3592, 
-mountain, Margaretatopp (Andrees Land), , 73.36666667, -26.30000000, 2360, 
-mountain, Pautuut, , 70.30000000, -52.71666667, 2010, 
-mountain, Rugged Mtn., , 50.01666667, -126.68333333, 1875, 
-mountain, Agdleruussakasit, , 60.13333333, -44.53333333, 1763, 
-mountain, Tulu Tuloi II, , 0.96000000, -63.34000000, 1780, 
-mountain, P. 5700, , 34.90333333, 75.83250000, 5700, 
-mountain, Cerro Jallacate, , -11.90583333, -75.05250000, 5567, 
-mountain, Mt. Deborah, , 63.63722222, -147.23944444, 3761, 
-mountain, Cleopatra Needle, , 10.12333333, 118.99416667, 1608, 
-mountain, Pt. 8336, , 61.11250000, -153.46944444, 2541, 
-mountain, Mt. Sicapoo, , 18.01333333, 120.93916667, 2361, 
-mountain, P. 5170, , 39.34416667, 70.13833333, 5170, 
-mountain, Mt. Seton - Cy5, , 50.62361111, -122.26027778, 2855, 
-mountain, Polinik, , 46.89500000, 13.15805556, 2784, 
-mountain, Huidu Matabulawa, , 0.48833333, 123.67500000, 1964, 
-mountain, Durbin Kangri, , 35.99666667, 76.76833333, 6824, 
-mountain, Boz Dag, , 38.32333333, 28.10250000, 2156, 
-mountain, Karpogo Sar I, , 35.92500000, 76.17500000, 7038, 
-mountain, Haizi Shan, , 30.37916667, 101.69916667, 5820, 
-mountain, Munku Sardyk, , 51.71916667, 100.59750000, 3491, 
-mountain, Mt. Lemmon, , 32.44277778, -110.78833333, 2791, 
-mountain, Pico Pijol, , 15.17666667, -87.57333333, 2320, 
-mountain, Puy de Sancy, , 45.52833333, 2.81416667, 1885, 
-mountain, Monte Cimone, , 44.19388889, 10.70138889, 2165, 
-mountain, Adelbert Range HP, , -4.70250000, 145.23166667, 1716, 
-mountain, Batu Jumak, , 1.81916667, 115.27250000, 2250, 
-mountain, Abercrombie Mtn., , 48.92833333, -117.46000000, 2228, 
-mountain, Store Lenangstind, , 69.71027778, 20.09055556, 1624, 
-mountain, Cerro Tebenquicho, , -25.35083333, -67.64666667, 5810, 
-mountain, Nevado de Cumbal, , 0.95583333, -77.88666667, 4760, 
-mountain, Volcan Peteroa, , -35.27250000, -70.58166667, 4084, 
-mountain, Cheekha Dar, , 36.77500000, 44.91916667, 3611, 
-mountain, Volcan Villarrica, , -39.42083333, -71.93916667, 2860, 
-mountain, Barla Dagi, , 38.05000000, 30.70500000, 2800, 
-mountain, Mt. Baco, , 12.82083333, 121.17333333, 2364, 
-mountain, P. 1857, , 24.89250000, 111.16666667, 1857, 
-mountain, P. 5980, , 34.29222222, 75.79083333, 5980, 
-mountain, Petra Pervogo Range HP, , 38.97083333, 70.66500000, 4744, 
-mountain, Kaza Mtn., , 53.07111111, -121.00888889, 2543, 
-mountain, Mt. Gareloi, , 51.78833333, -178.79416667, 1573, 
-mountain, Volcan de San Vicente, , 13.59666667, -88.83750000, 2182, 
-mountain, Kuh-e Ja/in, , 28.09500000, 55.99000000, 2980, 
-mountain, Meseta del Cerro Jaua, , 4.56916667, -64.35666667, 2395, 
-mountain, Bukit Batu, , 2.25083333, 113.71750000, 2040, 
-mountain, Cerro Bravo, , -5.53250000, -79.24500000, 3970, 
-mountain, Mt. Cronin, , 54.93000000, -126.86388889, 2396, 
-mountain, Gunung Saran, , -0.42333333, 111.29500000, 1758, 
-mountain, Phnum Samkos, , 12.15583333, 103.04333333, 1750, 
-mountain, Qullai Arnavad, , 38.56500000, 71.52416667, 5992, 
-mountain, Tödi, , 46.81111111, 8.91472222, 3614, 
-mountain, Wuhevi, , -0.14250000, 29.42416667, 3095, 
-mountain, Gora Oval/naya Zimina, , 55.86083333, 160.60583333, 3080, 
-mountain, Chiricahua Peak, , 31.84666667, -109.29083333, 2975, 
-mountain, Kiou Leou Ti, , 22.66166667, 104.60250000, 2402, 
-mountain, Gunung Bintang, , 5.42916667, 100.86666667, 1862, 
-mountain, Daming Shan, , 23.38583333, 108.50333333, 1785, 
-mountain, Gunung Sambapolulu, , -5.30833333, 121.95583333, 1570, 
-mountain, P. 5858.8, , 38.26750000, 72.71333333, 5859, 
-mountain, Birkkarspitze, , 47.41111111, 11.43777778, 2749, 
-mountain, Botev, , 42.71750000, 24.91666667, 2376, 
-mountain, Basement Peak, , 59.35500000, -137.16166667, 2706, 
-mountain, Angemuk, , -3.52500000, 138.59166667, 3949, 
-mountain, Pt. 8488, , 61.49500000, -153.62277778, 2587, 
-mountain, Huidu Tentolomatinan, , 0.93833333, 121.77666667, 2230, 
-mountain, Pico Sira, , -9.45166667, -74.67833333, 2450, 
-mountain, Cerro Aguja Sur, , -42.16250000, -71.83416667, 2230, 
-mountain, Pk. 39-18, , 69.65666667, -69.30833333, 1721, 
-mountain, P. 5318, , 41.68944444, 78.97500000, 5318, 
-mountain, Kuh-e Bul, , 30.77750000, 52.75000000, 3943, 
-mountain, Mali i Çikës, , 40.19833333, 19.64194444, 2044, 
-mountain, B21, , 35.53333333, 75.47083333, 5828, 
-mountain, Junkor, , 34.62250000, 76.24583333, 5373, 
-mountain, Mt. Eddy, , 41.32000000, -122.47750000, 2751, 
-mountain, Mawhpung Bum, , 25.95500000, 96.07083333, 1874, 
-mountain, Kazi Razi, , 28.19750000, 91.86500000, 6505, 
-mountain, Kispiox Mtn., , 55.40000000, -127.93333333, 2096, 
-mountain, Dzhata, , 48.63083333, 86.83916667, 3085, 
-mountain, Blaskbjerg, , 73.30000000, -24.03333333, 1600, 
-mountain, Gunung Rumput, , 1.72166667, 109.66750000, 1590, 
-mountain, Gunung Gamkonora, , 1.37833333, 127.53416667, 1560, 
-mountain, Chomo Yummo, , 28.03416667, 88.54583333, 6829, 
-mountain, Cerro Paramillo, , 7.10250000, -75.96916667, 3730, 
-mountain, Kesis Dagi, , 39.79250000, 39.77083333, 3546, 
-mountain, Mt. Sylvia, , 58.08194444, -124.46888889, 2940, 
-mountain, Cerro de la Paloma, , -45.84666667, -72.20916667, 1995, 
-mountain, Pk. 35-44, , 70.58000000, -70.72833333, 1562, 
-mountain, Jethi Bahurani, , 29.88333333, 81.04083333, 6850, 
-mountain, Beu-tse, , 29.95250000, 90.53833333, 6270, 
-mountain, Falak Sar, , 35.67500000, 72.78000000, 5918, 
-mountain, Laotzyunshan, , 26.88333333, 99.61083333, 4500, 
-mountain, Kuh-e Gereh, , 31.91000000, 50.36500000, 3990, 
-mountain, Cordon Soler, , -47.05333333, -73.06583333, 2150, 
-mountain, Alto de Nique, , 7.70166667, -77.72750000, 1730, 
-mountain, Mt. Wotzke, , 52.71305556, -120.65083333, 2597, 
-mountain, Sibium Mtns. HP, , -9.32583333, 148.35833333, 2295, 
-mountain, Deyjay, , -3.96916667, 136.19500000, 3340, 
-mountain, Mt. Macdonald, , 64.72500000, -132.77888889, 2760, 
-mountain, Dalton Range HP, , 60.47583333, -137.16916667, 2329, 
-mountain, Kinaussak, , 64.45000000, -50.51666667, 1630, 
-mountain, Volcan Tungurahua, , -1.47000000, -78.44500000, 5016, 
-mountain, Mt. Crysdale, , 55.93833333, -123.42111111, 2429, 
-mountain, Davraz Tepe, , 37.75250000, 30.72416667, 2635, 
-mountain, Yaoji Shan, , 28.97833333, 103.26583333, 3590, 
-mountain, Ellmauer Halt, , 47.56222222, 12.30305556, 2344, 
-mountain, Menlungtse, , 27.97250000, 86.43166667, 7181, 
-mountain, Japvo, , 25.59750000, 94.06666667, 3014, 
-mountain, Vile Peak, , 56.27111111, -128.34000000, 2189, 
-mountain, Nevado el Plomo, , -33.10333333, -70.06583333, 6070, 
-mountain, Cerro Colina, , -33.96333333, -69.85333333, 5385, 
-mountain, Riyue Shan HP, , 36.33750000, 101.20083333, 4890, 
-mountain, Dubbai, , 12.85833333, 39.49666667, 3950, 
-mountain, Avachinsky V., , 53.25583333, 158.83666667, 2741, 
-mountain, Sopka Taunshits, , 54.52833333, 159.80416667, 2353, 
-mountain, Gaaseland HP, , 70.20000000, -27.66666667, 2100, 
-mountain, Gora Bogdan Khmel/nitskiy, , 45.33750000, 147.91916667, 1585, 
-mountain, Mt. Augusta, , 60.30527778, -140.46027778, 4289, 
-mountain, Christian IV Island HP, , 60.05000000, -43.91666667, 1549, 
-mountain, Novaya Zemlya HP, , 75.16666667, 57.81666667, 1549, 
-mountain, Colangüil, , -29.58916667, -69.44916667, 6122, 
-mountain, Killi Tepe, , 38.02833333, 37.48666667, 3075, 
-mountain, Bulusan Volcano, , 12.76916667, 124.05666667, 1565, 
-mountain, Bur ni Geureudong, , 4.81000000, 96.81666667, 2880, 
-mountain, Favres Bjerg, , 73.95000000, -23.20000000, 2000, 
-mountain, Hakandya, , 61.60000000, 142.83472222, 2615, 
-mountain, P. 2995, , 23.43000000, 99.21583333, 2995, 
-mountain, Ilgaz Daglari, , 41.10083333, 33.86333333, 2587, 
-mountain, Cerro Conico, , -43.26416667, -71.74416667, 2271, 
-mountain, Pt. 6915, , 61.32972222, -144.96000000, 2108, 
-mountain, Kataklik Kangri, , 34.94000000, 78.18250000, 6897, 
-mountain, Geyik Daglari, , 36.88916667, 32.17250000, 2877, 
-mountain, Seweweekspoortpiek, , -33.39833333, 21.36750000, 2325, 
-mountain, Cerro Chorolque, , -20.91833333, -66.03583333, 5520, 
-mountain, Pico el Turmal, , 9.52750000, -70.11333333, 3560, 
-mountain, Grande Tete de l/Obiou, , 44.77611111, 5.84083333, 2790, 
-mountain, Mt. Kulal, , 2.72916667, 36.92333333, 2285, 
-mountain, Akher Chioh, , 36.67250000, 72.23166667, 7017, 
-mountain, Geladaindong, , 33.49583333, 91.16750000, 6621, 
-mountain, Mt. Bear , , 61.28333333, -141.14333333, 4521, 
-mountain, Baatar Hayrhan, , 46.96916667, 92.72500000, 3984, 
-mountain, Gunung Daun, , -3.39166667, 102.34250000, 2493, 
-mountain, P. 1830, , -45.19833333, -72.26333333, 1830, 
-mountain, Roman-Kosh, , 44.61305556, 34.24333333, 1545, 
-mountain, Cerro El Pital, , 14.38583333, -89.12750000, 2730, 
-mountain, Volcan Iztaccihuatl, , 19.18083333, -98.64333333, 5230, 
-mountain, Mt. Temple, , 51.35083333, -116.20583333, 3540, 
-mountain, Elivai Malai, , 10.94000000, 76.63250000, 2088, 
-mountain, Johnstrup Bjerge (Suess Land), , 73.00000000, -25.53333333, 2000, 
-mountain, Tsurugi-san, , 33.85416667, 134.09250000, 1955, 
-mountain, P. 5350±, , 39.34750000, 98.20166667, 5350, 
-mountain, Kuh-e Denband, , 31.59250000, 57.03333333, 2777, 
-mountain, Gran Caldera de Luba, , 3.36083333, 8.53916667, 2261, 
-mountain, Cerro Tenerife, , -51.37916667, -72.84916667, 1590, 
-mountain, Milne V., , 46.81333333, 151.78500000, 1539, 
-mountain, Chaupi Orco, , -14.65333333, -69.22833333, 6044, 
-mountain, Volcan Sumaco, , -0.54083333, -77.62666667, 3790, 
-mountain, Volcan de Tequila, , 20.78750000, -103.84666667, 2930, 
-mountain, Berzelius Bjerg, , 72.46666667, -25.06666667, 1810, 
-mountain, Geli Kuh, , 28.13916667, 61.82666667, 2995, 
-mountain, Peninsula Videau HP, , -48.10416667, -73.38000000, 1580, 
-mountain, Volcan Miravalles, , 10.74666667, -85.15000000, 2028, 
-mountain, Whitecap Mtn., , 50.71666667, -122.50944444, 2918, 
-mountain, Korovin Volcano, , 52.38027778, -174.16833333, 1533, 
-mountain, Paramo el Nevado, , 3.93500000, -74.11000000, 4250, 
-mountain, Dunn Pk., , 51.43666667, -119.95500000, 2636, 
-mountain, Muhavura, , -1.38333333, 29.67583333, 4127, 
-mountain, Mt. Ida, , 54.05833333, -120.32638889, 3200, 
-mountain, Kizimen V., , 55.13083333, 160.32000000, 2375, 
-mountain, Kuh-e Par-e Lavar, , 27.19416667, 54.53916667, 2209, 
-mountain, Huangmao Jian, , 27.89333333, 119.18666667, 1930, 
-mountain, Baojie Ling, , 25.55916667, 110.96166667, 1930, 
-mountain, Burnag Kangri, , 35.85916667, 76.83416667, 6821, 
-mountain, Pik Grandiozniyy, , 53.89333333, 96.00750000, 2891, 
-mountain, Karenga, , -7.68666667, 36.88083333, 2279, 
-mountain, Mt. Monkley, , 54.88333333, -129.65000000, 1967, 
-mountain, Buzbu Too, , 41.49500000, 71.89250000, 2875, 
-mountain, Karakash Shan, , 35.72250000, 78.68750000, 6510, 
-mountain, Langtang Lirung, , 28.25750000, 85.51583333, 7227, 
-mountain, The Horn, , 52.32000000, -126.23666667, 2907, 
-mountain, Miller Peak, , 31.39277778, -110.29305556, 2885, 
-mountain, Cerro Desfiladero, , -47.42583333, -73.18750000, 2300, 
-mountain, Dund Sayhni Nuru, , 43.63583333, 103.77083333, 2825, 
-mountain, Maja e Valamares, , 40.79472222, 20.46666667, 2373, 
-mountain, Gora Bogchigir, , 37.66666667, 72.70833333, 5800, 
-mountain, Volcan Lonquimay, , -38.38083333, -71.58666667, 2865, 
-mountain, Mt. Labo, , 14.01333333, 122.78750000, 1544, 
-mountain, Gasherbrum II, , 35.75833333, 76.65333333, 8034, 
-mountain, Mt. Tod, , 50.91666667, -119.94166667, 2155, 
-mountain, P. 5704, , 30.26750000, 101.96083333, 5704, 
-mountain, Cuchilla San Lorenzo, , 11.11666667, -74.03333333, 2866, 
-mountain, Cima Tosa, , 46.15527778, 10.87055556, 3173, 
-mountain, Qingliang Feng, , 30.10083333, 118.86166667, 1787, 
-mountain, P. 6842, , 30.34250000, 93.91500000, 6842, 
-mountain, Hochtor, , 47.56166667, 14.63277778, 2369, 
-mountain, Cerro Atravesado, , 16.76333333, -94.45166667, 2310, 
-mountain, Isla Wellington HP, , -49.32083333, -74.50250000, 1520, 
-mountain, Cerro Imbabura, , 0.26083333, -78.18083333, 4634, 
-mountain, Cerro Photulo Punta, , -19.54166667, -64.66000000, 4284, 
-mountain, Grey Hunter Peak, , 63.13583333, -135.63250000, 2214, 
-mountain, Sarektjåkkå, , 67.43194444, 17.72500000, 2089, 
-mountain, Tres Quebradas, , -27.30000000, -68.80833333, 6239, 
-mountain, Mt. Shungol, , -6.86333333, 146.71583333, 2752, 
-mountain, Volcan Minchinmavida, , -42.79916667, -72.44583333, 2450, 
-mountain, Grimming, , 47.52055556, 14.01694444, 2351, 
-mountain, Montaña los Comayagua, , 14.49500000, -87.50833333, 2407, 
-mountain, Grand Combin de Grafeneire, , 45.93750000, 7.29916667, 4314, 
-mountain, Pelister, , 41.00361111, 21.18666667, 2601, 
-mountain, Mt. Morning, , -78.51666667, 163.58333333, 2725, 
-mountain, Inyangani, , -18.30000000, 32.84166667, 2592, 
-mountain, Gataga Peak, , 58.06972222, -125.70111111, 2533, 
-mountain, Cerro de Incahuasi, , -27.03333333, -68.29583333, 6621, 
-mountain, La Tournette, , 45.82722222, 6.28638889, 2351, 
-mountain, Psili Korifi, , 38.75888889, 20.99555556, 1589, 
-mountain, Togras Kangri, , 36.69000000, 77.73416667, 6447, 
-mountain, Kuh-e Soltan Saheb, , 34.14916667, 69.41583333, 4270, 
-mountain, Tres Hermanos, , -44.07111111, -72.01694444, 2010, 
-mountain, Chung Muztagh, , 35.65166667, 82.31250000, 6962, 
-mountain, P. 5840±, , 29.39833333, 94.90083333, 5840, 
-mountain, Kamakou, , 21.10666667, -156.86861111, 1512, 
-mountain, Alto de la Bandera, , 18.81416667, -70.62666667, 2842, 
-mountain, Mt. Taraka, , -6.44333333, 155.60916667, 2251, 
-mountain, Guna Terara, , 11.71083333, 38.23666667, 4120, 
-mountain, Kuh-e Menar, , 32.56833333, 49.56333333, 3750, 
-mountain, Kuh-e Nozva, , 35.94250000, 53.32500000, 3730, 
-mountain, K/ech/a Terara, , 5.82083333, 37.83916667, 3240, 
-mountain, Kuh-e Raziyeh, , 31.12583333, 50.27583333, 3120, 
-mountain, Moro de Moco, , -12.46333333, 15.17250000, 2620, 
-mountain, Arga-Tas HP, , 65.21472222, 149.08000000, 2400, 
-mountain, Angna Mtn., , 66.55750000, -62.02083333, 1710, 
-mountain, Nevado Champara, , -8.68500000, -77.79083333, 5735, 
-mountain, Akbaba Tepesi, , 39.53666667, 39.54250000, 3457, 
-mountain, Kuh-e Patu, , 37.03333333, 57.90000000, 3070, 
-mountain, Kennedy Peak, , 23.31750000, 93.76166667, 2703, 
-mountain, Khrebet Baldyrgannyg HP, , 52.58000000, 94.27000000, 2522, 
-mountain, Volcan Concepcion, , 11.53833333, -85.62250000, 1611, 
-mountain, Hkusam Mtn., , 50.33333333, -125.83333333, 1645, 
-mountain, Sierra de Sangra, , -48.46916667, -72.39166667, 2200, 
-mountain, Cerro Cuatro Puntas, , -45.57916667, -72.33000000, 1810, 
-mountain, Monte Burney, , -52.32500000, -73.38000000, 1520, 
-mountain, Lenglong Ling HP, , 37.69333333, 101.50500000, 5254, 
-mountain, Mt. Joffre, , 50.52833333, -115.20666667, 3433, 
-mountain, Cerro Castillejos, , -26.06583333, -64.89166667, 2480, 
-mountain, Sierra de Agalta, , 14.95750000, -85.91666667, 2335, 
-mountain, Tai Shan, , 36.25583333, 117.10750000, 1545, 
-mountain, Hajhir, , 12.57416667, 54.02083333, 1505, 
-mountain, Doda, , 33.67416667, 76.30500000, 6573, 
-mountain, Piz Kesch, , 46.62138889, 9.87277778, 3418, 
-mountain, Uludag Tepe, , 40.07500000, 29.21666667, 2543, 
-mountain, Kotaklik Shan, , 35.99416667, 81.59250000, 6580, 
-mountain, Mt. Moriah, , 39.27333333, -114.19861111, 3678, 
-mountain, Chiltan, , 30.01555556, 66.82805556, 3313, 
-mountain, Ambition Mtn., , 57.39472222, -131.48527778, 2953, 
-mountain, Kuh-e Sefid, , 33.66166667, 67.62583333, 4750, 
-mountain, Gara Muleta, , 9.25666667, 41.72916667, 3405, 
-mountain, Yanyanpo, , 23.36166667, 103.90666667, 2990, 
-mountain, Kalatungan Mountains, , 7.95500000, 124.80250000, 2880, 
-mountain, Zirbitzkogel, , 47.06361111, 14.56722222, 2396, 
-mountain, Robertson Peak, , 49.64583333, -122.25027778, 2252, 
-mountain, Mt. Van der Est, , 50.55666667, -125.28305556, 1801, 
-mountain, Gora Boboiob, , 40.84916667, 70.34333333, 3770, 
-mountain, Mt. Ng/iro, , 2.19166667, 36.81583333, 2848, 
-mountain, Khrebet Udokan HP, , 56.67083333, 119.12666667, 2570, 
-mountain, Pico Malpaso, , 27.72888889, -18.04055556, 1501, 
-mountain, Qaidam Shan, , 38.03833333, 95.32416667, 5759, 
-mountain, P. 3938, , -86.30000000, 158.00000000, 3938, 
-mountain, Kiyamaki Dagh, , 38.78583333, 45.85666667, 3358, 
-mountain, Cerros Santa Elena, , 18.67333333, -102.50333333, 2390, 
-mountain, Sierra Gomas, , 26.30750000, -100.46583333, 2210, 
-mountain, Cerro el Cerron, , 10.32250000, -70.63083333, 2100, 
-mountain, Kitlope Range HP, , 53.03777778, -127.64138889, 1945, 
+name,elevation,latitude,longitude
+Mt. Everest,8848,27.98833333,86.92416667
+Cerro Aconcagua,6962,-32.65333333,-70.01083333
+Denali,6194,63.06944444,-151.00777778
+Kilimanjaro,5895,-3.07583333,37.35166667
+Pico Cristobal Colon,5700,10.83916667,-73.68638889
+Mt. Logan,5959,60.56666667,-140.40388889
+Volcan Pico de Orizaba,5636,19.03000000,-97.27083333
+Vinson Massif,4892,-78.58333333,-85.41666667
+Puncak Jaya,4884,-4.06333333,137.18583333
+Gora El/brus,5642,43.35333333,42.43916667
+Mont Blanc,4808,45.83250000,6.86444444
+Kuh-e Damavand,5610,35.95583333,52.10861111
+Kluchevskoy V.,4750,56.05416667,160.64083333
+Nanga Parbat,8125,35.23916667,74.59083333
+Mauna Kea,4205,19.82055556,-155.46805556
+Jengish Chokusu,7439,42.03750000,80.12500000
+Chimborazo,6267,-1.46916667,-78.81750000
+Bogda Shan,5445,43.80166667,88.33250000
+Namcha Barwa I,7782,29.62916667,95.05583333
+Gunung Kinabalu,4095,6.07500000,116.55833333
+Mt. Rainier,4392,46.85305556,-121.76027778
+K2,8611,35.88250000,76.51333333
+Volcan Tajumulco,4220,15.04333333,-91.90333333
+Ras Dejen,4533,13.23583333,38.37083333
+Pico Bolívar,4981,8.54166667,-71.04583333
+Mt. Fairweather,4671,58.90638889,-137.52638889
+Yu Shan,3952,23.47000000,120.95750000
+Ngaliema,5109,0.38416667,29.87333333
+Kangchenjunga,8586,27.70250000,88.14666667
+Tirich Mir,7708,36.25416667,71.84333333
+Mt. Cameroon,4040,4.21750000,9.17166667
+Mt. Kenya,5199,-0.15083333,37.30750000
+Gunung Kerinci,3805,-1.69666667,101.26416667
+Mt. Erebus,3794,-77.53333333,167.16666667
+Fujiyama,3776,35.36000000,138.72583333
+Jebel Toubkal,4167,31.05916667,-7.91583333
+Mt. Cook,3755,-43.60000000,170.13333333
+Cerro Chirippo,3820,9.47583333,-83.51000000
+Gunung Rinjani,3726,-8.41000000,116.45833333
+Pico de Teide,3718,28.27305556,-16.63944444
+Cerro San Valentin,4058,-46.59500000,-73.34583333
+Gunnbjornsfjeld,3694,68.91666667,-29.90000000
+Nevado Ojos del Salado,6893,-27.10916667,-68.54083333
+Gunung Semeru,3676,-8.10750000,112.92250000
+Finisterre Range HP,4125,-5.95388889,146.37500000
+Ritacuba Blanco,5410,6.49416667,-72.29750000
+Minya Konka,7556,29.59500000,101.87666667
+Ararat,5137,39.70250000,44.30000000
+Kongur Shan,7649,38.59416667,75.31333333
+Mt. Blackburn,4996,61.73111111,-143.43527778
+Mt. Hayes,4216,63.61972222,-146.71833333
+Bulu Rantemario,3478,-3.38500000,120.02416667
+Mt. Saint Elias,5489,60.29277778,-140.93111111
+Pik Imeni Ismail Samani,7495,38.94250000,72.01500000
+Dhaulagiri I,8167,28.69666667,83.49000000
+Gora Belukha,4506,49.80750000,86.59000000
+Cerro Mercedario,6720,-31.97916667,-70.11250000
+Jebel an Nabi Shu/ayb,3666,15.27916667,43.97583333
+Monte Etna,3323,37.75111111,14.99583333
+Monte San Lorenzo,3706,-47.59166667,-72.30666667
+Volcan Karisimbi,4507,-1.50833333,29.44500000
+Volcan Lautaro,3580,-49.01916667,-73.50666667
+Mt. Waddington,4019,51.37222222,-125.26222222
+Pico del Mulhacén,3479,37.05444444,-3.31000000
+Gunung Slamet,3428,-7.23916667,109.22000000
+Kuh-e-Sabalaan,4811,38.26916667,47.83750000
+Mt. Marcus Baker,4016,61.43722222,-147.75277778
+Cerro del Bolson,5552,-27.21416667,-66.09416667
+Sauyr Zhotasy,3840,47.04916667,85.56666667
+Tomurty,4886,43.07333333,94.34666667
+Yulong Xueshan HP,5596,27.09833333,100.17500000
+Mt. Meru,4565,-3.24666667,36.74833333
+Shiveluch V.,3307,56.65333333,161.36166667
+Nanda Devi,7816,30.37666667,79.97083333
+Ichinsky V.,3607,55.67833333,157.71833333
+Batura Sar I,7795,36.51000000,74.52250000
+Gunung Lawu,3265,-7.62750000,111.19416667
+Mt. Siple,3110,-73.25000000,-126.10000000
+Pico Duarte,3098,19.03166667,-71.00583333
+Manaslu,8163,28.54916667,84.55750000
+Mt. Whitney,4418,36.57833333,-118.29666667
+Gunung Raung,3332,-8.12583333,114.04583333
+Piton des Neiges,3069,-21.09833333,55.47666667
+Xuelian Feng,6627,42.26166667,80.89000000
+"Red Hill, Haleakala",3055,20.71000000,-156.25305556
+Mt. Lucania,5226,61.02166667,-140.46527778
+Volcan Popocatepetl,5410,19.02333333,-98.62666667
+Gunung Agung,3031,-8.34083333,115.50333333
+Gunung Binaiya,3027,-3.17333333,129.45500000
+Pico Basilé,3011,3.58333333,8.76666667
+Mt. Shasta,4317,41.40888889,-122.19472222
+Koryaksky V.,3456,53.32083333,158.71250000
+Kangkar Pünzum,7570,28.04833333,90.45416667
+Mt. Stephenson,2987,-69.81666667,-69.71666667
+Annapurna I,8091,28.59583333,83.82250000
+Talghar Shyngy,4978,43.11833333,77.34083333
+Mt. Suckling,3676,-9.66916667,149.01083333
+Mt. Wilhelm,4509,-5.78000000,145.02916667
+Foho Tatamailau,2963,-8.90666667,125.49333333
+Mt. Apo,2954,6.98750000,125.27083333
+Gyalha Peri,7294,29.81416667,94.96833333
+Gunung Leuser,3466,3.79750000,97.21916667
+Mt. Paget,2934,-54.45000000,-36.53333333
+Monarch Mtn.,3555,51.90166667,-125.87500000
+Mt. Pulog,2922,16.59750000,120.89916667
+El Mela,4150,-28.86750000,-67.12750000
+Emi Koussi,3415,19.79166667,18.55000000
+Chakragil,6727,38.86583333,75.10833333
+Kuh-e Taftan,3941,28.60000000,61.13250000
+Jebel Ash Sham,3019,23.21250000,57.27833333
+Shisha Pangma,8027,28.35333333,85.78000000
+Pico de Neblina,2994,0.80666667,-66.00500000
+Saramati,3826,25.74000000,95.03750000
+Maromokotro,2876,-14.02333333,48.96583333
+Shishaldin Volcano,2869,54.75527778,-163.96944444
+Kuh-e Bandaka,6843,36.17916667,70.98333333
+Moncong Lompobatang,2874,-5.34666667,119.93166667
+Buni Zom,6542,36.15416667,72.32750000
+Mt. Robson,3959,53.11000000,-119.15666667
+Pico de Cano,2829,14.95083333,-24.34333333
+Kamet I,7756,30.92000000,79.59166667
+Rakaposhi,7788,36.14250000,74.48916667
+Pico de Aneto,3404,42.63222222,0.65777778
+Gunung Arjuna,3339,-7.76416667,112.58916667
+Jiuding Shan,4969,31.54333333,103.85333333
+Ruapehu,2797,-39.29000000,175.56333333
+Gunung Careme,3078,-6.89333333,108.40666667
+Qullai Istiqlol,7134,39.34250000,72.87750000
+Gurla Mandhata,7694,30.43583333,81.29583333
+Redoubt Volcano,3108,60.48472222,-152.74527778
+Nevado Huascaran Sur,6746,-9.12166667,-77.60416667
+Mt. Elbert,4399,39.11777778,-106.44527778
+Nevado de Famatima,6097,-29.01416667,-67.82666667
+Cerro Tupungato,6570,-33.35833333,-69.77000000
+Pegunungan Arfak,2940,-1.15666667,133.98000000
+Puncak Mandala,4760,-4.70833333,140.28916667
+Mt. Francais,2760,-64.63333333,-63.45000000
+Gunung Argopuro,3088,-7.96416667,113.56666667
+Mawson Peak,2745,-53.10416667,73.51750000
+Kuh-e Hazar,4500,29.51166667,57.27166667
+Mt. Victoria,4038,-8.89250000,147.53333333
+Kronotsky V.,3527,54.75250000,160.53250000
+Mt. Sir Wilfrid Laurier,3516,52.80138889,-119.73138889
+Gunung Tambora,2722,-8.24666667,117.95833333
+Nevado de Colima,4270,19.56333333,-103.60833333
+Mt. Balbi,2715,-5.90500000,154.99500000
+Cerro el Manchao,4575,-28.25833333,-66.04083333
+Fuyul Sojol,3030,0.57750000,120.20500000
+Mt. Vancouver,4812,60.35861111,-139.69777778
+Mt. Sir Sandford,3519,51.65666667,-117.86750000
+Mt. Baker,3286,48.77666667,-121.81444444
+Monte Cinto,2706,42.38000000,8.94722222
+Gunung Kapalatmada,2700,-3.30000000,126.22000000
+Muztagh Ata,7509,38.27833333,75.11583333
+Pik Karla Marxsa,6723,37.16250000,72.48166667
+Pik Dankova,5982,41.05916667,77.68333333
+Chaine de la Selle,2680,18.36000000,-71.97666667
+Nevado del Huila,5390,2.92416667,-76.02916667
+Mt. Torbert,3479,61.40888889,-152.41388889
+Cerro Tronador,3470,-41.16083333,-71.88750000
+Pico de Bandeira,2890,-20.43416667,-41.79666667
+Volcan Lanín,3740,-39.63750000,-71.50250000
+Heyuan Feng,5289,43.43833333,86.08333333
+Mt. Minto,4165,-71.78333333,168.75000000
+Barbeau Peak,2616,81.92666667,-74.98666667
+Kuh-e Dinar,4409,30.95166667,51.43750000
+Mt. Kirkpatrick,4528,-84.33333333,166.41666667
+Paektu-san,2744,41.99333333,128.07750000
+Mt. Halcon,2582,13.26250000,120.99500000
+Mt. Tagubud,2670,7.44500000,126.22666667
+Monte Darwin,2580,-54.65916667,-69.59833333
+Gunung Sumbing,3320,-7.38500000,110.07250000
+Cerro Tamana,4100,5.16500000,-76.09500000
+Yaomei Feng,6250,31.10666667,102.90166667
+Koyo Zom,6872,36.73000000,73.24000000
+San Jacinto Peak,3304,33.81333333,-116.67750000
+Nevado Salcantay,6264,-13.33583333,-72.54916667
+Mt. Oiautukekea,2536,-9.33416667,150.20583333
+Altun Shan,5830,39.25083333,93.69666667
+San Gorgonio Mtn.,3506,34.09916667,-116.82583333
+Sante YeTerara Ch/af,4400,6.82583333,39.81750000
+Disteghil Sar I,7885,36.32583333,75.18833333
+Pidurutalagala,2524,7.00083333,80.77333333
+Mt. Parry,2520,-64.26666667,-62.41666667
+Mt. Sidley,4285,-77.03333333,-126.10000000
+Charleston Peak,3633,36.27166667,-115.69555556
+Jebel Marra,3042,12.93333333,24.22750000
+Mt. Giluwe,4367,-6.04333333,143.88666667
+Pavlof Volcano,2515,55.41944444,-161.89500000
+Mt. Veniaminof,2507,56.21972222,-159.29833333
+Mt. Oku,3011,6.20166667,10.51750000
+Uludoruk,4136,37.48583333,44.00500000
+Gora Alagordy,4622,45.04166667,80.25750000
+Anai Mudi,2694,10.17000000,77.06083333
+Corno Grande,2912,42.47000000,13.56722222
+Mt. Adams,3742,46.20250000,-121.49111111
+Musala,2925,42.17972222,23.58666667
+Kuh-e Safed Khers HP,5326,38.09333333,71.09500000
+Mt. Aspiring,3033,-44.38333333,168.73333333
+Hung-Wang Shan HP,4330,26.14916667,102.91333333
+Mogote Corralitos,3160,-31.31583333,-67.92333333
+Skihist Mtn.,2968,50.18777778,-121.90333333
+Mt. Elgon,4321,1.11833333,34.52500000
+Masherbrum,7821,35.64000000,76.30583333
+Mt. Hubbard,4557,60.31888889,-139.07277778
+Cerro Tristeza,2596,10.08416667,-63.95833333
+Psiloritis,2456,35.22666667,24.77250000
+Pico Naiguata,2765,10.54333333,-66.78250000
+Gora Bazardyuzi,4466,41.22166667,47.85833333
+Nevado Illimani,6438,-16.63333333,-67.79083333
+Mayon Volcano,2462,13.25583333,123.68583333
+Gunung Dempo,3159,-4.01583333,103.12833333
+Bairiga,6882,29.16583333,96.72416667
+Pik Pobeda,3003,65.17555556,146.00750000
+Kuh-e Chuk Shakh,5467,36.77833333,71.45166667
+Mt. Katanglad,2938,8.11583333,124.92333333
+Annapurna II,7937,28.53333333,84.12166667
+Gunung Merbabu,3145,-7.45500000,110.44000000
+Mt. Ratz,3090,57.39305556,-132.30305556
+Canlaon Mtn.,2430,10.41000000,123.13000000
+Mt. Chamberlin,2749,69.27694444,-144.91166667
+Nevado Sajama,6542,-18.10833333,-68.88333333
+Pangrango,3019,-6.76916667,106.96500000
+Grossglockner,3798,47.07416667,12.69444444
+Roque de los Muchachos,2423,28.75472222,-17.88500000
+Erciyes Dagi,3917,38.53500000,35.45083333
+Mt. Odin,2970,50.55166667,-118.13000000
+Nun,7135,33.98000000,76.02166667
+Mt. Monashee,3274,52.38527778,-118.94000000
+Jebel Katarina,2629,28.51166667,33.95250000
+Cotopaxi,5896,-0.68083333,-78.43833333
+Kuh-e Zendan,3503,28.07583333,60.01083333
+Iliamna Volcano,3053,60.03194444,-153.09027778
+Pik Abu Ali Ibn Sino,6940,38.51000000,72.35416667
+Dhaulagiri II,7751,28.76250000,83.38916667
+Qornet es Saouda,3087,34.30083333,36.11666667
+Thabana Ntlenyana,3482,-29.46833333,29.26916667
+Mt. Olympus,2429,47.80138889,-123.71083333
+Mt. Columbia,3741,52.14722222,-117.44138889
+Makalu,8485,27.89000000,87.08833333
+Galdhøpiggen,2469,61.63666667,8.31500000
+Poco Mandasawu,2370,-8.65166667,120.44833333
+Kertau,3282,45.74250000,82.75750000
+Le Kartala,2361,-11.75666667,43.36166667
+Mt. Queen Bess,3298,51.27166667,-124.56833333
+Olympos Oros,2919,40.08277778,22.35111111
+Mt. Miller,4160,-83.33333333,165.80000000
+Jargalant Hayrhan,3796,47.68750000,92.56333333
+Gora Kazbek,5034,42.69916667,44.51833333
+Gerlach,2655,49.16416667,20.13583333
+Yangra Kangri,7422,28.39250000,85.13000000
+Gora Khurumdy,6610,39.45500000,73.56666667
+Mt. Cook,4196,60.18638889,-139.97694444
+Ponta do Pico,2351,38.46888889,-28.39888889
+Mt. Hood,3426,45.37361111,-121.69583333
+Volcan Llullaillaco,6739,-24.72000000,-68.53666667
+Profitis Ilias,2404,36.95388889,22.35222222
+Mt. Sanford,4949,62.21361111,-144.13111111
+Nayramadlin Orgil,4374,49.14583333,87.81916667
+Hans Meyer Range,2340,-4.40083333,152.93833333
+Cho Oyu,8188,28.09666667,86.66000000
+Alaid V.,2339,50.86083333,155.56416667
+Tekilik Shan,5470,36.52166667,80.31500000
+Ledyakaya,2453,61.88805556,171.16750000
+Demirkazik Tepe,3756,37.79750000,35.15916667
+Mt. Tom White,3417,60.65194444,-143.69750000
+Popomanaseu,2335,-9.70361111,160.06194444
+Mt. Ulawun,2334,-5.05083333,151.33083333
+Tahat,2908,23.28750000,5.52916667
+Mt. Lister,4025,-78.06666667,162.68333333
+Gunung Ophir,2912,0.07916667,99.98416667
+Mt. Cooper,3094,50.18333333,-117.20000000
+Sapitwa Peak,3002,-15.95000000,35.59083333
+Mt. Gaudry,2315,-67.53333333,-68.61666667
+Farallones de Cali,4050,3.34416667,-76.69583333
+Mt. Taranaki,2518,-39.29583333,174.06500000
+Wheeler Peak,3982,38.98583333,-114.31388889
+Hotaka-dake,3190,36.28916667,137.64805556
+Saser Kangri I,7672,34.86500000,77.75250000
+Mt. Irving,2300,-61.28333333,-54.13333333
+Sikaram Sar,4755,34.03833333,69.90250000
+Pik Sat,5900,39.23583333,71.91083333
+Asahi-dake,2290,43.66361111,142.85416667
+Mt. Malindang,2404,8.21750000,123.63666667
+Mt. Ulysses,3024,57.34638889,-124.09277778
+Cerro Marahuaca,2832,3.66000000,-65.40666667
+Haramosh,7406,35.84000000,74.89750000
+Glacier Peak,3213,48.11194444,-121.11305556
+Mt. Kabangama,4104,-6.06083333,144.61583333
+Cerro Nevado,3810,-35.58083333,-68.49000000
+Finsteraarhorn,4274,46.53722222,8.12611111
+Farallones de Citara,4050,5.75916667,-76.06166667
+Beerenberg,2277,71.08333333,-8.15000000
+Kackar Dagi,3932,40.83666667,41.16333333
+Monte Melimoyu,2440,-44.07583333,-72.86000000
+Shir Kuh,4050,31.60583333,54.06833333
+Dashennongjia,3100,31.44000000,110.30750000
+Gora Chimtarga,5489,39.19583333,68.19583333
+Mt. Kimball,3155,63.23861111,-144.64388889
+Wildspitze,3768,46.88527778,10.86722222
+Otgon Tenger Uul,4000,47.60833333,97.55250000
+Bulu Kandela,2870,-1.29916667,121.54250000
+Blue Mountain Peak,2256,18.04666667,-76.57916667
+Doda Betta,2636,11.40250000,76.73750000
+Monte Roraima,2723,5.20222222,-60.73527778
+Wedge Mtn.,2892,50.13333333,-122.79333333
+Cerro Calima,3840,4.06916667,-76.52416667
+Otter Mtn.,2692,56.00666667,-129.69277778
+Mt. Orohena,2241,-17.56666667,-149.46666667
+Karun Kuh,6977,36.61000000,75.08083333
+Kita-dake,3192,35.67416667,138.23666667
+Nyainqêntanglha Feng,7162,30.36750000,90.58500000
+P. 2390,2390,-43.29500000,-72.52583333
+Piz Bernina,4049,46.38222222,9.90805556
+Kawagebo,6740,28.43833333,98.68333333
+Taibai Shan,3750,33.95500000,107.76333333
+Kangze/gyai,5808,38.50000000,97.72500000
+Pik Semionova Tien-Shanskogo,4895,42.50583333,74.58083333
+Pik BAM,3072,56.86416667,117.57500000
+Volcan Domuyo,4708,-36.63750000,-70.43250000
+Monte Zeballos,2700,-47.03500000,-71.69833333
+Mt. Kosciuszko,2228,-36.45583333,148.86472222
+Vol. Nevado de Toluca,4690,19.10166667,-99.76750000
+Ch/ok/e Terara,4100,10.71333333,37.84833333
+Mt. Griggs,2332,58.35388889,-155.09500000
+Kwatna Peak,2290,52.07000000,-126.95944444
+Shikar Beh,6200,32.41750000,77.07083333
+Huatou Jian,4750,28.72916667,102.37916667
+Gunung Mekongga,2650,-3.66500000,121.23583333
+Pegunungan Kobowre,3750,-3.87083333,135.87083333
+Sepu Kangri,6956,30.90416667,93.78750000
+Mt. Foraker,5304,62.96027778,-151.40027778
+Zhupanovsky V.,2923,53.58833333,159.14833333
+Outlook Peak,2210,79.74000000,-91.40000000
+Nevado Coropuna,6405,-15.54583333,-72.66083333
+Argun,3418,6.10583333,36.74250000
+Cerro Champaqui,2770,-31.98750000,-64.93666667
+Ngoc Linh,2598,15.06916667,107.97500000
+Cordillera de Ansilta,5887,-31.62583333,-69.87666667
+Milne Land HP,2200,70.78333333,-26.66666667
+Kangtö,7060,27.86500000,92.53250000
+Golden Hinde,2195,49.66666667,-125.75000000
+Malubiting West,7453,36.00166667,74.87583333
+White Mtn. Peak,4342,36.16972222,-117.08916667
+Mt. Tutoko,2723,-44.60000000,168.00000000
+Mt. Ostry Tolbachik,3672,55.83083333,160.32583333
+Süphan Dagi,4058,38.93166667,42.83416667
+Dansketinden,2839,72.11666667,-24.90000000
+Mt. Crillon,3879,58.66277778,-137.17472222
+Mt. Jackson,3184,-71.38333333,-63.36666667
+Cerro Pintado,3660,10.33833333,-72.90416667
+Hochkönig,2941,47.42027778,13.06250000
+Cerro Tiotepec,3550,17.46833333,-100.13750000
+Keele Peak,2972,63.43138889,-130.32388889
+Scud Peak,2987,57.24111111,-131.16750000
+Golem Korab,2764,41.79111111,20.54777778
+Nevado de Chañi,5930,-24.06333333,-65.74583333
+Cerro Aucanquilcha,6176,-21.22083333,-68.46833333
+Dufourspitze,4634,45.93694444,7.86694444
+Mauna Loa,4169,19.47555556,-155.60555556
+Saltoro Kangri I,7742,35.40500000,76.84750000
+Norin Kang,7206,28.94833333,90.17833333
+Gannett Peak,4208,43.18416667,-109.65361111
+Cloud Peak,4013,44.38194444,-107.17416667
+Gasherbrum I,8080,35.72583333,76.69500000
+Razorback Mtn.,3183,51.59000000,-124.69166667
+Kangju Kangri,6725,33.72333333,78.52833333
+Mt. Victoria,3070,21.23333333,93.90333333
+Mt. Odin,2147,66.55000000,-65.43333333
+Cerro el Libertador,6380,-24.93166667,-66.39083333
+Monte Pissis,6795,-27.75583333,-68.79916667
+Gora Tebulosmta,4493,42.57333333,45.31750000
+Mt. Takahe,3460,-76.28333333,-112.08333333
+Aragats Lerrnagagat,4090,40.52416667,44.19666667
+Tanete Gandangdewata,3074,-2.74833333,119.36833333
+Gunung Tahan,2187,4.63250000,102.23416667
+Cerro el Nacimiento,3710,16.21166667,-96.19583333
+Cerro Picacho del Diablo,3110,30.99083333,-115.37500000
+Hoher Dachstein,2995,47.47527778,13.60638889
+Ghamubar Zom,6518,36.59000000,73.34166667
+Ich Obo,3802,44.79916667,95.24000000
+Marmolada,3343,46.43472222,11.85083333
+Gunung Liman,2563,-7.82500000,111.76083333
+"North Buttress, Mt. Hesperus",2996,61.80388889,-154.14472222
+Shah Fuladi,5060,34.64333333,67.62500000
+Mt. Farnham,3493,50.48833333,-116.48666667
+Kimhandu,2653,-7.09250000,37.61833333
+Kinyeti,3187,3.94583333,32.91000000
+Hvannadalshnukur,2119,64.01583333,-16.67472222
+Mt. Madiac,2117,11.38916667,122.16166667
+Gunung Marapi,2891,-0.38000000,100.47416667
+Cerro de la Majadita,6280,-30.42000000,-69.78083333
+Buku Sibela,2111,-0.73666667,127.52416667
+Yuzhno Muiskyy Khrebet HP,3067,55.97416667,114.43916667
+Cerro Marmolejo,6108,-33.73500000,-69.87833333
+Mt. Foster,2105,-63.00000000,-62.55000000
+Palup Qaqa,2105,71.33333333,-52.81666667
+Mt. Bona,5045,61.38527778,-141.75055556
+Barkol Shan,4320,43.38166667,93.35583333
+Mt. Markham,4350,-82.85000000,161.35000000
+Gunung Cikuray,2820,-7.32250000,107.86000000
+Parîngul Mare,2519,45.34111111,23.54055556
+Mt. Vsevidof,2103,53.12333333,-168.69222222
+Kuh-e Shab,2681,27.43166667,55.13416667
+Oscar Peak,2336,54.92833333,-129.06000000
+Helan Shan HP,3540,38.83333333,105.95000000
+Pic Macaya,2347,18.38250000,-74.02500000
+Pik Skalistiy,5621,39.61916667,70.72000000
+Zard Kuh,4200,32.36500000,50.07750000
+Montaña de Santa Barbara,2744,14.91333333,-88.11416667
+Parbati Parbat,6633,32.08916667,77.73333333
+Lamo-She,6070,29.94916667,102.05000000
+Cordillera Castillo,2675,-46.06500000,-72.20750000
+Mt. Assiniboine,3616,50.87000000,-115.65000000
+Nevado Auzangate,6372,-13.79083333,-71.23250000
+Mt. Mantaling,2085,8.81833333,117.67500000
+Kuh-e Fareghan,3240,27.88666667,56.34750000
+Oldoinyo Lesatima,4001,-0.31166667,36.61416667
+Montaña de Celaque,2849,14.53416667,-88.68000000
+Phu Bia,2830,18.98083333,103.15166667
+Mt. Jancowski,2729,56.33722222,-129.98166667
+Nevado Cayembe,5790,0.02500000,-77.98916667
+Dunheger,3315,45.19250000,90.90666667
+Cerro Altar,5319,-1.66333333,-78.40916667
+Cerro Pircas,4380,-31.70750000,-69.15666667
+Cord. Vilcababna Norte HP,4150,-12.37583333,-73.61750000
+Opala V.,2460,52.54333333,157.33916667
+Payers Tinde,2320,73.13333333,-26.36666667
+Pontan,2798,-22.42833333,-44.84333333
+Cerro Maca,2300,-45.10583333,-73.16916667
+Chomolhari,7050,27.82416667,89.26916667
+Monte Viso,3841,44.66750000,7.09083333
+Chamar,7165,28.55333333,84.94500000
+Amba Farit,4270,10.95166667,39.10333333
+Mt. Drum,3661,62.11583333,-144.64000000
+Nevado Sara Sara,5505,-15.33000000,-73.44750000
+Queen Mary/s Peak,2060,-37.11111111,-12.28833333
+Medetsiz Tepe,3524,37.39416667,34.63166667
+Gora Georgia Pobedonosca,2896,-69.00000000,71.00000000
+Xuebao Ding,5588,32.67583333,103.84666667
+Gladsheim Peak,2830,49.78333333,-117.62666667
+Nakanai Mtns. HP,2316,-5.18666667,151.83500000
+Mt. Murphy,2705,-75.33333333,-110.73333333
+Chu Yang Sin,2420,12.40583333,108.42416667
+Gunung Tumpu,2565,-1.06583333,122.19166667
+Triglav,2864,46.37805556,13.83694444
+Mt. Hanang,3420,-4.43500000,35.40000000
+Sibuyan Island HP,2050,12.41666667,122.56916667
+Varful Moldoveanu,2544,45.60000000,24.73777778
+Barre des Écrins,4102,44.92250000,6.36000000
+Mt. Dawson,3377,51.15138889,-117.42055556
+Ellesmere Peak,2347,78.80000000,-79.53250000
+Daxue Shan,3500,24.11166667,99.64000000
+Api,7132,30.00666667,80.92916667
+Loolmalassin,3682,-3.05000000,35.81916667
+Monte Sarmiento,2187,-54.45000000,-70.84000000
+Pakhnes,2453,35.29250000,24.03333333
+Maja e Jezercës,2694,42.44250000,19.81416667
+Pauhunri,7128,27.95333333,88.84250000
+Nevado del Ruiz,5300,4.89166667,-75.32333333
+Kuh-e Genu,2350,27.42583333,56.17250000
+Mt. Chiginagak,2111,57.13333333,-156.98611111
+Cerro Yerupaja,6617,-10.26888889,-76.90527778
+Sulamutag Feng,6245,37.91333333,87.38916667
+Gunung Matebeanfeto,2372,-8.64166667,126.59583333
+Serrania Guanay,2392,5.76583333,-66.19166667
+Noshaq,7492,36.43166667,71.82833333
+Volcan San Pedro,6145,-21.88750000,-68.39166667
+Gunung Mulu,2376,4.04583333,114.93000000
+Pico de São Tomé,2024,0.26750000,6.54333333
+Tapuae-o-Ueneku,2884,-41.99583333,173.66250000
+Säntis,2503,47.24944444,9.34333333
+Kawarani,5992,31.45250000,100.22333333
+Bukit Raya,2300,-0.65916667,112.68833333
+Volcan Socompa,6051,-24.39583333,-68.24583333
+High Peak,2037,15.48166667,120.12083333
+Mt. Valpy,2219,54.27500000,-129.05638889
+Guge,3568,6.19750000,37.38083333
+Cerro Paine Grande,2700,-51.00750000,-73.09583333
+Athos,2030,40.15888889,24.32833333
+Cordillera del Condor HP,2950,-3.29500000,-78.32500000
+Perserajoq,2259,71.40000000,-51.96666667
+Kuh-e Belandtarin,6286,37.14583333,73.21500000
+Mt. Edith Cavell,3363,52.66666667,-118.05000000
+Pegunungan Gauttier,2230,-2.57083333,138.67416667
+Pico Turquino,2005,19.99000000,-76.83666667
+Cerro Norte,2950,-49.75833333,-73.02388889
+Gora DykhTau,5205,43.05250000,43.13500000
+Alsek Peak,2716,60.03222222,-137.59055556
+Ge/nyen,6204,29.80750000,99.60583333
+Hawkes Heights,2000,-73.53333333,169.70000000
+Nevado Ampato,6288,-15.82166667,-71.87916667
+Grand Teton,4197,43.74111111,-110.80250000
+Yao Shan,4050,27.21333333,103.07750000
+Surukwat Kangri,6792,36.28833333,76.38833333
+Gunong Yong Belar,2180,4.65000000,101.36166667
+Volcan de Agua,3761,14.46583333,-90.74333333
+Mt. Cairnes,2810,60.86805556,-138.27638889
+Cerro Parinacota,6342,-18.16583333,-69.14166667
+Gora Tardoki-Yani,2090,48.89666667,138.05333333
+Oshtoran Kuh,4139,33.33916667,49.30333333
+Pegunungan Wondiwoi,2180,-2.73333333,134.58416667
+Soviet Officers Peak,6233,38.42416667,73.30250000
+Tengu-dake,1982,33.76666667,133.11416667
+Chatsquot Mtn.,2365,53.14222222,-127.47722222
+Tergun Bogd,3957,44.99500000,100.23083333
+Tope de Coroa,1979,17.03333333,-25.29583333
+K12,7428,35.29500000,77.02166667
+Reo Purgyil,6816,31.88472222,78.73555556
+Buckwell Peak,2721,59.41861111,-136.76527778
+Kuh-e Palvar,4229,30.07000000,57.46583333
+Kambalny V.,2161,51.30583333,156.87583333
+Double Cone,2319,-45.07083333,168.80861111
+Saraghrar,7338,36.54750000,72.11666667
+Kuh-e Nay Band,2960,32.44083333,57.36916667
+Khvoshkuh,2650,27.61333333,56.66916667
+Gunung Murud,2423,3.90500000,115.48833333
+Bey Daglari,3070,36.60250000,30.12166667
+Huanggang Shan,2170,27.86083333,117.78416667
+Nevado Chachani,6057,-16.19416667,-71.53166667
+K6,7282,35.41666667,76.55083333
+Pik Patkhor,6080,37.88916667,72.18916667
+Dradullungshog,6282,34.79833333,99.46250000
+Cerro las Conchas,2890,18.72000000,-102.97333333
+Lapche Kang,7367,28.30416667,86.35083333
+Volcan Antofalla,6440,-25.56250000,-67.88083333
+Ancohuma,6427,-15.85333333,-68.54083333
+Paramo Frontino,3950,6.45666667,-76.12250000
+Ortlés,3905,46.50888889,10.54472222
+Olympos,1952,34.93833333,32.86111111
+Cerro Fitzroy,3405,-49.27166667,-73.04666667
+Serra Imeri,2500,0.49083333,-65.33333333
+Mt. Isarog,2000,13.65916667,123.37333333
+Angilaaq Mtn.,1951,73.22833333,-78.62083333
+Nenang,6870,30.30333333,93.64916667
+Mt. Matutum,2286,6.36000000,125.07583333
+Monte Baldo,2218,45.72638889,10.84388889
+Renland HP,2200,71.33333333,-26.33333333
+Serra Tulu Tuloi,2140,1.19583333,-63.80000000
+Gunung Benum,2107,3.82333333,102.09416667
+Halla-san,1950,33.36166667,126.52916667
+Sacajawea Peak,2999,45.24500000,-117.29277778
+Pico de las Nueves,1949,27.96388889,-15.56583333
+Pulau Sangeang,1949,-8.19666667,119.07000000
+Mt. Kilkerran,1947,-9.46166667,150.76833333
+Cerro Palpana,6040,-21.54666667,-68.52250000
+Liushi Shan,7167,35.31583333,80.91583333
+Richmond Peak,3595,-75.80000000,-115.81666667
+Volcan Calbuco,2015,-41.33000000,-72.61833333
+Cerro Mellizo Sur,3300,-48.55500000,-73.14083333
+Kuh-e Hami,3190,30.49250000,50.89916667
+Ulugh Muztagh,6973,36.41250000,87.38500000
+Neacola Mtns. HP,2873,60.79861111,-153.39388889
+Sanset,4745,33.68000000,74.54083333
+Lunpo Gangri,7095,29.83333333,84.61333333
+Gora Radzhi-Bek,5735,38.42500000,72.76000000
+Malinche,4430,19.23166667,-98.03250000
+P. 2486,2486,-70.58333333,-70.16666667
+Kings Peak,4123,40.77638889,-110.37277778
+Mt. Priestley,2359,55.22944444,-128.87222222
+Cerro Sosneado,5189,-34.75416667,-69.97166667
+Miyanoura-dake,1936,30.33583333,130.50250000
+P. 5841,5841,28.90416667,98.38416667
+Mt. Graham,3267,32.70166667,-109.87083333
+Torre de Cerredo,2648,43.19805556,-4.85111111
+Hsueh Shan,3884,24.38333333,121.23000000
+Phu Luong,2985,21.57083333,104.30666667
+Gelai Peak,2948,-2.61333333,36.10333333
+Pik Mus-Khaya,2959,62.60333333,140.93916667
+Mt. Murchison,3501,-73.41666667,166.30000000
+Cerro Payún Matru,3810,-36.51416667,-69.28583333
+Buka Daban Feng,6860,36.02416667,90.86583333
+Hasan Dagi,3268,38.12750000,34.16666667
+Nanfengmian,2140,26.31333333,114.03666667
+Nemjung,7140,28.73500000,84.41666667
+Ak Tag,6748,36.72416667,84.60166667
+Sahuasiray,5818,-13.21333333,-71.99000000
+Gora Khuvkhoitun,2616,57.92083333,160.67583333
+Ramlo,2248,13.39083333,41.72750000
+Sierra la Laguna HP,2090,23.53916667,-109.95416667
+Devon Icecap HP,1920,75.34777778,-82.17388889
+Huang Guan Shan,7295,36.10833333,76.21250000
+Mt. Banahao,2170,14.06750000,121.49250000
+Cerro Malcante,5100,-25.07500000,-65.85166667
+Aka-dake,2899,35.97083333,138.36916667
+Yam-Alin Range HP,2370,53.60666667,134.57500000
+Shakangsham,6822,31.69666667,85.06333333
+Yusupu Aleketag Shan,6065,38.19000000,88.90833333
+Hkaru Bum,3677,27.14500000,98.15166667
+Sharks Teeth Peaks,2304,53.00722222,-127.24000000
+Miranjan,2981,34.10333333,73.40750000
+Gya,6794,32.52583333,78.40000000
+Cerro del Toro,6168,-29.13000000,-69.78666667
+Abune Yosef,4260,12.14083333,39.18166667
+Kichatna Spire,2739,62.42305556,-152.72555556
+Detour Peak,2550,59.84222222,-137.58555556
+Sierra la Madera HP,3030,27.03416667,-102.39166667
+Nuaf Nefomasi,2351,-9.56083333,124.23000000
+Ighil M/Goun,4071,31.50833333,-6.44333333
+Daliang Shan HP,4041,27.89416667,103.23666667
+Mt. San Antonio,3068,34.28833333,-117.64833333
+Pyramiden/Hoeyriggen,1904,70.11666667,-53.40000000
+Koudiet Tirbirhine,2456,34.83916667,-4.51666667
+Cerro Arenales,3437,-47.19583333,-73.46833333
+Bon Irau,2500,-0.66166667,132.88916667
+Pt. 8084,2464,60.83027778,-145.13194444
+Ymers HP,1900,73.15000000,-24.31666667
+Cerro Pular,6233,-24.20083333,-68.06666667
+Volcan Osorno,2661,-41.10416667,-72.49583333
+Haku-san,2702,36.15416667,136.77000000
+Mt. Piora,3557,-6.72583333,145.98833333
+P. 6588,6588,42.03666667,80.50416667
+Pogromni Volcano,1991,54.56805556,-164.69972222
+Baintha Brakk I,7285,35.94750000,75.75333333
+Gran Paradiso,4061,45.51805556,7.26722222
+Chokai-san,2236,39.09916667,140.05083333
+Mt. Douglas,2149,58.85916667,-153.53527778
+Sierra de los Cuchaniantes HP,3837,15.51916667,-91.54500000
+"Mt. Goodsir, South Tower",3567,51.20166667,-116.39666667
+Mt. Bosavi,2507,-6.61416667,142.82666667
+Telescope Peak,3367,37.63416667,-118.25555556
+Cerro Tia Chena,2630,26.12000000,-100.55666667
+Cerro Balmaceda,2035,-51.41750000,-73.19750000
+Mt. Peale,3877,38.43861111,-109.22916667
+Traill HP,1884,72.71666667,-24.06666667
+Mt. Karoma,3623,-5.72250000,142.49500000
+Kuh-e Shahvar,3890,36.57916667,54.76416667
+Pegunungan Pompangeo,2590,-1.68416667,120.99833333
+Cerro la Joya,2930,21.43083333,-99.13250000
+Mt. Tabwemasana,1879,-15.36250000,166.75500000
+Bangong,6260,33.48166667,79.33666667
+Cerro Pinaculo,2160,-50.76000000,-72.25583333
+Xiannairi,6032,28.39666667,100.34916667
+Pizzo di Coca,3050,46.07166667,10.01138889
+Yotei-zan,1898,42.82666667,140.81138889
+Pt. 8010,2441,61.16055556,-144.81305556
+Pegunungan Cycloop,2000,-2.50666667,140.52500000
+Dofana,5940,35.54083333,74.88166667
+Pic Boby,2658,-22.19500000,46.88500000
+Cima Dodici,2336,45.99750000,11.46805556
+Mt. Washington,1917,44.27027778,-71.30333333
+Volcan Irazu,3402,9.97666667,-83.85416667
+Borgora,5248,43.57916667,85.11916667
+P. 5120±,5120,36.25583333,69.79500000
+Silvertip Mtn.,2596,49.16000000,-121.21833333
+Kanjiroba,6883,29.37833333,82.63916667
+Kuh-e Siah Khvani,3314,36.28083333,59.04916667
+Killini Oros,2376,37.93972222,22.39694444
+Montaña Peña Blanca,3518,15.50000000,-91.91583333
+Mt. Igikpak,2523,67.41305556,-154.96638889
+Snow Tower,2003,58.17305556,-133.40166667
+Cerro San Rafael,3710,25.36416667,-100.55750000
+Yuhe Kangri,6327,29.11500000,97.07750000
+Mt. Simpson,2883,-10.03500000,149.56916667
+Seven Sisters Peaks,2747,54.96750000,-128.23194444
+Pico Ruivo,1861,32.76388889,-16.92583333
+Munkh Hayrhan,4231,46.89000000,91.47333333
+Mauga Silisili,1858,-13.61833333,-172.48583333
+Myinmoletkat Taung,2072,13.46666667,98.80500000
+Mt. Mitchell,2037,35.76472222,-82.26500000
+Oros Ossa,1978,39.79694444,22.68694444
+P. 5608,5608,34.55500000,75.83666667
+Mt. Saugstad,2908,52.25333333,-126.51500000
+Gunung Klabat,1990,1.45333333,125.03083333
+Mont Ross,1850,-49.59222222,69.49583333
+Victoria Peak,2163,50.05472222,-126.10083333
+Truuli Peak,2015,59.91277778,-150.43583333
+Volcan Acatenango,3976,14.50083333,-90.87500000
+Doi Inthanon,2576,18.58833333,98.48750000
+Chiantar Sar,6416,36.72666667,73.89083333
+Humphreys Peak,3851,35.34638889,-111.67805556
+Macizo Nevado,2100,-43.54416667,-72.20333333
+Wuzhi Shan,1840,18.89833333,109.70416667
+Volcan de San Miguel,2130,13.43500000,-88.26916667
+Mt. Hilong-hilong,1920,9.09666667,125.70500000
+Nevado Cotacachi,4944,0.36083333,-78.34916667
+Cerro Napi,3860,2.37833333,-77.43333333
+P. 4030,4030,26.15833333,103.23583333
+Saliente del Rio Guape,4180,3.71500000,-74.04250000
+Gora Dyul/tydag,4127,41.96000000,46.92333333
+La Marmora,1834,39.98805556,9.32416667
+Mt. Kunugui,1833,-4.67666667,145.97750000
+Kuh-e Parau,3360,34.41833333,47.24333333
+Brian Boru Peak,2507,55.07388889,-127.57416667
+Mt. Victory,1891,-9.20000000,149.07166667
+Serra dos Orgaos,2250,-22.35500000,-42.58500000
+Eshdeger Range HP,2920,33.53333333,57.22750000
+Serra da Mocidade,1980,1.74666667,-61.79250000
+Borah Peak,3859,44.13750000,-113.78111111
+Howson Peak,2759,54.41861111,-127.74388889
+Makushin Volcano,1829,53.88555556,-166.93305556
+Atna Peak,2724,53.93972222,-128.04555556
+Kuhha-ye Alborz,4805,36.37583333,50.96250000
+Gunung Api,1827,2.78083333,125.40666667
+Cerro Mishahuanga,4118,-6.37416667,-79.23750000
+Kuh-e Sahand,3707,37.73083333,46.50000000
+Tsaydaychuz Peak,2758,53.02166667,-126.64000000
+Gora Alney,2598,56.69250000,159.64500000
+Mt. Natazhat,4095,61.52166667,-141.10305556
+Saipal,7030,29.89083333,81.49500000
+Loi Leng,2673,22.64250000,98.07416667
+Shayaz Zom,6050,36.64833333,72.82833333
+Dola Koyakoya,1821,-8.22083333,125.02083333
+Kaputzhukh Lerr,3905,39.15916667,46.00583333
+Parnaqussuit Qavaat HP,1860,66.43333333,-52.91666667
+Volcan Llaima,3125,-38.69583333,-71.73166667
+Verkhne-Angarskiy Khrebet HP,2641,56.35583333,111.64750000
+Tjatja V.,1819,44.35333333,146.24750000
+Moroto,3083,2.52500000,34.77250000
+Chikurachki V.,1816,50.32333333,155.46083333
+Shah Dok,6320,36.43666667,72.86083333
+Hanagita Peak,2592,61.06694444,-143.70833333
+Obasta Tsukai,3441,31.68250000,69.93750000
+Monte Amaro,2795,42.08694444,14.08750000
+Gora Addala Shukgelmezr,4152,42.33833333,46.25166667
+Mt. Forel,3391,66.93333333,-36.81666667
+North Kodar Group HP,2966,57.12166667,117.98833333
+Khodutka V.,2089,52.06250000,157.71000000
+Harhiraa Uul,4040,49.57000000,91.38583333
+Manam Island HP,1807,-4.07750000,145.03916667
+P. 4810±,4810,42.54333333,85.34416667
+Severo-Chuyskiy Khrebet HP,4177,50.06250000,87.56416667
+Tanaga Volcano,1806,51.88250000,-178.14388889
+Nyönno Ri,6724,28.20333333,87.60750000
+Yarla Shampo,6636,28.80000000,91.96500000
+Mor Dagi,3800,37.75500000,44.32000000
+Bukit Mugajah,3079,4.25166667,97.42083333
+Mt. Supernal,3655,-73.06666667,165.70000000
+Mt. Hermon,2814,33.41333333,35.85666667
+Mamostong Kangri,7516,35.14083333,77.57750000
+Mt. Mangabon,2480,8.59833333,125.09833333
+Konigstein,2606,-21.14916667,14.57750000
+Gunung Sibuatan,2457,2.91833333,98.42333333
+Kootenay Mtn.,2456,49.24083333,-116.82250000
+Bukii Dako,2260,1.06166667,120.93500000
+Thalo Zom,6050,35.81583333,72.28833333
+Cerro Anexo,2480,-42.37194444,-71.76666667
+Abra la Esperanza,3660,-10.42916667,-75.41916667
+Manakau,2608,-42.22500000,173.61833333
+Shedin Peak,2588,55.93916667,-127.48000000
+Spathi,2148,35.11888889,25.49888889
+Ras Koh,3003,28.82833333,65.19500000
+Mt. Martha Black,2512,60.67083333,-137.61916667
+Haute Cime: Dents du Midi,3257,46.16111111,6.92333333
+Haba Xueshan,5396,27.31833333,100.10000000
+Nemerçka,2482,40.12472222,20.43416667
+Gunung Besar,1892,-2.71083333,115.62583333
+Cerro Aracar,6095,-24.29000000,-67.78333333
+Gunung Masurai,2933,-2.50250000,101.85833333
+Kuju-san,1791,33.08166667,131.24000000
+Mt. Jefferson,3640,38.75194444,-116.92666667
+Sovereign Mtn.,2697,62.13111111,-148.60444444
+Sierra Maigualida,2350,5.58083333,-65.24916667
+Loma Gajo en Medio,2279,18.63666667,-71.52083333
+P. 4520±,4520,27.57666667,100.31083333
+Sutay Uul,4220,46.61750000,93.59416667
+Mt. Michael,3647,-6.40500000,145.31500000
+Mt. Ellen,3512,38.10888889,-110.81361111
+Qiajivik Mtn.,1963,72.18250000,-75.90666667
+Volcan Misti,5822,-16.29666667,-71.41083333
+Isanotski Peaks,2471,54.76833333,-163.73083333
+Shengtang Shan,1935,23.97500000,110.09750000
+Sierra Velluda,3535,-37.46333333,-71.41583333
+Beitai Ding,3061,39.07916667,113.56666667
+Cerro Cantillana,2281,-33.96666667,-70.96583333
+Vikhren,2914,41.76777778,23.40083333
+Mt. Kaplan,4230,-84.55000000,175.31666667
+Birkenhead Peak,2506,50.51111111,-122.62083333
+Isthmus Peak,1991,60.57722222,-148.89138889
+Mt. Frakes,3675,-76.80000000,-117.70000000
+Kuh-e Garin,3630,33.95916667,48.48166667
+Cerro Laguna Blanca,6012,-26.53000000,-67.05916667
+Cerro de Campanario,4010,-6.02416667,-77.59750000
+Mt. Harrison,3360,50.06000000,-115.20500000
+P. 5120±,5120,37.73416667,71.42166667
+Sierra de Avallanos HP,2360,-46.51833333,-72.43833333
+Gora Shan,4451,42.67583333,44.75750000
+Deseret Peak,3362,40.45944444,-112.62638889
+Serra Namuli,2436,-15.35750000,37.06500000
+Pangaion,1956,40.91472222,24.09166667
+Olet Sangenges,1840,-8.58000000,117.12166667
+Mt. Talawe,1824,-5.53750000,148.39666667
+Nganglong Kangri,6720,32.80833333,81.00083333
+Tsast Ula,4208,48.68166667,90.72500000
+Gora Narodnaya,1894,65.03333333,60.11666667
+Kitumbeine Hill,2858,-2.89333333,36.22916667
+Rooseveltsfjeld HP,1920,83.33333333,-35.78333333
+Storo HP,1770,70.83333333,-27.48333333
+Chamechaude,2082,45.28805556,5.79000000
+Cerro Gigante,5748,-16.97750000,-67.34916667
+Mt. Veve,1768,-7.95000000,157.07500000
+Kuhe Haji Ebrahim,3587,36.55166667,45.00500000
+Mt. Jefferson,3200,44.67416667,-121.79944444
+Kunyang Chhish I,7852,36.20500000,75.20750000
+Xuebang Shan,4295,26.48000000,99.49750000
+Chutine Peak,2910,57.77527778,-132.33527778
+Cerro Tacarcuna,1870,8.16583333,-77.29583333
+Snehaetten,1765,71.56666667,-53.16666667
+Babadag,1969,36.52833333,29.18500000
+Pandim,6691,27.57750000,88.21583333
+Mt. Sir Alexander,3275,53.93583333,-120.38694444
+Fenghuang Shan,2570,27.88166667,108.68166667
+Gunung Sendoro,3150,-7.30250000,109.99583333
+Kuhha-ye Hezar Masjed,3120,36.97333333,59.35666667
+Momskiy Khrebet HP,2480,66.59361111,144.77638889
+Mt. Hector,3394,51.57333333,-116.25833333
+Damyon,6324,29.18083333,98.46000000
+Chepunyal Hills,3334,1.65916667,35.38250000
+Varful Peleaga,2509,45.36611111,22.89444444
+Kuh-e Shashgal,6290,35.93000000,71.08000000
+Kuh-e Khabr,3856,28.81750000,56.41333333
+Kaimaktsalan,2528,40.93111111,21.78916667
+Tongshanjiabu,7207,28.15500000,90.06250000
+Baibaidin Shan,4300,27.55000000,102.35500000
+Buyu Lumut,2403,-1.20416667,121.80333333
+Picos de Barroso,5180,-34.28666667,-70.03333333
+Kebnekaise,2113,67.90111111,18.52083333
+Volcan Atitlan,3537,14.58333333,-91.18666667
+Komaga-take,2956,35.78916667,137.80333333
+Iliniza Sur,5263,-0.66333333,-78.71583333
+P. 3480,3480,26.73500000,100.46166667
+Phu Si Lung,3076,22.62583333,102.78750000
+Mt. Edziza,2780,57.71611111,-130.63388889
+Gora Gamchen,2577,54.97416667,160.70333333
+Shengena,2464,-4.26750000,37.93166667
+Mutnovsky V.,2322,52.44833333,158.19750000
+Frosty Peak,1769,55.06777778,-162.83527778
+Helges Halvo,1750,63.45000000,-41.83333333
+Pulau Tidore,1750,0.66416667,127.40166667
+Hasagt Hayrhan Uul,3578,46.78916667,95.80083333
+Cerro Tres Frailes,2050,-48.66416667,-72.68666667
+Uly Balkan Gershi,1880,39.67333333,54.54333333
+P. 5980,5980,29.32250000,94.74916667
+Whitehorn Mtn.,3399,53.13694444,-119.26666667
+Pilot Peak,3266,41.02111111,-114.07722222
+Jebel Shayib al Banat,2187,26.97916667,33.48750000
+Jebel al Harim,2087,25.97666667,56.23250000
+Zugspitze,2962,47.42111111,10.98527778
+Mt. Chown,3316,53.39694444,-119.41722222
+Iwate-san,2038,39.85333333,141.00083333
+Pk. 08-46,2181,80.13666667,-76.77000000
+Crazy Peak,3417,46.01805556,-110.27666667
+Dhirfis Oros,1743,38.62750000,23.84277778
+Tulu Welel,3301,8.87750000,34.81166667
+Jiehkkevarri,1834,69.46972222,19.88111111
+Phnum Aoral,1810,12.03250000,104.17083333
+Undundi-Wandandi,3640,-3.50666667,136.42250000
+Gora Chen,2690,65.28361111,141.80111111
+Great Sitkin Volcano,1740,52.08194444,-176.13583333
+Dabaicao Ling,3680,26.14083333,101.18083333
+Nevado Queulat,2300,-44.41833333,-72.38000000
+Koktutau,5324,40.03916667,74.83000000
+Mol Len,3088,25.49416667,94.75166667
+Thudaka Peak,2748,57.92694444,-126.84833333
+Smolikas Oros,2637,40.08972222,20.92611111
+Cordon Mariano Moreno,3490,-49.32083333,-73.41666667
+Jiucai Ling,2010,25.51416667,111.32916667
+Shah Tus Aqa Ghar,4803,33.62166667,67.04750000
+Monte Antelao,3263,46.45250000,12.26055556
+Lian Hua Feng,1864,30.13416667,118.16416667
+Alto Toroni,5995,-19.75333333,-68.69666667
+Kuh-e Kharanaq,3150,32.11333333,54.58500000
+Pascua,2250,-48.65583333,-72.92250000
+Hakken-san,1915,34.17416667,135.90666667
+Emogadong,2623,4.19583333,33.13000000
+Sungwi,2300,-4.73166667,38.23166667
+Dutoitspiek,1995,-33.75500000,19.18666667
+Zheltovsky V.,1957,51.57666667,157.32833333
+Puu Kukui,1764,20.89000000,-156.20805556
+Mt. Cleveland,1730,52.82250000,-169.94972222
+Geographical Society Island HP,1730,72.95000000,-24.33333333
+Samdi Dag,3811,37.30833333,44.25250000
+Ayaligtag Range,6130,37.38833333,87.60666667
+Dapin Shan,5412,30.20833333,102.33166667
+Gunung Singgalang,2877,-0.39000000,100.33083333
+Nattaung,2623,18.81000000,97.03750000
+Myangan Yamaat,3600,44.89666667,101.57666667
+Unuk Peak,2595,56.37611111,-130.19333333
+Barguzinskiy Khrebet HP,2841,54.62166667,110.45583333
+Barurumea Ridge,2063,-4.74583333,152.05333333
+McDonald Peak,2993,47.38250000,-113.91888889
+Wugong Shan,1920,27.45500000,114.17333333
+Volcan Tacora,5988,-17.72083333,-69.77250000
+Volcan Tromen,3980,-37.14000000,-70.05000000
+Rishiri-fuji,1721,45.18000000,141.23916667
+Baxoila Ling,6146,28.82416667,98.06083333
+Cond Peak,2801,49.74611111,-117.14194444
+S. of Pico Bonito,2450,15.55916667,-86.87666667
+Mt. Carse,2330,-54.71666667,-36.10000000
+Gle Hulumasen,2310,5.04416667,95.63333333
+Lalla Khedidja,2308,36.44750000,4.22833333
+Pointe d/Arcalod,2217,45.68166667,6.22833333
+Tsanglha Ri,6495,28.76333333,87.63166667
+Gora Babash-Ata,4427,41.41083333,72.91166667
+Khrebet Temerliktau HP,3730,43.31833333,80.80166667
+Hunhua Shan,3420,23.95750000,100.26083333
+Jebel Kawr,2730,23.13833333,57.01416667
+Newtontoppen,1717,79.15138889,16.80416667
+Mintaka Sar,6407,36.95055556,74.83583333
+Monte Dolcedorme,2267,39.89472222,16.21750000
+Khao Luang,1780,8.49416667,99.73000000
+Pulau Ternate,1715,0.80916667,127.33333333
+Kuh-e Shahu,3350,34.99750000,46.47250000
+Montaña San Ildefonso,2242,15.52333333,-88.23250000
+Ontake-san,3067,35.89333333,137.47916667
+Serra do Pacu,1880,1.52833333,-62.17416667
+Mt. Wrangell,4317,62.00638889,-144.01777778
+Muztagh Tower,7276,35.82666667,76.36166667
+Kuh-e Gar,2950,36.50333333,56.96166667
+Devils Paw,2593,58.72972222,-133.84083333
+Sittakanay Peak,2415,58.47777778,-133.36111111
+Jebel Jar,2300,24.55416667,38.21500000
+Montalto,1955,38.15888889,15.92111111
+Cerro Cerbatana,2080,6.66000000,-66.23750000
+Mela Taung,2080,17.20250000,98.08000000
+Volcan Wolf,1707,0.04250000,-91.33722222
+Grintovec,2558,46.35694444,14.53611111
+Khan Tangiri Shyngy,7010,42.21000000,80.17583333
+Cerro Ladrillero,1705,-52.95083333,-72.59583333
+Shahi Kangri,6934,35.17000000,77.83000000
+Manirang,6593,31.95333333,78.36666667
+Gora Imeni Fuchika,4573,38.12583333,70.34000000
+Cordillera los Pichachos,3630,2.91333333,-74.85000000
+Teram Kangri I,7464,35.57916667,77.07750000
+Chola Shan I,6168,31.78666667,99.07333333
+South Sister,3157,44.10361111,-121.76916667
+Gunung Trusmadi,2643,5.55250000,116.51583333
+Großer Priel,2515,47.71694444,14.06333333
+Gunung Karang,1778,-6.26916667,106.05000000
+Kubi Gangri,6859,29.76583333,82.75166667
+P. 6332,6332,42.28500000,81.04333333
+Oros Giona,2510,38.64750000,22.25444444
+Cerro San Lucas,2270,8.11166667,-74.27250000
+Broad Peak,8051,35.81166667,76.56500000
+Volcan Copiapo,6052,-27.30583333,-69.13083333
+Mt. Sarawaget,4121,-6.31083333,147.09000000
+Mt. Friesland,1700,-62.66666667,-60.18333333
+Dahei Shan,3970,43.64916667,93.92000000
+Klosterbjergen,2475,72.25000000,-25.95000000
+Mt. Melbourne,2730,-74.35000000,164.70000000
+Kuh-e Karkas,3870,33.45583333,51.80000000
+Tarlha Ri,6777,28.36333333,91.13583333
+Mt. Steller,3266,60.52027778,-143.09388889
+Mt. Terror,3230,-77.51666667,168.53333333
+Pukeashun Mtn.,2301,51.20472222,-119.23527778
+Chiri-san,1915,35.33916667,127.73000000
+Mt. Seattle,3155,60.06972222,-139.18777778
+Jiankho Shan,5300,31.45250000,103.39916667
+Thunder Mtn.,2664,52.55000000,-126.36666667
+Hahn Land HP,1744,80.43333333,-19.83333333
+Sierra Blanca Peak,3649,33.37416667,-105.80861111
+Kadam,3063,1.76250000,34.70916667
+Cerros de Pereyra,2640,-24.20666667,-64.51416667
+Plaza del Moro Almanzor,2592,40.24750000,-5.29611111
+Mt. Smith,2560,6.23250000,36.29750000
+Khrebet Orulgan HP,2409,67.58138889,128.14027778
+Morton Peak,2245,50.76527778,-118.84305556
+Agpalik,1690,70.95000000,-52.03333333
+P. 4911,4911,28.59916667,98.50250000
+Nyegyi Kansang,6983,27.93666667,92.66666667
+Cumbres Calchaquies,4740,-26.61583333,-65.72666667
+Kuh-e Mafarun,3480,32.12416667,49.99500000
+Mtorwi,2980,-9.07833333,34.02083333
+Altan Hohiy,3350,48.75000000,91.62000000
+Grigna Settentrionale,2410,45.95333333,9.38750000
+Volcan Ollague,5868,-21.30250000,-68.17916667
+Pikes Peak,4301,38.84055556,-105.04472222
+Mila Kuh,2888,33.75500000,59.85833333
+Cero Raya,2070,5.41666667,-66.36666667
+Jiaojin Shan,5734,30.58750000,102.16833333
+Gora Mungun-Tayga,3970,50.27916667,90.11916667
+Monte Bondone,2180,45.98805556,11.03138889
+Dafla Range HP,3776,27.55416667,93.33000000
+Mt. Perseus,2553,52.35416667,-120.53277778
+Tokinskiy Stanovik HP,2380,55.89750000,130.45333333
+Mt. Russell,3557,62.79833333,-151.88416667
+P. 5641,5641,29.04750000,94.01416667
+Mt. Nebo,3636,39.82166667,-111.76027778
+Overseer Mtn.,2749,50.52888889,-123.38083333
+King Island HP,1679,52.32111111,-127.30666667
+Khrebet Tarbagatay HP,2993,47.18833333,82.46583333
+Volcan Antisana,5704,-0.48500000,-78.14166667
+Mt. Archibald,2588,60.78388889,-137.87388889
+Gunung Salak,2211,-6.71583333,106.73333333
+Pik Tandykul,5544,39.44833333,71.08333333
+Lyavirdyr,6361,37.56250000,75.16166667
+Jinping Shan,4488,28.34250000,101.75416667
+Cima Presanella,3558,46.22000000,10.66388889
+Talchako Mtn.,3037,52.09166667,-126.01666667
+Volcan San Cristobal,1745,12.70250000,-87.00583333
+Deora,4389,29.35333333,81.55333333
+Cerro Tancitaro,3850,19.41666667,-102.31916667
+Kuh-e Takht,2975,35.23750000,46.22000000
+Gunung Butak,2868,-7.95500000,112.46500000
+Snøhetta,2286,62.32055556,9.27166667
+Mazar Shan,6542,36.45083333,76.86500000
+Sob Gangri,6224,35.65250000,94.25083333
+Hathi Parbat,6727,30.68500000,79.70583333
+Pulong,6310,30.32083333,94.32000000
+Khrebet Kuylyutau,5281,42.03583333,78.90750000
+Gyoinmaixoi/og Kangri,6223,33.29583333,79.76666667
+Cerro Elefantes,2000,-44.75583333,-72.42500000
+Phu Tra,2540,22.16833333,103.58916667
+Whiting Peak,2524,58.13888889,-132.93472222
+Faisal Peak,2239,56.88555556,-130.58000000
+Iterdlaup Qaqai,2144,70.70000000,-52.98333333
+Rangrik Rang,6684,31.35250000,78.61000000
+Volcan Cerro Azul,1689,-0.92833333,-91.40944444
+Lunkho e Dosare,6902,36.77583333,72.44000000
+The Pinnacles,2573,50.19527778,-118.22888889
+Maja e Kendrevicës,2121,40.28694444,19.85166667
+Bu/gyai Kangri,6328,31.81500000,94.70000000
+Solunska Glava,2540,41.70416667,21.40527778
+Birnhorn,2634,47.47472222,12.73388889
+Bintimani,1945,9.22500000,-11.11666667
+Bumbag Hayrhan Uul,3470,47.28750000,93.03083333
+Uyluk Tepe,3016,36.54333333,29.57083333
+Phu Soai Dao,2120,17.73083333,101.00750000
+Bewani Mtns. HP,1980,-3.29416667,141.72333333
+Mt. Nirvana,2773,61.87472222,-127.68027778
+Tsiafajavona,2643,-19.34916667,47.24333333
+P. 2868,2868,-5.07916667,-78.70083333
+Bhalu Lek,5425,28.99083333,82.39916667
+Mt. Thomlinson,2451,55.54388889,-127.48638889
+Mt. Busa,2030,6.10916667,124.68583333
+Gunung Niut,1701,1.00250000,109.93333333
+Ili Boleng,1661,-8.34583333,123.25666667
+Kanjut Sar I,7760,36.20500000,75.41833333
+Selik Gulam Muztag,6691,36.21666667,82.03583333
+Cerro el Condor,6414,-26.63166667,-68.36166667
+P. 6300,6300,33.23083333,79.18333333
+Cumbre Salto del Fraile,4480,-16.74166667,-66.88833333
+Picacho San Onofre,3550,23.80083333,-99.84666667
+Cerro Sacamecate,2830,16.58166667,-95.80333333
+Laikot,2832,25.35666667,93.89916667
+Cerro Torra,2820,4.78250000,-76.49500000
+Mt. Bel,1658,-5.61500000,147.96583333
+Cordillera de los Cobardes,3420,6.46250000,-73.44416667
+Chimata Tepuy,2675,5.37000000,-62.07916667
+Mt. Lester Jones,2408,58.71666667,-133.23000000
+Hardersbjerg (Gauss Halvo),1679,73.43333333,-22.83333333
+Changla,6721,30.13750000,82.19583333
+Mt. Elizabeth,4480,-83.90000000,168.38333333
+Jeanette Peak,3089,52.63555556,-118.61666667
+Kuh-e Mirza ØArab,2887,33.22000000,60.24750000
+Snowshoe Peak,2663,48.22305556,-115.68916667
+P. 3030,3030,32.35666667,104.84583333
+P. 6079,6079,29.29583333,101.90833333
+Cerro el Centinela,3130,25.13666667,-103.23000000
+Sangpang Bum,2692,26.49083333,95.84583333
+Kula Kangri,7538,28.22750000,90.61666667
+Kuh-e Alvand,3570,34.66416667,48.48666667
+Cerro Paniri,5960,-22.05916667,-68.22833333
+Sharktooth Mtn.,2668,58.58750000,-127.96222222
+Cerro Guagua Pichincha,4794,-0.17750000,-78.59916667
+Pt. 1951m,1951,-5.81250000,149.83833333
+Dedegol Tepesi,2980,37.66833333,31.30500000
+Bulu Torompupu,2463,-1.42583333,119.85666667
+North Schell Peak,3622,39.41305556,-114.59972222
+Mt. Porsild,2540,60.08388889,-136.00972222
+Ukpik Peak,1809,70.69416667,-71.34166667
+Hayford Peak,3021,36.65777778,-115.20083333
+P. 5716,5716,42.35166667,80.62750000
+Miao/er Shan,2140,25.86666667,110.41250000
+Mt. Foresta,3368,60.19138889,-139.43500000
+Phou Khe,2079,19.32416667,101.24166667
+Nevados Hunadoy,6360,-9.02861111,-77.66555556
+Star Peak,2998,40.52250000,-118.17083333
+Col Nudo,2472,46.22750000,12.40277778
+Upper Saddle Mtn.,2330,50.17250000,-117.90000000
+Cerro Barros Arana,2286,-43.88833333,-72.18500000
+Gunung Bandahara,3012,3.74916667,97.78166667
+Ili Labalekang,1644,-8.54500000,123.38416667
+Pointe Percée,2753,45.95555556,6.55611111
+Gunung Inerie,2245,-8.87833333,120.95416667
+Baranof Is. HP,1643,57.01472222,-134.98861111
+Diamond Peak,3718,44.14138889,-113.08277778
+Adrar Bou Nasser,3340,33.56833333,-3.88583333
+Tianzhu Shan,1760,31.06166667,116.18750000
+Flat Top Mtn.,3237,40.37250000,-112.18888889
+Airibaba,3138,37.78750000,66.55666667
+Hubris Peak,2445,56.55166667,-130.97333333
+Lars Christiansen Peak,1640,-68.78333333,-90.58333333
+Dome Argus,4091,-80.36666667,77.35000000
+Kioto Mountains,1816,6.10666667,125.57000000
+Mt. Discovery,2680,-78.36666667,165.01666667
+Hiuchi-yama,2462,36.92250000,138.06666667
+Bumhpa Bum,3411,26.67833333,97.23833333
+Pegunungan Kumawa,1680,-3.91583333,133.01083333
+Nevado Queva,6140,-24.30750000,-66.73333333
+Kuh-e Bagh-e Bala,3775,30.56250000,57.16166667
+Jibal Raymah,2920,14.68000000,43.65666667
+Gunung Patah,2850,-4.25750000,103.30583333
+P. 2300,2300,30.23666667,110.57666667
+Mt. Taylor,2333,-43.50750000,171.32000000
+P. 6135,6135,29.94083333,95.74583333
+Cerro Huemules,1910,-45.73583333,-72.44916667
+Daisen,1729,35.37083333,133.53916667
+G. Stokap,1634,44.83750000,147.34333333
+Himalchuli I,7893,28.43416667,84.63750000
+Huantsan,6369,-9.51583333,-77.31000000
+Qingagssat Qaqit,1782,60.56666667,-44.70000000
+Mt. Verne,1632,-67.66666667,-67.50000000
+Mush Muztagh,6638,36.04750000,80.11916667
+Aggio,3358,7.14916667,36.54416667
+Mt. Bolshaya Udina,2920,55.75833333,160.52666667
+Volcan las Tres Virgenes,1950,27.47000000,-112.59166667
+Fussa V.,1772,50.26750000,155.24750000
+Mt. Haddington,1630,-64.21666667,-57.63333333
+Camiguin Island HP,1630,9.17833333,124.72666667
+Mt. Forbes,3617,51.86000000,-116.93166667
+Ainos Oros,1628,38.13722222,20.67277778
+Mt. Panie,1628,-20.58833333,164.77083333
+Mt. Judge Howay,2262,49.50694444,-122.32166667
+Mt. Stuart,2870,47.47500000,-120.90222222
+Cordillera Sarmiento,1925,-51.80166667,-73.38416667
+Pik Yevgenii Korzhinievskoi,7105,39.05750000,72.00833333
+Kuh-e Aq Dagh,3321,37.38583333,48.55000000
+Mong Ling Shan,2641,23.33000000,98.87750000
+Benjiwo,1953,25.24750000,112.00333333
+Sierra de Santa Martha,1690,18.34916667,-94.85750000
+Chogolisa I,7668,35.61416667,76.57916667
+Udren Zom,7108,36.51722222,71.92083333
+Cerro del Tambillo,5680,-32.30416667,-69.68083333
+P. 4260,4260,28.95833333,102.93666667
+Cerro Roma,3200,-49.96083333,-73.45083333
+Jiuling Shan,1790,28.88333333,114.95083333
+Blanca Peak,4372,37.57750000,-105.48555556
+Phu Xai Lai Leng,2720,19.19750000,104.18166667
+Pangpoche I,6620,28.62833333,84.68166667
+Pik Agasis,5900,39.01416667,71.50416667
+P. 4735,4735,27.25000000,89.70416667
+Jebel al Lawz,2580,28.65416667,35.30583333
+Khrebet Saltaga-Tas HP,2021,68.35750000,140.07694444
+Paishidin,1895,24.92750000,112.99083333
+Cordon los Nadis,1780,-47.54250000,-72.94166667
+Volcan de Santa Ana,2362,13.85583333,-89.62833333
+Mt. McClintock,3490,-80.21666667,157.43333333
+Pt. 8517,2596,60.92833333,-142.52388889
+Kuh-e Hezar Darreh,3880,31.67500000,51.02833333
+Monte Mentolat,1620,-44.69666667,-73.07583333
+Victoria Peaks,1709,9.36500000,118.33416667
+P. 6086,6086,34.02833333,76.79416667
+Mizri Ghar,3111,31.34083333,70.02916667
+Tupeq Mtn.,2000,66.57250000,-65.07500000
+Mt. Pattullo,2727,56.23388889,-129.65750000
+Pk. 09-29,1840,66.15166667,-63.49250000
+Mt. Ossa,1617,-41.87083333,146.03333333
+Trisul,7120,30.31416667,79.77583333
+Mt. Miller,3277,60.46083333,-142.30333333
+Qingaq (Storo),1616,64.40000000,-51.11666667
+Cerro Mojano,2720,-49.75027778,-73.11416667
+Agssaussat,2140,65.88333333,-52.11666667
+Panch Chuli,6904,30.21416667,80.42750000
+Samdain Kangsang,6590,30.83500000,91.48833333
+Fan Si Pan,3143,22.30333333,103.77500000
+Mt. Tatlow,3063,51.38416667,-123.86416667
+Kloftbjerge,2163,71.33333333,-25.75000000
+Shirane-san,2578,36.79833333,139.37416667
+Ibapah Peak,3691,39.82805556,-113.91972222
+Cerro Penitentes,2943,-47.67500000,-72.25166667
+Djebel Chélia,2328,35.31833333,6.63750000
+Fengari,1611,40.46166667,25.58750000
+Pulau Obi HP,1611,-1.53833333,127.66916667
+Bilchhar Dobani,6143,35.95583333,74.63333333
+Dapha Bum,4578,27.66083333,96.70000000
+/Argun North/,3405,6.55000000,36.72583333
+Mt. Tama,2489,-13.78583333,13.17583333
+Rao Co,2286,18.15750000,105.41250000
+Gora Bakening,2276,53.90416667,158.07000000
+Cerro Situacion,2250,-42.95583333,-71.66166667
+Vilyuchinsky V.,2173,52.70500000,158.28166667
+Seulawah Agam,1810,5.44750000,95.65583333
+Carlisle Is. HP,1610,52.89416667,-170.05472222
+Kogantag,4800,38.63166667,90.64000000
+Kuh-e Rag,3661,31.33666667,50.97166667
+Jebel Igdet,3615,30.96333333,-8.44333333
+Mt. Timpanogos,3581,40.39083333,-111.64611111
+Hudson Bay Mtn.,2589,54.81166667,-127.33972222
+Corsan Peak,1934,51.01722222,-126.40611111
+Datian Ding,1704,22.29083333,111.21500000
+Gora Lopatina,1609,50.85166667,143.14166667
+Mt. Fryatt,3361,52.55000000,-117.90000000
+Cerro Pili,6046,-23.29250000,-67.61750000
+Ejnar Mikkelsen Fjeld,3308,68.88333333,-28.60000000
+Bashful Peak,2440,61.30750000,-148.87027778
+Moussa Ali,2021,12.47083333,42.40500000
+Bharanzar,6574,33.60250000,76.13166667
+K/ech/a Terara,4195,7.90833333,39.39166667
+Kisimngiuqtuq Peak,1905,70.79916667,-71.65166667
+P. 1680,1680,66.11666667,-37.45000000
+Gran Campo Nevado,1640,-52.79833333,-73.09250000
+/Kabobo/,2725,-5.13750000,29.05166667
+Clavering Island HP,1604,74.36666667,-21.18333333
+Cerro Risco Plateado,4999,-34.91833333,-69.99416667
+Monmouth Mtn.,3182,50.99166667,-123.79000000
+Kaimuk Kangri,6953,35.91333333,76.88750000
+Cerro Tunupa,5321,-19.83250000,-67.64583333
+Kuh-e Namak,2846,28.70083333,53.24916667
+Belaya,2731,11.47416667,36.19416667
+Mingan Mountains,1901,15.48083333,121.40500000
+Mt. Ovington,2949,54.14305556,-120.57416667
+Cerro las Capillas,2890,19.55500000,-104.14750000
+Cerro Pietrobelli,2850,-50.53500000,-73.35750000
+Picachos el Fraile,2390,25.86250000,-100.61166667
+Jebel Khadar,2200,22.60833333,59.18666667
+Mt. Cleveland,3190,48.92472222,-113.84777778
+Karkoor,2120,11.32500000,49.74750000
+Mt. Brewster,2025,-72.95000000,169.38333333
+Skippers Range HP,1648,-44.43416667,168.17000000
+Kawaikini,1598,22.05888889,-159.49750000
+Kuh-e Jupar,4150,29.91083333,57.20166667
+Loe Nekan,3582,30.26166667,67.30250000
+He Devil,2871,45.32388889,-116.54833333
+Tevodian,2120,32.86500000,108.37250000
+Mt. Maybole,1665,-9.43583333,150.55750000
+Jof di Montasio,2752,46.60250000,13.43361111
+Gora Cherskogo,2588,55.06000000,108.68500000
+Loi Pangnao,2563,21.30333333,100.31333333
+Shaman,2363,56.06916667,115.86166667
+Yujing Feng,1810,28.90833333,118.06000000
+Callejón Cañapa,5900,-21.44833333,-68.07083333
+Arc Dome,3588,38.83277778,-117.35277778
+Kerkini,2031,41.32166667,23.12194444
+Gunung Muria,1602,-6.61666667,110.89083333
+Anjouan,1595,-12.21500000,44.42500000
+Chaukhamba,7138,30.74750000,79.28750000
+Turgen Uul,4029,49.79916667,89.75416667
+Qilian Shan HP,5547,39.20333333,98.54416667
+Pic Toussidé,3315,21.04000000,16.47000000
+Lassen Peak,3187,40.48750000,-121.50416667
+Dainiti Dake,2128,37.83250000,139.65916667
+Nanda Kot,6861,30.28166667,80.06833333
+Mont Mohi,3480,-2.95416667,28.78000000
+Mt. Addenbroke,1591,50.23166667,-124.68611111
+Cerro Tomasamil,5830,-21.29250000,-67.96750000
+Finchuiyanou Range,3580,25.48916667,99.07500000
+P. 3400+,3420,17.13250000,-96.01250000
+Jabal Sabir,3006,13.51583333,44.05083333
+Mt. Piapayungan,2815,7.69083333,124.50750000
+Liakoura,2457,38.53583333,22.62416667
+Cerro Puno,2200,-47.29750000,-73.11166667
+Sillem Island HP,1590,71.00166667,-71.85500000
+Gauri Shankar,7135,27.95333333,86.33583333
+Cerro Carabaya,5869,-19.14583333,-68.69833333
+Mai Gudo,3359,7.49083333,37.20416667
+Pakhain Range HP,2780,26.81583333,95.52333333
+P. 2519,2519,20.68583333,97.34166667
+Estero Peak,1664,50.46194444,-125.18583333
+Volcan Sangay,5300,-2.00500000,-78.34083333
+Buyu Balease,3016,-2.40583333,120.54250000
+Volcan Choshuenco,2422,-39.93166667,-72.03000000
+Mulkila,6517,32.54583333,77.41166667
+Kolahoi,5425,34.16500000,75.32583333
+Kuh-e Mohammadabad,3592,30.58083333,54.86500000
+Margaretatopp (Andrees Land),2360,73.36666667,-26.30000000
+Pautuut,2010,70.30000000,-52.71666667
+Rugged Mtn.,1875,50.01666667,-126.68333333
+Agdleruussakasit,1763,60.13333333,-44.53333333
+Tulu Tuloi II,1780,0.96000000,-63.34000000
+P. 5700,5700,34.90333333,75.83250000
+Cerro Jallacate,5567,-11.90583333,-75.05250000
+Mt. Deborah,3761,63.63722222,-147.23944444
+Cleopatra Needle,1608,10.12333333,118.99416667
+Pt. 8336,2541,61.11250000,-153.46944444
+Mt. Sicapoo,2361,18.01333333,120.93916667
+P. 5170,5170,39.34416667,70.13833333
+Mt. Seton - Cy5,2855,50.62361111,-122.26027778
+Polinik,2784,46.89500000,13.15805556
+Huidu Matabulawa,1964,0.48833333,123.67500000
+Durbin Kangri,6824,35.99666667,76.76833333
+Boz Dag,2156,38.32333333,28.10250000
+Karpogo Sar I,7038,35.92500000,76.17500000
+Haizi Shan,5820,30.37916667,101.69916667
+Munku Sardyk,3491,51.71916667,100.59750000
+Mt. Lemmon,2791,32.44277778,-110.78833333
+Pico Pijol,2320,15.17666667,-87.57333333
+Puy de Sancy,1885,45.52833333,2.81416667
+Monte Cimone,2165,44.19388889,10.70138889
+Adelbert Range HP,1716,-4.70250000,145.23166667
+Batu Jumak,2250,1.81916667,115.27250000
+Abercrombie Mtn.,2228,48.92833333,-117.46000000
+Store Lenangstind,1624,69.71027778,20.09055556
+Cerro Tebenquicho,5810,-25.35083333,-67.64666667
+Nevado de Cumbal,4760,0.95583333,-77.88666667
+Volcan Peteroa,4084,-35.27250000,-70.58166667
+Cheekha Dar,3611,36.77500000,44.91916667
+Volcan Villarrica,2860,-39.42083333,-71.93916667
+Barla Dagi,2800,38.05000000,30.70500000
+Mt. Baco,2364,12.82083333,121.17333333
+P. 1857,1857,24.89250000,111.16666667
+P. 5980,5980,34.29222222,75.79083333
+Petra Pervogo Range HP,4744,38.97083333,70.66500000
+Kaza Mtn.,2543,53.07111111,-121.00888889
+Mt. Gareloi,1573,51.78833333,-178.79416667
+Volcan de San Vicente,2182,13.59666667,-88.83750000
+Kuh-e Ja/in,2980,28.09500000,55.99000000
+Meseta del Cerro Jaua,2395,4.56916667,-64.35666667
+Bukit Batu,2040,2.25083333,113.71750000
+Cerro Bravo,3970,-5.53250000,-79.24500000
+Mt. Cronin,2396,54.93000000,-126.86388889
+Gunung Saran,1758,-0.42333333,111.29500000
+Phnum Samkos,1750,12.15583333,103.04333333
+Qullai Arnavad,5992,38.56500000,71.52416667
+Tödi,3614,46.81111111,8.91472222
+Wuhevi,3095,-0.14250000,29.42416667
+Gora Oval/naya Zimina,3080,55.86083333,160.60583333
+Chiricahua Peak,2975,31.84666667,-109.29083333
+Kiou Leou Ti,2402,22.66166667,104.60250000
+Gunung Bintang,1862,5.42916667,100.86666667
+Daming Shan,1785,23.38583333,108.50333333
+Gunung Sambapolulu,1570,-5.30833333,121.95583333
+P. 5858.8,5859,38.26750000,72.71333333
+Birkkarspitze,2749,47.41111111,11.43777778
+Botev,2376,42.71750000,24.91666667
+Basement Peak,2706,59.35500000,-137.16166667
+Angemuk,3949,-3.52500000,138.59166667
+Pt. 8488,2587,61.49500000,-153.62277778
+Huidu Tentolomatinan,2230,0.93833333,121.77666667
+Pico Sira,2450,-9.45166667,-74.67833333
+Cerro Aguja Sur,2230,-42.16250000,-71.83416667
+Pk. 39-18,1721,69.65666667,-69.30833333
+P. 5318,5318,41.68944444,78.97500000
+Kuh-e Bul,3943,30.77750000,52.75000000
+Mali i Çikës,2044,40.19833333,19.64194444
+B21,5828,35.53333333,75.47083333
+Junkor,5373,34.62250000,76.24583333
+Mt. Eddy,2751,41.32000000,-122.47750000
+Mawhpung Bum,1874,25.95500000,96.07083333
+Kazi Razi,6505,28.19750000,91.86500000
+Kispiox Mtn.,2096,55.40000000,-127.93333333
+Dzhata,3085,48.63083333,86.83916667
+Blaskbjerg,1600,73.30000000,-24.03333333
+Gunung Rumput,1590,1.72166667,109.66750000
+Gunung Gamkonora,1560,1.37833333,127.53416667
+Chomo Yummo,6829,28.03416667,88.54583333
+Cerro Paramillo,3730,7.10250000,-75.96916667
+Kesis Dagi,3546,39.79250000,39.77083333
+Mt. Sylvia,2940,58.08194444,-124.46888889
+Cerro de la Paloma,1995,-45.84666667,-72.20916667
+Pk. 35-44,1562,70.58000000,-70.72833333
+Jethi Bahurani,6850,29.88333333,81.04083333
+Beu-tse,6270,29.95250000,90.53833333
+Falak Sar,5918,35.67500000,72.78000000
+Laotzyunshan,4500,26.88333333,99.61083333
+Kuh-e Gereh,3990,31.91000000,50.36500000
+Cordon Soler,2150,-47.05333333,-73.06583333
+Alto de Nique,1730,7.70166667,-77.72750000
+Mt. Wotzke,2597,52.71305556,-120.65083333
+Sibium Mtns. HP,2295,-9.32583333,148.35833333
+Deyjay,3340,-3.96916667,136.19500000
+Mt. Macdonald,2760,64.72500000,-132.77888889
+Dalton Range HP,2329,60.47583333,-137.16916667
+Kinaussak,1630,64.45000000,-50.51666667
+Volcan Tungurahua,5016,-1.47000000,-78.44500000
+Mt. Crysdale,2429,55.93833333,-123.42111111
+Davraz Tepe,2635,37.75250000,30.72416667
+Yaoji Shan,3590,28.97833333,103.26583333
+Ellmauer Halt,2344,47.56222222,12.30305556
+Menlungtse,7181,27.97250000,86.43166667
+Japvo,3014,25.59750000,94.06666667
+Vile Peak,2189,56.27111111,-128.34000000
+Nevado el Plomo,6070,-33.10333333,-70.06583333
+Cerro Colina,5385,-33.96333333,-69.85333333
+Riyue Shan HP,4890,36.33750000,101.20083333
+Dubbai,3950,12.85833333,39.49666667
+Avachinsky V.,2741,53.25583333,158.83666667
+Sopka Taunshits,2353,54.52833333,159.80416667
+Gaaseland HP,2100,70.20000000,-27.66666667
+Gora Bogdan Khmel/nitskiy,1585,45.33750000,147.91916667
+Mt. Augusta,4289,60.30527778,-140.46027778
+Christian IV Island HP,1549,60.05000000,-43.91666667
+Novaya Zemlya HP,1549,75.16666667,57.81666667
+Colangüil,6122,-29.58916667,-69.44916667
+Killi Tepe,3075,38.02833333,37.48666667
+Bulusan Volcano,1565,12.76916667,124.05666667
+Bur ni Geureudong,2880,4.81000000,96.81666667
+Favres Bjerg,2000,73.95000000,-23.20000000
+Hakandya,2615,61.60000000,142.83472222
+P. 2995,2995,23.43000000,99.21583333
+Ilgaz Daglari,2587,41.10083333,33.86333333
+Cerro Conico,2271,-43.26416667,-71.74416667
+Pt. 6915,2108,61.32972222,-144.96000000
+Kataklik Kangri,6897,34.94000000,78.18250000
+Geyik Daglari,2877,36.88916667,32.17250000
+Seweweekspoortpiek,2325,-33.39833333,21.36750000
+Cerro Chorolque,5520,-20.91833333,-66.03583333
+Pico el Turmal,3560,9.52750000,-70.11333333
+Grande Tete de l/Obiou,2790,44.77611111,5.84083333
+Mt. Kulal,2285,2.72916667,36.92333333
+Akher Chioh,7017,36.67250000,72.23166667
+Geladaindong,6621,33.49583333,91.16750000
+Mt. Bear ,4521,61.28333333,-141.14333333
+Baatar Hayrhan,3984,46.96916667,92.72500000
+Gunung Daun,2493,-3.39166667,102.34250000
+P. 1830,1830,-45.19833333,-72.26333333
+Roman-Kosh,1545,44.61305556,34.24333333
+Cerro El Pital,2730,14.38583333,-89.12750000
+Volcan Iztaccihuatl,5230,19.18083333,-98.64333333
+Mt. Temple,3540,51.35083333,-116.20583333
+Elivai Malai,2088,10.94000000,76.63250000
+Johnstrup Bjerge (Suess Land),2000,73.00000000,-25.53333333
+Tsurugi-san,1955,33.85416667,134.09250000
+P. 5350±,5350,39.34750000,98.20166667
+Kuh-e Denband,2777,31.59250000,57.03333333
+Gran Caldera de Luba,2261,3.36083333,8.53916667
+Cerro Tenerife,1590,-51.37916667,-72.84916667
+Milne V.,1539,46.81333333,151.78500000
+Chaupi Orco,6044,-14.65333333,-69.22833333
+Volcan Sumaco,3790,-0.54083333,-77.62666667
+Volcan de Tequila,2930,20.78750000,-103.84666667
+Berzelius Bjerg,1810,72.46666667,-25.06666667
+Geli Kuh,2995,28.13916667,61.82666667
+Peninsula Videau HP,1580,-48.10416667,-73.38000000
+Volcan Miravalles,2028,10.74666667,-85.15000000
+Whitecap Mtn.,2918,50.71666667,-122.50944444
+Korovin Volcano,1533,52.38027778,-174.16833333
+Paramo el Nevado,4250,3.93500000,-74.11000000
+Dunn Pk.,2636,51.43666667,-119.95500000
+Muhavura,4127,-1.38333333,29.67583333
+Mt. Ida,3200,54.05833333,-120.32638889
+Kizimen V.,2375,55.13083333,160.32000000
+Kuh-e Par-e Lavar,2209,27.19416667,54.53916667
+Huangmao Jian,1930,27.89333333,119.18666667
+Baojie Ling,1930,25.55916667,110.96166667
+Burnag Kangri,6821,35.85916667,76.83416667
+Pik Grandiozniyy,2891,53.89333333,96.00750000
+Karenga,2279,-7.68666667,36.88083333
+Mt. Monkley,1967,54.88333333,-129.65000000
+Buzbu Too,2875,41.49500000,71.89250000
+Karakash Shan,6510,35.72250000,78.68750000
+Langtang Lirung,7227,28.25750000,85.51583333
+The Horn,2907,52.32000000,-126.23666667
+Miller Peak,2885,31.39277778,-110.29305556
+Cerro Desfiladero,2300,-47.42583333,-73.18750000
+Dund Sayhni Nuru,2825,43.63583333,103.77083333
+Maja e Valamares,2373,40.79472222,20.46666667
+Gora Bogchigir,5800,37.66666667,72.70833333
+Volcan Lonquimay,2865,-38.38083333,-71.58666667
+Mt. Labo,1544,14.01333333,122.78750000
+Gasherbrum II,8034,35.75833333,76.65333333
+Mt. Tod,2155,50.91666667,-119.94166667
+P. 5704,5704,30.26750000,101.96083333
+Cuchilla San Lorenzo,2866,11.11666667,-74.03333333
+Cima Tosa,3173,46.15527778,10.87055556
+Qingliang Feng,1787,30.10083333,118.86166667
+P. 6842,6842,30.34250000,93.91500000
+Hochtor,2369,47.56166667,14.63277778
+Cerro Atravesado,2310,16.76333333,-94.45166667
+Isla Wellington HP,1520,-49.32083333,-74.50250000
+Cerro Imbabura,4634,0.26083333,-78.18083333
+Cerro Photulo Punta,4284,-19.54166667,-64.66000000
+Grey Hunter Peak,2214,63.13583333,-135.63250000
+Sarektjåkkå,2089,67.43194444,17.72500000
+Tres Quebradas,6239,-27.30000000,-68.80833333
+Mt. Shungol,2752,-6.86333333,146.71583333
+Volcan Minchinmavida,2450,-42.79916667,-72.44583333
+Grimming,2351,47.52055556,14.01694444
+Montaña los Comayagua,2407,14.49500000,-87.50833333
+Grand Combin de Grafeneire,4314,45.93750000,7.29916667
+Pelister,2601,41.00361111,21.18666667
+Mt. Morning,2725,-78.51666667,163.58333333
+Inyangani,2592,-18.30000000,32.84166667
+Gataga Peak,2533,58.06972222,-125.70111111
+Cerro de Incahuasi,6621,-27.03333333,-68.29583333
+La Tournette,2351,45.82722222,6.28638889
+Psili Korifi,1589,38.75888889,20.99555556
+Togras Kangri,6447,36.69000000,77.73416667
+Kuh-e Soltan Saheb,4270,34.14916667,69.41583333
+Tres Hermanos,2010,-44.07111111,-72.01694444
+Chung Muztagh,6962,35.65166667,82.31250000
+P. 5840±,5840,29.39833333,94.90083333
+Kamakou,1512,21.10666667,-156.86861111
+Alto de la Bandera,2842,18.81416667,-70.62666667
+Mt. Taraka,2251,-6.44333333,155.60916667
+Guna Terara,4120,11.71083333,38.23666667
+Kuh-e Menar,3750,32.56833333,49.56333333
+Kuh-e Nozva,3730,35.94250000,53.32500000
+K/ech/a Terara,3240,5.82083333,37.83916667
+Kuh-e Raziyeh,3120,31.12583333,50.27583333
+Moro de Moco,2620,-12.46333333,15.17250000
+Arga-Tas HP,2400,65.21472222,149.08000000
+Angna Mtn.,1710,66.55750000,-62.02083333
+Nevado Champara,5735,-8.68500000,-77.79083333
+Akbaba Tepesi,3457,39.53666667,39.54250000
+Kuh-e Patu,3070,37.03333333,57.90000000
+Kennedy Peak,2703,23.31750000,93.76166667
+Khrebet Baldyrgannyg HP,2522,52.58000000,94.27000000
+Volcan Concepcion,1611,11.53833333,-85.62250000
+Hkusam Mtn.,1645,50.33333333,-125.83333333
+Sierra de Sangra,2200,-48.46916667,-72.39166667
+Cerro Cuatro Puntas,1810,-45.57916667,-72.33000000
+Monte Burney,1520,-52.32500000,-73.38000000
+Lenglong Ling HP,5254,37.69333333,101.50500000
+Mt. Joffre,3433,50.52833333,-115.20666667
+Cerro Castillejos,2480,-26.06583333,-64.89166667
+Sierra de Agalta,2335,14.95750000,-85.91666667
+Tai Shan,1545,36.25583333,117.10750000
+Hajhir,1505,12.57416667,54.02083333
+Doda,6573,33.67416667,76.30500000
+Piz Kesch,3418,46.62138889,9.87277778
+Uludag Tepe,2543,40.07500000,29.21666667
+Kotaklik Shan,6580,35.99416667,81.59250000
+Mt. Moriah,3678,39.27333333,-114.19861111
+Chiltan,3313,30.01555556,66.82805556
+Ambition Mtn.,2953,57.39472222,-131.48527778
+Kuh-e Sefid,4750,33.66166667,67.62583333
+Gara Muleta,3405,9.25666667,41.72916667
+Yanyanpo,2990,23.36166667,103.90666667
+Kalatungan Mountains,2880,7.95500000,124.80250000
+Zirbitzkogel,2396,47.06361111,14.56722222
+Robertson Peak,2252,49.64583333,-122.25027778
+Mt. Van der Est,1801,50.55666667,-125.28305556
+Gora Boboiob,3770,40.84916667,70.34333333
+Mt. Ng/iro,2848,2.19166667,36.81583333
+Khrebet Udokan HP,2570,56.67083333,119.12666667
+Pico Malpaso,1501,27.72888889,-18.04055556
+Qaidam Shan,5759,38.03833333,95.32416667
+P. 3938,3938,-86.30000000,158.00000000
+Kiyamaki Dagh,3358,38.78583333,45.85666667
+Cerros Santa Elena,2390,18.67333333,-102.50333333
+Sierra Gomas,2210,26.30750000,-100.46583333
+Cerro el Cerron,2100,10.32250000,-70.63083333
+Kitlope Range HP,1945,53.03777778,-127.64138889

@@ -75,7 +75,6 @@ class CitiesController < ApplicationController
 
     self.cities = City
       .where(
-        is_largest: true,
         min_temperature: min_temp,
         max_temperature: max_temp
       )

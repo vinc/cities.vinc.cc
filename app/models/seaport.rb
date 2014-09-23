@@ -4,11 +4,10 @@ class Seaport
   include Location
 
   field :name, type: String
-  field :country, type: Country
 
   slug :title
 
   def title
-    [name, country].join(', ')
+    self.name
   end
 end
