@@ -69,12 +69,12 @@ class City
     docs_with_distances(Seaport.in(id: ids), self.seaports_cache)
   end
 
-  def find_airports(max_distance: 20)
+  def find_airports(max_distance: 50)
     d = max_distance * 1000
-    ids = self.airports.reduce([]) do |r, h|
+    ids = self.airports_cache.reduce([]) do |r, h|
       h[:distance] < d ? r << h[:id] : r
     end
-    docs_with_distances(Seaport.in(id: ids), self.airports_cache)
+    docs_with_distances(Airport.in(id: ids), self.airports_cache)
   end
 
   def build_mountains
@@ -93,8 +93,8 @@ class City
 
   def build_airports
     keys = %i(id distance) # Attributes stored in cache
-    self.airports_cache = Seaport
-      .within_sphere(center: self.location, radius: 50 * 1000)
+    self.airports_cache = Airport
+      .within_sphere(center: self.location, radius: 100 * 1000)
       .map { |doc| Hash[keys.map { |key| [key, doc.send(key)] }] }
   end
 
