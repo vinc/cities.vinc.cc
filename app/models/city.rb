@@ -22,6 +22,7 @@ class City
 
   field :mountains_cache, type: Array
   field :seaports_cache, type: Array
+  field :airports_cache, type: Array
 
   slug :title
 
@@ -47,6 +48,10 @@ class City
     @seaports ||= find_seaports
   end
 
+  def airports
+    @airports ||= find_airports
+  end
+
   def find_mountains(max_distance: 500, min_elevation: 2500)
     d = max_distance * 1000
     e = min_elevation
@@ -64,6 +69,14 @@ class City
     docs_with_distances(Seaport.in(id: ids), self.seaports_cache)
   end
 
+  def find_airports(max_distance: 20)
+    d = max_distance * 1000
+    ids = self.airports.reduce([]) do |r, h|
+      h[:distance] < d ? r << h[:id] : r
+    end
+    docs_with_distances(Seaport.in(id: ids), self.airports_cache)
+  end
+
   def build_mountains
     keys = %i(id elevation distance) # Attributes stored in cache
     self.mountains_cache = Mountain
@@ -74,6 +87,13 @@ class City
   def build_seaports
     keys = %i(id distance) # Attributes stored in cache
     self.seaports_cache = Seaport
+      .within_sphere(center: self.location, radius: 50 * 1000)
+      .map { |doc| Hash[keys.map { |key| [key, doc.send(key)] }] }
+  end
+
+  def build_airports
+    keys = %i(id distance) # Attributes stored in cache
+    self.airports_cache = Seaport
       .within_sphere(center: self.location, radius: 50 * 1000)
       .map { |doc| Hash[keys.map { |key| [key, doc.send(key)] }] }
   end

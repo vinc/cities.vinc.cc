@@ -13,6 +13,18 @@ CSV.foreach('db/seeds/seaports.csv', headers: true) do |row|
   )
 end
 
+CSV.foreach('db/seeds/airports.csv', headers: true) do |row|
+  Airport.find_or_create_by(
+    name: row['name'],
+    iata: row['iata'],
+    type: row['type'],
+    location: {
+      type: 'Point',
+      coordinates: [row['longitude'].to_f, row['latitude'].to_f]
+    }
+  )
+end
+
 CSV.foreach('db/seeds/mountains.csv', headers: true) do |row|
   Mountain.find_or_create_by(
     name: row['name'],
@@ -43,6 +55,7 @@ CSV.foreach('db/seeds/cities.csv', headers: true) do |row|
   city.max_temperature = city.max_temperatures.max
   city.precipitation = city.precipitations.sum
   city.build_seaports
+  city.build_airports
   city.build_mountains
   city.save
 end
