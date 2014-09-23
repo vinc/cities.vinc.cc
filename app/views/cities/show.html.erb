@@ -29,10 +29,16 @@
   <h2>Seaports</h2>
   <ul>
     <% city.find_seaports.each do |seaport| %>
-      <li><%= seaport.name %></li>
-      <ul>
-        <li>Distance: <%= (seaport.distance / 1000).to_s(:delimited) %> km</li>
-      </ul>
+      <li><%= seaport.name %> (<%= (seaport.distance / 1000).to_s(:delimited) %> km)</li>
+    <% end %>
+  </ul>
+<% end %>
+
+<% if city.find_airports.count > 0 %>
+  <h2>Airports</h2>
+  <ul>
+    <% city.find_airports.each do |airport| %>
+      <li><%= airport.name %> (<%= (airport.distance / 1000).to_s(:delimited) %> km)</li>
     <% end %>
   </ul>
 <% end %>
