@@ -18,6 +18,7 @@ class City
   field :mean_temperatures, type: Array
 
   field :precipitations, type: Array
+  field :precipitation, type: Integer
 
   field :mountains_cache, type: Array
   field :seaports_cache, type: Array

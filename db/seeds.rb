@@ -41,6 +41,7 @@ CSV.foreach('db/seeds/cities.csv', headers: true) do |row|
   )
   city.min_temperature = city.min_temperatures.min
   city.max_temperature = city.max_temperatures.max
+  city.precipitation = city.precipitations.sum
   city.build_seaports
   city.build_mountains
   city.save
