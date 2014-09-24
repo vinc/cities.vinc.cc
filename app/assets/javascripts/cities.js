@@ -3,10 +3,10 @@
 function Map(id) {
   this.map = L.map(id, {
     minZoom: 2,
-    maxZoom: 5
+    maxZoom: 7
   });
 
-  L.tileLayer('http://maps.vinc.cc/v2/relief/{z}/{x}/{y}.png', {
+  L.tileLayer('http://maps.vinc.cc/terrain/{z}/{x}/{y}.png', {
     attribution: '<a href="http://vinc.cc">Vinc</a>'
   }).addTo(this.map);
 
@@ -34,7 +34,7 @@ function Map(id) {
     });
 
     if (markers.length) {
-      map.fitBounds(L.featureGroup(markers).getBounds(), { maxZoom: 4 });
+      map.fitBounds(L.featureGroup(markers).getBounds(), { maxZoom: 6 });
     } else {
       map.setView([20, 0], 2);
     }
