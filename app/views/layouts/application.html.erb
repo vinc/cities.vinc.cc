@@ -25,6 +25,10 @@
 
             map.add(<%= json_for_collection(cities.map(&:mountains).flatten.uniq) %>, 'tan');
             map.add(<%= json_for_collection(cities) %>, 'chartreuse');
+
+            $('#new_query').submit(function() {
+              $('#query_bbox').val(map.bbox());
+            });
           })();
         </script>
       </div>

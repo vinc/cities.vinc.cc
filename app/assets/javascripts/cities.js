@@ -44,6 +44,10 @@ function Map(id) {
       map.setView([20, 0], 2);
     }
   };
+
+  this.bbox = function() {
+    return this.map.getBounds().toBBoxString();
+  };
 }
 
 $(document).on('page:change', function() {

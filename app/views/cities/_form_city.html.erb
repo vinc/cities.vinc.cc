@@ -1,5 +1,5 @@
 <%= simple_form_for self, as: 'query', url: cities_path, method: :get do |f| %>
   <%= f.input :name, required: false %>
-
+  <%= f.input :bbox, as: :hidden, required: false %>
   <%= f.button :submit, 'Search' %>
 <% end %>

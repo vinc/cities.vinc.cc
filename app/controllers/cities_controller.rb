@@ -34,6 +34,12 @@ class CitiesController < ApplicationController
 
   expose(:query) { params[:query] || {} }
   expose(:name) { query[:name] || '' }
+  expose(:bbox) do
+    bbox = (query[:bbox] || '-180,-90,180,90').split(',').map(&:to_f)
+    bbox[0] = -180 if bbox[0] < -180
+    bbox[2] = 180 if bbox[2] > 180
+    bbox = [[bbox[0], bbox[3]], [bbox[2], bbox[1]]]
+  end
   expose(:mnt_ele_min) { (query[:mnt_ele_min] || '2500').to_i }
   expose(:mnt_dis_max) { (query[:mnt_dis_max] || '500').to_i }
 
@@ -54,18 +60,41 @@ class CitiesController < ApplicationController
   end
 
   def index
-    if name.empty?
-      self.cities = City.desc(:population).page(page)
+    query = if name.empty?
+      {
+        match_all: {}
+      }
     else
-      self.cities = City.search(query: {
+      {
         match: {
-          _all: {
+          name: {
             query: name,
             operator: 'and',
             fuzziness: 1
           }
         }
-      }).page(page).records
+      }
+    end
+
+    filtered_query = {
+      filtered: {
+        query: query,
+        filter: {
+          geo_shape: {
+            location: {
+              shape: {
+                type: 'envelope',
+                coordinates: bbox
+              }
+            }
+          }
+        }
+      }
+    }
+
+    self.cities = City.search(query: filtered_query).page(page).records
+    if self.cities.count == 0
+      self.cities = City.search(query: query).page(page).records
     end
     respond_with(self.cities)
   end

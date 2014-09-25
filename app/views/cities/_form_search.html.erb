@@ -15,5 +15,6 @@
   <%= f.input :use_sea_dis_max, as: :boolean, wrapper: :vertical_boolean, label: 'Search seaports', required: false %>
   <%= f.input :sea_dis_max, as: :slider, label: 'Maximum Distance:', required: false, input_html: { min: 0, max: 50, step: 10 } %>
 
+  <%= f.input :bbox, as: :hidden, required: false %>
   <%= f.button :submit, 'Search' %>
 <% end %>
