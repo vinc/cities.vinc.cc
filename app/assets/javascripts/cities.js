@@ -10,6 +10,11 @@ function Map(id) {
     attribution: ''
   }).addTo(this.map);
 
+  L.control.scale({
+    metric: true,
+    imperial: false
+  }).addTo(this.map);
+
   this.add = function(points, color) {
     var map = this.map;
 
