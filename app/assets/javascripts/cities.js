@@ -88,9 +88,6 @@ $(document).on('ready page:load', function() {
       var value = JSON.stringify(e.value || JSON.parse(input.attr('min'))); // FIXME: 0 become undefined
 
       input.val(value);
-
-      console.log(value);
-      console.log(input.val());
     });
   });
 });
