@@ -7,7 +7,7 @@ function Map(id) {
   });
 
   L.tileLayer('http://maps.vinc.cc/terrain/{z}/{x}/{y}.png', {
-    attribution: '<a href="http://vinc.cc">Vinc</a>'
+    attribution: ''
   }).addTo(this.map);
 
   this.add = function(points, color) {
