@@ -42,6 +42,7 @@ CSV.foreach('db/seeds/cities.csv', headers: true) do |row|
     country: row['country'],
     elevation: row['elevation'].to_i,
     population: row['population'].to_i,
+    aerosol: row['aerosol'].to_f / 1000,
     precipitations: (1..12).map { |i| row["prec#{i}"].to_i },
     min_temperatures: (1..12).map { |i| row["tmin#{i}"].to_f / 10 },
     max_temperatures: (1..12).map { |i| row["tmax#{i}"].to_f / 10 },

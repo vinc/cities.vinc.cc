@@ -8,6 +8,7 @@ class City
   field :country, type: Country
   field :elevation, type: Integer
   field :population, type: Integer
+  field :aerosol, type: Integer
 
   field :min_temperature, type: Integer
   field :min_temperatures, type: Array
