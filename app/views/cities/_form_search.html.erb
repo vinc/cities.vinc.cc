@@ -1,7 +1,9 @@
 <%= simple_form_for self, as: 'query', url: search_cities_path, method: :get do |f| %>
   <h3>City</h3>
-  <%= f.input :use_population, as: :boolean, wrapper: :vertical_boolean, label: 'Search small cities', required: false %>
-  <%= f.input :population, as: :slider, label: 'Population:', required: false, input_html: { min: 0, max: 10 ** 6, step: 10 ** 5 } %>
+  <%= f.input :search_population, as: :boolean, wrapper: :vertical_boolean, label: 'Search small cities', required: false %>
+  <div id="form_search_population">
+    <%= f.input :population, as: :slider, label: 'Population:', required: false, input_html: { min: 0, max: 10 ** 6, step: 10 ** 5 } %>
+  </div>
   <%= f.input :aerosol, as: :slider, label: 'Air Polution:', required: false, input_html: { min: 0, max: 80, step: 5 } %>
 
   <h3>Weather</h3>
@@ -9,12 +11,17 @@
   <%= f.input :max_temp, as: :slider, label: 'Maximum Temperature:', required: false, input_html: { min: -50, max: 50, step: 5 } %>
 
   <h3>Mountains</h3>
-  <%= f.input :mnt_ele_min, as: :slider, label: 'Minimum Elevation:', required: false, input_html: { min: 1500, max: 5000, step: 500 } %>
-  <%= f.input :mnt_dis_max, as: :slider, label: 'Maximum Distance:', required: false, input_html: { min: 0, max: 1000, step: 50 } %>
+  <%= f.input :search_mountains, as: :boolean, wrapper: :vertical_boolean, label: 'Search mountains', required: false %>
+  <div id="form_search_mountains">
+    <%= f.input :mnt_ele_min, as: :slider, label: 'Minimum Elevation:', required: false, input_html: { min: 1500, max: 5000, step: 500 } %>
+    <%= f.input :mnt_dis_max, as: :slider, label: 'Maximum Distance:', required: false, input_html: { min: 0, max: 1000, step: 50 } %>
+  </div>
 
   <h3>Seaports</h3>
-  <%= f.input :use_sea_dis_max, as: :boolean, wrapper: :vertical_boolean, label: 'Search seaports', required: false %>
-  <%= f.input :sea_dis_max, as: :slider, label: 'Maximum Distance:', required: false, input_html: { min: 0, max: 50, step: 10 } %>
+  <%= f.input :search_seaports, as: :boolean, wrapper: :vertical_boolean, label: 'Search seaports', required: false %>
+  <div id="form_search_seaports">
+    <%= f.input :sea_dis_max, as: :slider, label: 'Maximum Distance:', required: false, input_html: { min: 0, max: 50, step: 10 } %>
+  </div>
 
   <%= f.input :bbox, as: :hidden, required: false %>
   <%= f.button :submit, 'Search' %>

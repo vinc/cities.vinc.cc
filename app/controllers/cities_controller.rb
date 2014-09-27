@@ -40,13 +40,15 @@ class CitiesController < ApplicationController
     bbox[2] = 180 if bbox[2] > 180
     bbox = [[bbox[0], bbox[3]], [bbox[2], bbox[1]]]
   end
+
+  expose(:search_mountains) { (query[:search_mountains] || '1') == '1' }
   expose(:mnt_ele_min) { (query[:mnt_ele_min] || '2500').to_i }
   expose(:mnt_dis_max) { (query[:mnt_dis_max] || '500').to_i }
 
-  expose(:use_sea_dis_max) { (query[:use_sea_dis_max] || '1') == '1' }
+  expose(:search_seaports) { (query[:search_seaports] || '1') == '1' }
   expose(:sea_dis_max) { (query[:sea_dis_max] || '20').to_i }
 
-  expose(:use_population) { (query[:use_population] || '1') == '1' }
+  expose(:search_population) { (query[:search_population] || '1') == '1' }
   expose(:population) do
     Range.from_json(query[:population] || '[200000, 500000]')
   end
@@ -105,46 +107,31 @@ class CitiesController < ApplicationController
   end
 
   def search
-    m0, m1, s0 = mnt_dis_max, mnt_ele_min, sea_dis_max
-
-    self.cities = City
+    scope = City
       .where(
         aerosol: aerosol,
         min_temperature: min_temp,
         max_temperature: max_temp
       )
 
-    self.cities = self.cities
-      .where(population: population) if use_population
+    scope = scope
+      .where(population: population) if search_population
 
-    self.cities = self.cities
-      .gt(population: 10 ** 6) if not use_population
+    scope = scope
+      .gt(population: 10 ** 6) if not search_population
 
-    self.cities = self.cities
+    scope = scope
       .elem_match(seaports_cache: {
         :distance.lt => sea_dis_max * 1000
-      }) if use_sea_dis_max
+      }) if search_seaports
 
-    self.cities = self.cities
+    scope = scope
       .elem_match(mountains_cache: {
-        :distance.lt => m0 * 1000,
-        :elevation.gt => m1
-      })
-      .keep_if do |city|
-        city[:seaports_count] =
-          city.find_seaports(max_distance: s0).count
-        city[:mountains_count] =
-          city.find_mountains(max_distance: m0, min_elevation: m1).count
-        keep = true
-        keep ||= city[:seaports_count] > 0 if use_sea_dis_max
-        keep ||= city[:mountains_count] > 2
-      end.sort_by do |city|
-        score = 0
-        score += city[:seaports_count] if use_sea_dis_max
-        score += city[:mountains_count]
-      end.reverse
+        :distance.lt => mnt_dis_max * 1000,
+        :elevation.gt => mnt_ele_min
+      }) if search_mountains
 
-    self.cities = Kaminari.paginate_array(self.cities).page(page)
+    self.cities = scope.asc(:name).page(page)
 
     respond_with(self.cities)
   end

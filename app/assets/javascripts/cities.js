@@ -60,7 +60,7 @@ $(document).on('page:change', function() {
 
 $(document).on('ready page:load', function() {
   var toggleInput = function(checkbox) {
-    var target = $('.query_' + checkbox.attr('id').substr(10));
+    var target = $('#form_' + checkbox.attr('id').replace('query_', ''));
 
     if (checkbox.is(':checked')) {
       target.show();
