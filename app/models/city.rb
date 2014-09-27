@@ -1,10 +1,6 @@
-class City
-  include Mongoid::Document
-  include Mongoid::Slug
+class City < Point
   include Elasticsearch::Model
-  include Location
 
-  field :name, type: String
   field :country, type: Country
   field :elevation, type: Integer
   field :population, type: Integer
@@ -25,8 +21,6 @@ class City
   field :seaports_cache, type: Array
   field :airports_cache, type: Array
 
-  slug :title
-
   mapping do
     indexes :id, index: :not_analyzed
     indexes :name, analyzer: 'snowball'
@@ -38,7 +32,7 @@ class City
   end
 
   def title
-    "#{name}, #{country}"
+    "#{self.name}, #{self.country}"
   end
 
   def mountains

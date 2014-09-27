@@ -14,6 +14,12 @@
   <dt>Air Pollution</dt><dd><%= city.aerosol %> &micro;g/m&sup3; (PM2.5)</dd>
 </dl>
 
+
+<% if city.wikipedia! %>
+  <%= city.wikipedia.paragraph(1).html_safe %>
+  <%= link_to 'More at Wikipedia', city.wikipedia.url %>
+<% end %>
+
 <h2>Temperatures</h2>
 <%= line_chart [
   { name: 'Minimum Temperature', data: Date::MONTHNAMES[1..-1].zip(city.min_temperatures) },

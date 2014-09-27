@@ -1,14 +1,3 @@
-class Mountain
-  include Mongoid::Document
-  include Mongoid::Slug
-  include Location
-
-  field :name, type: String
+class Mountain < Point
   field :elevation, type: Integer
-
-  slug :name
-
-  def title
-    self.name
-  end
 end

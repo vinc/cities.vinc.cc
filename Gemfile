@@ -66,3 +66,6 @@ gem 'bootstrap-sass'
 
 gem 'elasticsearch-rails'
 gem 'elasticsearch-model'
+
+gem 'rest_client'
+gem 'nokogiri'
