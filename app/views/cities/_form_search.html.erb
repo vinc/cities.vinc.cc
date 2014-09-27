@@ -2,6 +2,7 @@
   <h3>City</h3>
   <%= f.input :use_population, as: :boolean, wrapper: :vertical_boolean, label: 'Search small cities', required: false %>
   <%= f.input :population, as: :slider, label: 'Population:', required: false, input_html: { min: 0, max: 10 ** 6, step: 10 ** 5 } %>
+  <%= f.input :aerosol, as: :slider, label: 'Air Polution:', required: false, input_html: { min: 0, max: 80, step: 5 } %>
 
   <h3>Weather</h3>
   <%= f.input :min_temp, as: :slider, label: 'Minimum Temperature:', required: false, input_html: { min: -50, max: 50, step: 5 } %>

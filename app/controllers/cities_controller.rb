@@ -51,6 +51,10 @@ class CitiesController < ApplicationController
     Range.from_json(query[:population] || '[200000, 500000]')
   end
 
+  expose(:aerosol) do
+    Range.from_json(query[:aerosol] || '[0, 10]')
+  end
+
   expose(:min_temp) do
     Range.from_json(query[:min_temp] || '[-15, 15]')
   end
@@ -104,6 +108,7 @@ class CitiesController < ApplicationController
 
     self.cities = City
       .where(
+        aerosol: aerosol,
         min_temperature: min_temp,
         max_temperature: max_temp
       )
