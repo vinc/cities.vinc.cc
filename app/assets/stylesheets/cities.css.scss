@@ -48,3 +48,12 @@ html, body, .map-wrapper, #map {
     margin-top: -6px;
   }
 }
+.leaflet-container {
+  font: inherit;
+}
+.leaflet-popup-content h1 {
+  font-size: 1.5em;
+}
+.leaflet-popup-content p {
+  margin: 0;
+}

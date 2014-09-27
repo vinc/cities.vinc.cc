@@ -29,7 +29,14 @@ function Map(id) {
 
     var markers = points.map(function(point) {
       var location = point.location;
-      var popup = '<a href="' + point.path + '">' + point.title + '</a>';
+      var popup = '<h1><a href="' + point.path + '">' + point.title + '</a></h1>';
+
+      if (point.population) {
+        popup += '<p><strong>Population:</strong> ' + parseInt(point.population, 10).toLocaleString() + '</p>';
+      }
+      if (point.elevation) {
+        popup += '<p><strong>Elevation:</strong> ' + parseInt(point.elevation, 10).toLocaleString() + ' m</p>';
+      }
 
       return L.geoJson(location, {
         pointToLayer: function (feature, latlng) {
