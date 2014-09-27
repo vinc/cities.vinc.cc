@@ -118,7 +118,7 @@ class CitiesController < ApplicationController
       .where(population: population) if use_population
 
     self.cities = self.cities
-      .not.where(population: population) if not use_population
+      .gt(population: 10 ** 6) if not use_population
 
     self.cities = self.cities
       .elem_match(seaports_cache: {
