@@ -4,7 +4,7 @@ require 'csv'
 # The data can then be loaded with the rake db:seed (or created alongside the db with db:setup).
 
 CSV.foreach('db/seeds/seaports.csv', headers: true) do |row|
-  Seaport.find_or_create_by(
+  Seaport.create(
     name: row['name'],
     location: {
       type: 'Point',
@@ -14,7 +14,7 @@ CSV.foreach('db/seeds/seaports.csv', headers: true) do |row|
 end
 
 CSV.foreach('db/seeds/airports.csv', headers: true) do |row|
-  Airport.find_or_create_by(
+  Airport.create(
     name: row['name'],
     iata: row['iata'],
     type: row['type'],
@@ -26,7 +26,7 @@ CSV.foreach('db/seeds/airports.csv', headers: true) do |row|
 end
 
 CSV.foreach('db/seeds/mountains.csv', headers: true) do |row|
-  Mountain.find_or_create_by(
+  Mountain.create(
     name: row['name'],
     elevation: row['elevation'].to_i,
     location: {
@@ -37,7 +37,7 @@ CSV.foreach('db/seeds/mountains.csv', headers: true) do |row|
 end
 
 CSV.foreach('db/seeds/cities.csv', headers: true) do |row|
-  city = City.find_or_create_by(
+  city = City.new(
     name: row['name'],
     country: row['country'],
     elevation: row['elevation'].to_i,
