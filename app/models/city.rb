@@ -25,10 +25,11 @@ class City < Point
     indexes :id, index: :not_analyzed
     indexes :name, analyzer: 'snowball'
     indexes :location, type: :geo_shape
+    indexes :population, type: :integer
   end
 
   def as_indexed_json(options={})
-    self.as_json(only: %i(name location))
+    self.as_json(only: %i(name location population))
   end
 
   def title

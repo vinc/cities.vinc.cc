@@ -96,10 +96,11 @@ class CitiesController < ApplicationController
       }
     }
 
-    self.cities = City.search(query: filtered_query).page(page).records
-    if self.cities.count == 0
-      self.cities = City.search(query: query).page(page).records
-    end
+    sort = { population: 'desc' }
+
+    scope = City.search(sort: sort, query: filtered_query)
+    scope = City.search(sort: sort, query: query) if scope.count == 0
+    self.cities = scope.page(page).records
     respond_with(self.cities)
   end
 
