@@ -23,7 +23,7 @@
           (function () { 
             var map = new Map('map');
 
-            map.add(<%= json_for_collection(cities.map(&:mountains).flatten.uniq) %>, 'tan');
+            map.add(<%= json_for_collection(mountains) %>, 'tan');
             map.add(<%= json_for_collection(cities) %>, 'chartreuse');
 
             $('#new_query').submit(function() {

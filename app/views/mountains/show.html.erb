@@ -1,0 +1,26 @@
+<% content_for(:title, mountain.title) %>
+
+<ol class="breadcrumb">
+  <li><a href="/">Home</a></li>
+  <li><a href="/mountains">Moutains</a></li>
+  <li class="active"><%= mountain.title %></li>
+</ol>
+
+<h1><%= mountain.title %></h1>
+
+<dl class="dl-horizontal">
+  <dt>Elevation</dt><dd><%= mountain.elevation.to_s(:delimited) %> m</dd>
+</dl>
+
+
+<% if mountain.wikipedia! %>
+  <%= mountain.wikipedia.paragraph(1).html_safe %>
+  <%= link_to 'More at Wikipedia', mountain.wikipedia.url %>
+<% end %>
+
+<hr>
+
+<p>
+  Source:
+  <%= link_to('Ultras Project', 'http://www.peaklist.org/ultras.html') %>
+</p>

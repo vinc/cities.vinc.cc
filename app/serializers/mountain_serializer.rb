@@ -8,6 +8,6 @@ class MountainSerializer < ActiveModel::Serializer
   end
 
   def path
-    '/' # mountain_path(object)
+    mountain_path(object)
   end
 end

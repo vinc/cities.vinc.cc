@@ -1,0 +1,32 @@
+<% content_for(:title, 'Mountains') %>
+
+<ol class="breadcrumb">
+  <li><a href="/">Home</a></li>
+  <li class="active">Mountains</li>
+</ol>
+
+<h1>Mountains</h1>
+
+<p>
+  <% if page > 1 %>
+    Page <%= page %> of
+  <% end %>
+  <%= pluralize(mountains.total_count, 'mountain') %>
+</p>
+
+<% if mountains.count > 0 %>
+  <ul>
+    <% mountains.each do |mountain| %>
+      <li><%= link_to(mountain.title, mountain) %></li>
+    <% end %>
+  </ul>
+<% end %>
+
+<%= paginate mountains %>
+
+<hr>
+
+<p>
+  Source:
+  <%= link_to('Ultras Project', 'http://www.peaklist.org/ultras.html') %>
+</p>

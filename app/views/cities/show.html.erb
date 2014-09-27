@@ -54,11 +54,7 @@
   <h2>Mountains</h2>
   <ul>
     <% city.find_mountains.each do |mountain| %>
-      <li><%= mountain.name %></li>
-      <ul>
-        <li>Distance: <%= (mountain.distance / 1000).to_s(:delimited) %> km</li>
-        <li>Elevation: <%= mountain.elevation.to_s(:delimited) %> m</li>
-      </ul>
+      <li><%= link_to mountain.name, mountain %> (<%= (mountain.distance / 1000).to_s(:delimited) %> km - <%= mountain.elevation.to_s(:delimited) %> m)</li>
     <% end %>
   </ul>
 <% end %>

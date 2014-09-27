@@ -1,15 +1,18 @@
 class MountainsController < ApplicationController
-  respond_to(:json)
+  respond_to(:json, :html)
 
-  expose(:city)
-  expose(:distance) do
-    (params[:distance] || '1000').to_i * 1000
-  end
-  expose(:mountains) do
-    Mountain.geo_near(city.location).max_distance(distance).spherical
-  end
+  expose(:mountain)
+  expose(:mountains)
+  expose(:cities) { [] }
+  expose(:page) { (params[:page] || '1').to_i }
 
   def index
-    respond_with(mountains)
+    self.mountains = Mountain.desc(:elevation).page(page)
+    respond_with(self.mountains)
+  end
+
+  def show
+    self.mountains = [mountain]
+    respond_with(mountain)
   end
 end

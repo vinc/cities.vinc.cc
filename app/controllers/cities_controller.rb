@@ -28,8 +28,10 @@ class CitiesController < ApplicationController
 
   respond_to(:json, :html)
 
-  expose(:cities)
   expose(:city)
+  expose(:cities)
+  expose(:mountains) { cities.map(&:mountains).flatten.uniq }
+
   expose(:page) { (params[:page] || '1').to_i }
 
   expose(:query) { params[:query] || {} }
