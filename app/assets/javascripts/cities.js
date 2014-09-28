@@ -85,16 +85,34 @@ $(document).on('ready page:load', function() {
 
   $('input[type=slider]').each(function() {
     var input = $(this);
-    var options = {};
+    var options = { tooltip: 'hide' };
 
     ['value', 'min', 'max', 'step'].forEach(function(attr) {
       options[attr] = JSON.parse(input.attr(attr));
     });
 
     input.slider(options).on('slideStop', function(e) {
-      var value = JSON.stringify(e.value || JSON.parse(input.attr('min'))); // FIXME: 0 become undefined
+      var value = e.value || options.min; // FIXME: 0 become undefined
 
-      input.val(value);
+      input.val(JSON.stringify(value));
+    });
+
+    input.slider(options).on('slide', function(e) {
+      var value = e.value || options.min;
+      var i = 0;
+      var helper = input.next();
+      if (helper.length === 0) {
+        return;
+      }
+      var html = helper.html();
+
+      if (!Array.isArray(value)) {
+        value = [value];
+      }
+      html = html.replace(/([-0-9.,]+)/g, function(match) {
+        return parseInt(value[i++]).toLocaleString();
+      });
+      helper.html(html);
     });
   });
 });
