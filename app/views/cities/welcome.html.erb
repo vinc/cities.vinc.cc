@@ -1,19 +1,19 @@
 <ol class="breadcrumb">
-  <li class="active">Home</li>
+  <li class="active"><%= t(:home) %></li>
 </ol>
 
-<h1>Welcome</h1>
-<p>You can search a <%= link_to 'city', cities_path %> by its name, or use our algorithm to find the <%= link_to 'best cities', search_cities_path %> in the world.</p>
+<h1><%= t(:welcome) %></h1>
+<p><%= t(:welcome_html, city_link: link_to(t(:city), cities_path), best_cities_link: link_to(t(:best_cities), search_cities_path)) %></p>
 
 <hr>
 
-<h2>City</h2>
+<h2><%= t(:city).capitalize %></h2>
 
 <%= render 'form_city' %>
 
 <hr>
 
-<h2>Search</h2>
+<h2><%= t(:search) %></h2>
 
 <%= render 'form_search' %>
 

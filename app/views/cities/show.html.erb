@@ -1,8 +1,8 @@
 <% content_for(:title, city.title) %>
 
 <ol class="breadcrumb">
-  <li><a href="/">Home</a></li>
-  <li><a href="/cities">Cities</a></li>
+  <li><%= link_to(t(:home), root_path) %></li>
+  <li><%= link_to(t(:cities).capitalize, cities_path) %></li>
   <li class="active"><%= city.title %></li>
 </ol>
 
@@ -18,27 +18,27 @@
 
 <% if city.wikipedia! %>
   <%= city.wikipedia.paragraph(1).html_safe %>
-  <%= link_to 'More at Wikipedia', city.wikipedia.url %>
+  <%= link_to t(:more_at, name: 'Wikipedia'), city.wikipedia.url %>
 <% end %>
 
 <% unless city.mean_temperatures.uniq == [0] %>
-  <h2>Temperatures</h2>
+  <h2><%= t(:temperatures) %></h2>
   <%= line_chart [
-    { name: 'Minimum Temperature', data: Date::MONTHNAMES[1..-1].zip(city.min_temperatures) },
-    { name: 'Mean Temperature', data: Date::MONTHNAMES[1..-1].zip(city.mean_temperatures) },
-    { name: 'Maximum Temperature', data: Date::MONTHNAMES[1..-1].zip(city.max_temperatures) }
+    { name: 'Minimum Temperature', data: t(:month_names, scope: :date)[1..-1].zip(city.min_temperatures) },
+    { name: 'Mean Temperature', data: t(:month_names, scope: :date)[1..-1].zip(city.mean_temperatures) },
+    { name: 'Maximum Temperature', data: t(:month_names, scope: :date)[1..-1].zip(city.max_temperatures) }
     ], colors: %w(#fecc5c #fd8d3c #e31a1c), discrete: true, library: { tooltip: { valueSuffix: ' °C' } } %>
 <% end %>
 
 <% unless city.precipitations.uniq == [0] %>
-<h2>Precipitations</h2>
+  <h2><%= t(:precipitations) %></h2>
   <%= column_chart [
-    { name: "Precipitation", data: Date::MONTHNAMES[1..-1].zip(city.precipitations) }
+    { name: t(:precipitations), data: t(:month_names, scope: :date)[1..-1].zip(city.precipitations) }
     ], colors: %w(#0570b0), library: { tooltip: { valueSuffix: ' mm' } } %>
 <% end %>
 
 <% if city.find_seaports.count > 0 %>
-  <h2>Seaports</h2>
+  <h2><%= t(:seaports) %></h2>
   <ul>
     <% city.find_seaports.each do |seaport| %>
       <li><%= seaport.name %> (<%= (seaport.distance / 1000).to_s(:delimited) %> km)</li>
@@ -47,7 +47,7 @@
 <% end %>
 
 <% if city.find_airports.count > 0 %>
-  <h2>Airports</h2>
+  <h2><%= t(:airports) %></h2>
   <ul>
     <% city.find_airports.each do |airport| %>
       <li><%= airport.name %> (<%= (airport.distance / 1000).to_s(:delimited) %> km)</li>
@@ -56,7 +56,7 @@
 <% end %>
 
 <% if city.find_mountains.count > 0 %>
-  <h2>Mountains</h2>
+  <h2><%= t(:mountains) %></h2>
   <ul>
     <% city.find_mountains.each do |mountain| %>
       <li><%= link_to mountain.name, mountain %> (<%= (mountain.distance / 1000).to_s(:delimited) %> km - <%= mountain.elevation.to_s(:delimited) %> m)</li>
@@ -65,7 +65,7 @@
 <% end %>
 
 <% if city.neighbors.count > 0 %>
-  <h2>Nearby Cities</h2>
+  <h2><%= t(:nearby_cities) %></h2>
   <ul>
     <% city.neighbors.to_a.first(10).each do |neighboor| %>
       <li><%= link_to neighboor.title, neighboor %> (<%= (neighboor.distance / 1000).to_s(:delimited) %> km)</li>

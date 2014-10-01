@@ -4,3 +4,9 @@ en:
       first: "&laquo;"
       last: "&raquo;"
       truncate: "&hellip;"
+fr:
+  views:
+    pagination:
+      first: "&laquo;"
+      last: "&raquo;"
+      truncate: "&hellip;"

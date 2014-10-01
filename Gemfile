@@ -69,3 +69,5 @@ gem 'elasticsearch-model'
 
 gem 'rest_client'
 gem 'nokogiri'
+
+gem 'rails-i18n'

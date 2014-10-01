@@ -1,23 +1,25 @@
 class Wikipedia
   include Mongoid::Document
-  include Mongoid::Timestamps
 
-  field :title
-  field :body
+  field :title, localize: true
+  field :body, localize: true
+  field :fetched_at, localize: true, type: Time
   
   embedded_in :point
 
   def url
-    "http://en.wikipedia.org/wiki/#{self.title}"
+    "http://#{I18n.locale.to_s}.wikipedia.org/wiki/#{self.title}"
   end
 
   def paragraph(n = 1)
     doc = Nokogiri::HTML(self.body)
-    doc.css('p').first(n).map(&:to_s).join
+    doc.css('p:not(:empty)').first(n).map(&:to_s).join
   end
 
-  def self.article(title, location)
-    url = 'http://en.wikipedia.org/w/api.php'
+  def fetch_article(title, location)
+    return true if self.fetched_at || 1.month.ago > 1.month.ago
+
+    url = "http://#{I18n.locale.to_s}.wikipedia.org/w/api.php"
     params = {
       action: 'query',
       prop: 'coordinates|extracts|images',
@@ -42,8 +44,14 @@ class Wikipedia
       end
     end
 
-    return nil if page.nil?
-
-    Wikipedia.new(title: page['title'], body: page['extract'])
+    if page.nil?
+      false
+    else
+      self.update(
+        title: page['title'],
+        body: page['extract'],
+        fetched_at: Time.now
+      )
+    end
   end
 end

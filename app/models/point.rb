@@ -14,14 +14,13 @@ class Point
   end
 
   def wikipedia!
+    self.wikipedia = Wikipedia.new if self.wikipedia.nil?
+
     # Update cache if needed
-    if self.wikipedia.nil? || self.wikipedia.created_at > 1.month.ago
-      self.wikipedia = Wikipedia.article(self.title, self.location)
-      if self.wikipedia.nil?
-        self.wikipedia = Wikipedia.article(self.name, self.location)
-      end
+    unless self.wikipedia.fetch_article(self.title, self.location)
+      self.wikipedia.fetch_article(self.name, self.location)
     end
 
-    self.wikipedia
+    self.wikipedia.fetched_at ? self.wikipedia : nil
   end
 end
