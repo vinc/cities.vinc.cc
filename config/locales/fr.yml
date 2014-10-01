@@ -1,0 +1,15 @@
+fr:
+  home: Accueil
+  welcome: Bienvenue
+  welcome_html: Vous pouvez rechercher une %{city_link} par son nom ou utiliser notre algorithme pour trouver les %{best_cities_link} du monde.
+  city: ville
+  cities: villes
+  best_cities: meilleures villes
+  search: Rechercher
+  temperatures: Températures
+  precipitations: Précipitations
+  seaports: Ports
+  airports: Aéroports
+  mountains: Montagnes
+  nearby_cities: Villes Voisines
+  more_at: Plus sur %{name}

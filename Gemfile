@@ -52,8 +52,6 @@ group :development, :test do
   gem 'binding_of_caller'
 end
 
-gem 'countries'
-
 gem 'kaminari'
 
 gem 'chartkick'
@@ -71,3 +69,4 @@ gem 'rest_client'
 gem 'nokogiri'
 
 gem 'rails-i18n'
+gem 'i18n_data'

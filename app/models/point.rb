@@ -3,7 +3,7 @@ class Point
   include Mongoid::Slug
   include Location
 
-  field :name, type: String
+  field :name
 
   embeds_one :wikipedia, class_name: 'Wikipedia'
 

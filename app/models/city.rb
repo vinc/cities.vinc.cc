@@ -1,7 +1,7 @@
 class City < Point
   include Elasticsearch::Model
 
-  field :country, type: Country
+  field :country, type: String
   field :elevation, type: Integer
   field :population, type: Integer
   field :aerosol, type: Integer
@@ -33,7 +33,7 @@ class City < Point
   end
 
   def title
-    "#{self.name}, #{self.country}"
+    "#{self.name}, #{I18nData.countries(I18n.locale)[self.country]}"
   end
 
   def mountains
