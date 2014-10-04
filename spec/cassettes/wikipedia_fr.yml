@@ -1,0 +1,101 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://fr.wikipedia.org/w/api.php?action=query&colimit=10&exintro=&exlimit=10&format=json&imlimit=10&prop=coordinates%7Cextracts%7Cimages&redirects=&titles=San%20Francisco
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - DENY
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto,X-Use-HHVM
+      X-Varnish:
+      - 2721237794, 3344740838, 1863065637
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '1812'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Sat, 04 Oct 2014 09:46:06 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1066 miss (0), amssq47 miss (0), amssq55 frontend miss (0)
+      X-Analytics:
+      - php=zend
+      Set-Cookie:
+      - GeoIP=FR:Paris:48.8817:2.3822:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        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
+        FX9/AeZL3Zc/DwAA
+    http_version: 
+  recorded_at: Sat, 04 Oct 2014 09:47:44 GMT
+recorded_with: VCR 2.9.3

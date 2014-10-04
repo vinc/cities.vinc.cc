@@ -1,0 +1,98 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&colimit=10&exintro=&exlimit=10&format=json&imlimit=10&prop=coordinates%7Cextracts%7Cimages&redirects=&titles=San%20Francisco
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto,X-Use-HHVM
+      X-Varnish:
+      - 3806555568, 3359575390, 2847739719
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '1687'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Sat, 04 Oct 2014 09:46:06 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1053 miss (0), amssq55 miss (0), amssq32 frontend miss (0)
+      X-Analytics:
+      - php=zend
+      Set-Cookie:
+      - GeoIP=FR:Paris:48.8817:2.3822:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        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
+        MDE3dFqKIp7/8gP//gW23HD0/Q0AAA==
+    http_version: 
+  recorded_at: Sat, 04 Oct 2014 09:47:44 GMT
+recorded_with: VCR 2.9.3

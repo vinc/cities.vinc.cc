@@ -1,0 +1,2 @@
+Fabricator(:point) do
+end
