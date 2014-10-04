@@ -52,6 +52,14 @@ group :development, :test do
   gem 'binding_of_caller'
 end
 
+group :test do
+  gem 'rspec-rails'
+  gem 'fabrication'
+  gem 'faker'
+  gem 'vcr'
+  gem 'webmock'
+end
+
 gem 'kaminari'
 
 gem 'chartkick'
